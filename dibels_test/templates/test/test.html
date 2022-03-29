@@ -1,0 +1,68 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+    <div class="col">
+      <h1>Maze</h1>
+    </div>
+  </div>
+
+  <div class="row m-auto mb-5">
+    <div class="col text-center">
+      <div class="d-flex justify-content-center">
+        <div class="d-flex align-self-center">
+          {% for word in splitSentence %}
+            {% if word == selection %}
+            </div>
+              <div id="options" class="m-2 p-2">
+                <div class="d-flex align-self-center">
+                  <div class="d-inline-block m-auto">
+                    <form action="{% url 'test' %}" method="post">
+                      {% csrf_token %}
+                      <div class="text-start">
+                        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" value="hello">
+                        <label id="custom-btn" class="btn shadow-none" for="option1">{{ generatedWord1 }}</label>
+                      </div>
+                      <div class="text-start">
+                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" value="{{ word }}">
+                        <label id="custom-btn" class="btn shadow-none" for="option2">{{ word }}</label>
+                      </div>
+                      <div class="text-start">
+                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="on" value="lick my balls">
+                        <label id="custom-btn" class="btn shadow-none" for="option3">{{ generatedWord2 }}</label>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div class="d-flex align-items-center">
+            {% else %}
+              {{ word }}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+
+        <div class="col-5 mb-3 mx-auto">
+          <select class="form-select" aria-label="Default select example" name="id" hidden>
+            <option selected>{{ id }}</option>
+          </select>
+          <select class="form-select" aria-label="Default select example" name="sentenceId" hidden>
+            <option selected>{{ sentenceId }}</option>
+          </select>
+          <select class="form-select" aria-label="Default select example" name="selection" hidden>
+            <option selected>{{ selection }}</option>
+          </select>
+        </div>
+        <div class="text-center">
+            <button id="questionSubmit"type="submit" class="btn shadow-none">Submit</button>
+        </div>
+    </form>
+
+
+
+    </div>
+  </div>
+{% endblock %}

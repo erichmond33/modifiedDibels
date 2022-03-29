@@ -1,0 +1,36 @@
+{% extends "test/prelayout.html" %}
+
+{% block body %}
+
+<div class="row my-auto mx-4 mb-5 mt-4">
+    <div class="col">
+      <h1>Login</h1>
+    </div>
+  </div>
+
+  <div class="row m-auto mb-5">
+    <div class="col">
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            <div class="col-5 mb-3 mx-auto">
+                <label for="testAdmin" class="form-label">Test Administrator</label>
+                <input autofocus class="form-control" type="text" name="username" placeholder="ie John Smith" required>
+            </div>
+            <div class="col-5 mb-3 mx-auto">
+              <label for="testTaker" class="form-label">Password</label>
+              <input class="form-control" type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="text-center mt-4">
+              <button id="questionSubmit"type="submit" class="btn" value="Login">Submit</button>
+            </div>
+        </form>
+        {% if message %}
+              <div class="m-4">{{ message }}</div>
+        {% endif %}
+        <div class="m-4">
+            Don't have an account? <a href="{% url 'register' %}">Register here.</a>
+        </div>
+    </div>
+  </div>
+
+{% endblock %}

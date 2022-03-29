@@ -1,0 +1,26 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+    <div class="col">
+        <h1>Gallery</h1>
+    </div>
+</div>
+
+<div class="row m-auto mb-5">
+    <div class="col-12 mb-5 mx-auto px-5 text-center">
+        These are the images some of our design students made as their contribution to this research.
+    </div>
+
+    {% for path,name in imagePathsAndNames %}
+
+    <div class="col-lg-2 col-md-3 col-4 text-center mb-5">
+        <p> {{ name }} </p>
+        <img class="img-fluid rounded m-auto" src="{{ path }}" alt="" />
+    </div>
+
+    {%endfor%}
+</div>
+{% endblock %}

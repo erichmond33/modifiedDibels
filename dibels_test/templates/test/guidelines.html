@@ -1,0 +1,155 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+    <div class="col text-start">
+        <h1>Guidelines</h1>
+    </div>
+</div>
+
+<div class="row my-auto mx-4 mb-5">
+    <div class="col">
+        <h3>
+            Why?
+        </h3>
+        <p>
+            The purpose of this test is to create a better font for dsylexic readers. 
+        </p>
+        <p>
+            You, the tester, will play a crucial role in this process. We will use <b>your</b> data from the test to create this font.
+        </p>
+        <p>
+            Don't stress, take your time, and do your best :)
+        </p>
+        <p>
+            Thank you!
+        </p>
+        <p>
+            <br>
+            - The Arkansas State Modified Dibels Team
+        </p>
+        <div class="alert alert-danger">
+        <h3 class="mt-3">** Important **</h3>
+        <p class="mb-3">
+            These tests MUST be taken on <b>google chrome</b> due to the font dependencies.
+        </p>
+        </div>
+        <h3>
+            Maze Test Guidelines
+        </h3>
+        <p>
+            The maze test is a series of fill in the blank questions. The tester will be shown a sentence with one word
+            missing from it. In place of the missing word will be a box with three words in it. The objective is to
+            choose the word that you think makes the most sense.
+        </p>
+        <p>
+            Here is an example question.
+        </p>
+        <hr>
+        <div class="row my-auto mx-4 mb-5 mt-4">
+            <div class="col-12 my-auto">
+                <div class="text-end my-auto">
+                  <button id="customSubmit" type="submit" class="btn d-inline-block">Submit</button>
+                </div>
+            </div>
+          </div>
+        <div class="d-flex flex-wrap justify-content-left my-4">
+            <div class="d-flex align-self-center words"> Ringo </div>
+            <div class="d-flex align-self-center words"> and </div>
+            <div class="d-flex align-self-center words"> Darryl </div>
+            <div class="d-flex align-self-center words"> took </div>
+            <div class="d-flex align-self-center words"> two </div>
+            <div class="d-flex align-self-center words"> whole </div>
+
+            <div id="options" class="d-inline-block">
+                <div class="d-flex align-self-center">
+                    <div class="d-inline-block m-auto">
+                        <div class="text-sƒtart">
+                            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
+                                value="{{ randWord1 }}">
+                            <label id="custom-btn" class="btn shadow-none" for="option1">dogs</label>
+                        </div>
+                        <div class="text-start">
+                            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off"
+                                value="{{ randWord2 }}">
+                            <label id="custom-btn" class="btn shadow-none" for="option2">weeks</label>
+                        </div>
+                        <div class="text-start">
+                            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="on"
+                                value="{{ randWord3 }}" required>
+                            <label id="custom-btn" class="btn shadow-none" for="option3">houses</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex align-self-center words"> to </div>
+            <div class="d-flex align-self-center words"> change </div>
+            <div class="d-flex align-self-center words"> a </div>
+            <div class="d-flex align-self-center words"> tire. </div>
+
+        </div>
+        <hr>
+        <p>
+        There is no going back to previous questions. Once you submit, your answer is final.
+        </p>
+
+        <h3 class="mt-4">
+        Image Test Guidelines
+        </h3>
+        <p>
+        The image test is a series of multiple choice questions. The tester will be shown an image. Above that image
+        will be three separate words. The objective is to select the word that best matches the image.
+        </p>
+        <p>
+        Here is an example question.
+        </p>
+        <hr>
+        <div class="row my-auto mx-4 mb-5 mt-4">
+            <div class="col-12 my-auto">
+                <div class="text-end my-auto">
+                  <button id="customSubmit" type="submit" class="btn d-inline-block">Submit</button>
+                </div>
+            </div>
+          </div>
+        <div class="row m-auto mb-3 mx-4">
+            <div class="col">
+                <div class="row m-auto">
+                    <div class="col p-0" id="options">
+                        <div class="text-center">
+                            <input type="radio" class="btn-check" name="optionss" id="option11" autocomplete="off"
+                                value="{{ randWord1 }}">
+                            <label id="custom-btn" class="btn shadow-none" for="option11">house</label>
+                        </div>
+                    </div>
+                    <div class="col p-0" id="options">
+                        <div class="text-center">
+                            <input type="radio" class="btn-check" name="optionss" id="option22" autocomplete="off"
+                                value="{{ randWord2 }}">
+                            <label id="custom-btn" class="btn shadow-none" for="option22">walk</label>
+                        </div>
+                    </div>
+                    <div class="col p-0" id="options">
+                        <div class="text-center">
+                            <input type="radio" class="btn-check" name="optionss" id="option33" autocomplete="on"
+                                value="{{ randWord3 }}" required>
+                            <label id="custom-btn" class="btn shadow-none" for="option33">car</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-auto mb-3 mx-4">
+            <div id="" class="col-xxl-5 col-xl-5 col-lg-6 col-md-7 col-10 mx-auto">
+                <img class="img-fluid rounded mx-auto d-block img123456" src="{% static 'test/images/CAR.png' %}" alt="{{ imagePath }}" />
+            </div>
+        </div>
+        <hr>
+        <p>
+            There is no going back to previous questions. Once you submit, your answer is final.
+        </p>
+    </div>
+</div>
+{% endblock %}

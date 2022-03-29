@@ -1,0 +1,89 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+    <div class="col">
+        <h1>Continue Testing</h1>
+    </div>
+</div>
+
+{% if not allTestsMaze and not allTestsImage %}
+<div class="row m-auto">
+    <div class="col m-4 mb-5 mt-0">
+        <div class="m-4">
+            No previous tests. Start a new test <a href="{% url 'home' %}">here.</a>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if allTestsMaze %}
+<div class="row m-auto">
+    <div class="col m-4 mb-5 mt-0">
+        <h2>Maze</h2>
+        <div class="m-auto styled-table ">
+            <div class="thead">
+                <div class="row m-auto active-row">
+                    <div class="col-5 th">Timestamp</div>
+                    <div class="col th">Grade</div>
+                    <div class="col th">Progress</div>
+                </div>
+            </div>
+            <div class="tbody">
+                {% for examinee,gradeLevel,nofQuestions,maxQuestions,mazeId,timestamp in allTestsMaze %}
+                <a href="{% url 'mazeGeneration' metadata_id=mazeId %}">
+                    <div class="row m-auto active-row tr {% cycle 'tr1' 'tr2' %}">
+                        <div class="col-5 td">
+                            {{ timestamp }}
+                        </div>
+                        <div class="col td">
+                            {{ gradeLevel }}
+                        </div>
+                        <div class="col td">
+                            {{ nofQuestions }}/{{ maxQuestions }}
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if allTestsImage %}
+<div class="row m-auto">
+    <div class="col m-4 mb-5 mt-0">
+        <h2>Image</h2>
+        <div class="m-auto styled-table ">
+            <div class="thead">
+                <div class="row m-auto active-row">
+                    <div class="col-5 th">Timestamp</div>
+                    <div class="col th">Grade</div>
+                    <div class="col th">Progress</div>
+                </div>
+            </div>
+            <div class="tbody">
+                {% for examinee,gradeLevel,nofQuestions,maxQuestions,imageId,timestamp in allTestsImage %}
+                <a href="{% url 'imageGeneration' metadata_id=imageId %}">
+                    <div class="row m-auto active-row tr {% cycle 'tr1' 'tr2' %}">
+                        <div class="col-5 td">
+                            {{ timestamp }}
+                        </div>
+                        <div class="col td">
+                            {{ gradeLevel }}
+                        </div>
+                        <div class="col td">
+                            {{ nofQuestions }}/{{ maxQuestions }}
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

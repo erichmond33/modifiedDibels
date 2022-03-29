@@ -1,0 +1,29 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+  <div class="col-md-6 col-12 text-md-start text-center">
+    <h1>Start Testing</h1>
+  </div>
+  <div class="col-md-6 col-12 text-md-end text-center my-auto">
+    <a href="{% url 'guidelines' %}">
+      <button id="customSubmit" type="submit" class="btn d-inline-block">Guidelines</button>
+    </a>
+  </div>
+</div>
+
+<div class="row m-auto p-auto">
+  <div class="text-md-end text-center mx-4 mt-4 col">
+    <a href="{% url 'mazeAdmin' %}" class=""><button id="questionSubmit" class="btn">
+        <h3>Maze</h3>
+      </button></a>
+  </div>
+  <div class="text-center text-md-start m-4 mb-5 col">
+    <a href="{% url 'imageAdmin' %}"><button id="questionSubmit" class="btn">
+        <h3>Images</h3>
+      </button></a>
+  </div>
+</div>
+{% endblock %}

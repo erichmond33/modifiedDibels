@@ -1,0 +1,10 @@
+{
+    "sentences" : [
+        { <-- copy from here
+            "body" : "",
+            "selectedWord" : "",
+            "distractorWord1" : "",
+            "distractorWord2" : ""
+        }, <-- to here
+    ]
+}

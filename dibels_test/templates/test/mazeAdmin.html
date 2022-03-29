@@ -1,0 +1,41 @@
+{% extends "test/layout.html" %}
+{% load static %}
+
+
+{% block body %}
+<div class="row my-auto mx-4 mb-5 mt-4">
+  <div class="col">
+    <h1>Maze</h1>
+  </div>
+</div>
+
+<div class="row m-auto mb-5">
+  <dic class="col">
+    <form action="{% url 'mazeAdmin' %}" method="post">
+      {% csrf_token %}
+      <div class="col-md-5 col-10 mb-3 mx-auto">
+        <label for="" class="form-label">Grade Level</label>
+        <select class="form-select" aria-label="Default select example" name="gradeLevel" required>
+          <option selected>2nd grade</option>
+          <option>3rd grade</option>
+          <option>4th grade</option>
+          <option>5th grade</option>
+          <option>6th grade</option>
+        </select>
+      </div>
+      <div class="text-center mt-4">
+        <button id="questionSubmit" type="submit" class="btn shadow-none">Submit</button>
+      </div>
+      <div class="col-md-5 col-10 mx-auto mt-3 text-center">
+        <div class="alert alert-danger">
+          *****<br>
+          This test must be taken on google chrome <br>
+          *****
+          <br>
+          Please read the <a href="{% url 'guidelines' %}">guidelines</a> before testing
+        </div>
+      </div>
+    </form>
+  </dic>
+</div>
+{% endblock %}
