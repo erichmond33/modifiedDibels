@@ -5,7 +5,8 @@ certifi==2021.10.8
 charset-normalizer==2.0.9
 click==8.0.3
 cymem==2.0.6
-Django==3.2.9
+Django==4.0.3
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.2.0/en_core_web_md-3.2.0-py3-none-any.whl
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl
 idna==3.3
 Jinja2==3.0.3
@@ -15,6 +16,7 @@ murmurhash==1.0.6
 numpy==1.21.4
 packaging==21.3
 pathy==0.6.1
+Pillow==9.0.1
 preshed==3.0.6
 pydantic==1.8.2
 pyparsing==3.0.6
@@ -28,7 +30,6 @@ sqlparse==0.4.2
 srsly==2.4.2
 svgwrite==1.4.1
 thinc==8.0.13
-thinc-apple-ops==0.0.5
 tqdm==4.62.3
 typer==0.4.0
 typing_extensions==4.0.1
