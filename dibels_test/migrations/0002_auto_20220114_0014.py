@@ -12,18 +12,8 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AddField(
             model_name='imagetest',
-
-            field=models.TextField(default='null'),
-        ),
-        migrations.AddField(
-            model_name='imagetest',
             name='gradeLevel',
             field=models.CharField(default='null', max_length=20),
-        ),
-        migrations.AddField(
-            model_name='mazetest',
-
-            field=models.TextField(default='null'),
         ),
         migrations.AddField(
             model_name='mazetest',
