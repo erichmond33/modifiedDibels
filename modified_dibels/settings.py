@@ -32,7 +32,9 @@ ALLOWED_HOSTS = [
     "modifieddibels.cs.astate.edu",
     "localhost",
     "147.97.161.216",
-    "modified-dibels.herokuapp.com"
+    ".herokuapp.com",
+    "127.0.0.1",
+    "*"
 ]
 
 
