@@ -29,12 +29,12 @@ SECRET_KEY = 'django-insecure-idw&ksiury5-o2+%m9khyvd*mbo3hhzx6n5t!kparm+@8n!7r8
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "modifieddibels.cs.astate.edu",
-    "localhost",
-    "147.97.161.216",
-    ".herokuapp.com",
-    "127.0.0.1",
-    "*"
+    'modifieddibels.cs.astate.edu',
+    'localhost',
+    '147.97.161.216',
+    '.herokuapp.com',
+    '127.0.0.1',
+    '*'
 ]
 
 
@@ -128,11 +128,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'dibels_test')
 STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
