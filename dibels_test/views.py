@@ -542,7 +542,7 @@ def gallery(request):
         "imagePathsAndNames" : imagePathsAndNames})
 
 def addData(request):
-    
+    '''
     with open(f'words/1st grade.txt','r') as file:
         for line in file:
             imageObject = Image(
@@ -558,7 +558,7 @@ def addData(request):
                 gradeLevel = "Kindergarten"
             )
             imageObject.save()
-    '''
+    
     ------------
     with open(f'words/2nd grade.txt','r') as file:
         for line in file:
