@@ -1,5 +1,5 @@
 from operator import ge
-from tkinter.tix import MAX
+#from tkinter.tix import MAX
 from django.shortcuts import redirect, render
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -14,7 +14,7 @@ import hashlib
 from datetime import datetime
 import os
 import copy
-import spacy
+import spacy    
 import json
 
 
