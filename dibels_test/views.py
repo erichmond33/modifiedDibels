@@ -441,7 +441,7 @@ def imageGeneration(request, metadata_id):
         random.shuffle(shuffledAnswerList)
 
         # ----- Getting image path -----
-        imagePath = f"/static/test/images/{questionSelectedWord}.png"
+        imagePath = f"/static/test/images/{questionSelectedWord.strip()}.png"
         doneYet = True
         print(doneYet)
 
