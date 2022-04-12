@@ -12,11 +12,11 @@
     <div class="col">
         <form action="{% url 'login' %}" method="post">
             {% csrf_token %}
-            <div class="col-5 mb-3 mx-auto">
+            <div class="col-md-5 col-10 mb-3 mx-auto">
                 <label for="testAdmin" class="form-label">Test Administrator</label>
                 <input autofocus class="form-control" type="text" name="username" placeholder="ie John Smith" required>
             </div>
-            <div class="col-5 mb-3 mx-auto">
+            <div class="col-md-5 col-10 mb-3 mx-auto">
               <label for="testTaker" class="form-label">Password</label>
               <input class="form-control" type="password" name="password" placeholder="Password" required>
             </div>
