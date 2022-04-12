@@ -53,7 +53,7 @@ def login_view(request):
             })
 
     else:
-        return render(request, "test/login.html")
+        return render(request, "test/login.html", status=200)
 
 
 def logout_view(request):
