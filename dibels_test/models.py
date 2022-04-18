@@ -75,7 +75,7 @@ class mazeQuestionAttempt(models.Model):
     correct = models.BooleanField(blank=True)
 
     def __str__(self):
-        return f"{self.font} : {self.question} : {self.wordSelection} : {self.wordAttempt} : {self.correct}"
+        return f"{self.font}" #: {self.font}  : {self.wordSelection} : {self.wordAttempt} : {self.correct}"
 
 class mazeTest(models.Model):
     #user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="userMaze", default="null")

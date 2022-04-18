@@ -1,10 +1,700 @@
 {
     "sentences" : [
-        { <-- copy from here
-            "body" : "",
-            "selectedWord" : "",
-            "distractorWord1" : "",
-            "distractorWord2" : ""
-        }, <-- to here
+        {
+            "body" : "Tom goes to a school far from his house.",
+            "selectedWord" : "school",
+            "distractorWord1" : "scoops",
+            "distractorWord2" : "morning" 
+        },
+	{ 
+            "body" : "Every morning, Bill takes a school bus to go to school.",
+            "selectedWord" : "bus",
+            "distractorWord1" : "art",
+            "distractorWord2" : "dip"
+        }, 
+	{ 
+            "body" : "In the afternoon, Sue takes a bus home.",
+            "selectedWord" : "afternoon",
+            "distractorWord1" : "morning",
+            "distractorWord2" : "library"
+        }, 
+	{ 
+            "body" : "Cindy and Anne were practicing for their big game.",
+            "selectedWord" : "practicing",
+            "distractorWord1" : "distracting",
+            "distractorWord2" : "cooking" 
+        },
+	{ 
+            "body" : "Bill and Bob both were on the soccer team and liked to practice at home.",
+            "selectedWord" : "both",
+            "distractorWord1" : "tale",
+            "distractorWord2" : "dime" 
+        },
+	{ 
+            "body" : "Jim and John use the field behind the house.",
+            "selectedWord" : "house",
+            "distractorWord1" : "chase",
+            "distractorWord2" : "noise" 
+        },
+	{ 
+            "body" : "Jack and Jill set up a net for a goal.",
+            "selectedWord" : "goal",
+            "distractorWord1" : "mole",
+            "distractorWord2" : "shoe"
+        },
+	{ 
+            "body" : "When the sun was shining, the team got hot and thirsty.",
+            "selectedWord" : "team",
+            "distractorWord1" : "beet",
+            "distractorWord2" : "trim"
+        },
+	{ 
+            "body" : "On hot days, the team drinks a lot of water.",
+            "selectedWord" : "days",
+            "distractorWord1" : "corns",
+            "distractorWord2" : "bold" 
+        },
+	{ 
+            "body" : "Soccer is a team game.",
+            "selectedWord" : "Soccer",
+            "distractorWord1" : "Apple",
+            "distractorWord2" : "Glove" 
+        },
+	{ 
+            "body" : "Players do plenty of fast running and dodging when playing soccer.",
+            "selectedWord" : "plenty",
+            "distractorWord1" : "inches",
+            "distractorWord2" : "slopes" 
+        },
+	{ 
+            "body" : "Kicking a ball takes strength and lots of mental focus.",
+            "selectedWord" : "strength",
+            "distractorWord1" : "advance",
+            "distractorWord2" : "puppies" 
+        },
+	{ 
+            "body" : "When playing soccer, it helps to pace yourself so that you don't get tired too soon.",
+            "selectedWord" : "helps",
+            "distractorWord1" : "hopes",
+            "distractorWord2" : "plate" 
+        },
+	{ 
+            "body" : "Anne was the captain and she scored most of the points for the team.",
+            "selectedWord" : "most",
+            "distractorWord1" : "pour",
+            "distractorWord2" : "past" 
+        },
+	{ 
+            "body" : "Cindy was the goalie.",
+            "selectedWord" : "was",
+            "distractorWord1" : "met",
+            "distractorWord2" : "hog"
+        },
+	{ 
+            "body" : "The girls took turns kicking the ball and practicing their moves.",
+            "selectedWord" : "kicking",
+            "distractorWord1" : "helping",
+            "distractorWord2" : "posting" 
+        },
+	{ 
+            "body" : "The big game was coming on Sunday, and the team wanted to make sure they were ready.",
+            "selectedWord" : "Sunday",
+            "distractorWord1" : "Zipper",
+            "distractorWord2" : "Prizes"
+        },
+	{ 
+            "body" : "The team will win the big game if they score a lot of points.",
+            "selectedWord" : "score",
+            "distractorWord1" : "steam",
+            "distractorWord2" : "stink" 
+        },
+	{ 
+            "body" : "If we work together as a team, we will win the game.",
+            "selectedWord" : "together",
+            "distractorWord1" : "backward",
+            "distractorWord2" : "lavender" 
+        },
+	{ 
+            "body" : "Mary looked at Tina and smiled.",
+            "selectedWord" : "and",
+            "distractorWord1" : "den",
+            "distractorWord2" : "like" 
+        },
+	{ 
+            "body" : "Mary said, \"I think you are right that we will win the game.\"",
+            "selectedWord" : "right",
+            "distractorWord1" : "spite",
+            "distractorWord2" : "drape" 
+        },
+{ 
+            "body" : "Let's make sure we work together as a team.",
+            "selectedWord" : "work",
+            "distractorWord1" : "stop",
+            "distractorWord2" : "lean" 
+        },
+	{ 
+            "body" : "The team that works together best always wins.",
+            "selectedWord" : "that",
+            "distractorWord1" : "fear",
+            "distractorWord2" : "went" 
+        },
+	{ 
+            "body" : "Cindy and John went on playing for another hour.",
+            "selectedWord" : "hour",
+            "distractorWord1" : "pork",
+            "distractorWord2" : "calm" 
+        },
+	{ 
+            "body" : "It was very hot on the soccer field.",
+            "selectedWord" : "hot",
+            "distractorWord1" : "bot",
+            "distractorWord2" : "ore" 
+        },
+	{ 
+            "body" : "Tina and Roy stopped to drink water.",
+            "selectedWord" : "to",
+            "distractorWord1" : "or",
+            "distractorWord2" : "am" 
+        },
+	{ 
+            "body" : "Jim said, \"I think we work together well out there.\"",
+            "selectedWord" : "we",
+            "distractorWord1" : "no",
+            "distractorWord2" : "on" 
+        },
+	{ 
+            "body" : "Anne replied, \"We are good friends, and we know how to play this game.\"",
+            "selectedWord" : "replied",
+            "distractorWord1" : "leather",
+            "distractorWord2" : "covered" 
+        },
+	{ 
+            "body" : "We are on a good team",
+            "selectedWord" : "are",
+            "distractorWord1" : "let",
+            "distractorWord2" : "zag" 
+        },
+	{ 
+            "body" : "Everybody on the team is strong and smart.",
+            "selectedWord" : "the",
+            "distractorWord1" : "use",
+            "distractorWord2" : "are" 
+        },
+	{ 
+            "body" : "Everybody knows how to work together.",
+            "selectedWord" : "knows",
+            "distractorWord1" : "gives",
+            "distractorWord2" : "hides" 
+        },
+	{ 
+            "body" : "If the team keeps it up, I know the team will win.",
+            "selectedWord" : "keeps",
+            "distractorWord1" : "quits",
+            "distractorWord2" : "bench" 
+        },
+	{ 
+            "body" : "The day of the big game arrived.",
+            "selectedWord" : "arrived",
+            "distractorWord1" : "chatted",
+            "distractorWord2" : "private" 
+        },
+	{ 
+            "body" : "The team gathered in their huddle and the coach gave them a pep talk.",
+            "selectedWord" : "talk",
+            "distractorWord1" : "play",
+            "distractorWord2" : "soda" 
+        },
+	{ 
+            "body" : "Halfway through the game, Roy and Bob's team was down by two points.",
+            "selectedWord" : "two",
+            "distractorWord1" : "dim",
+            "distractorWord2" : "bee" 
+        },
+	{ 
+            "body" : "Anne said, \"We can win this game, if we all work together\".",
+            "selectedWord" : "game",
+            "distractorWord1" : "look",
+            "distractorWord2" : "gone" 
+        },
+	{ 
+            "body" : "We can win the soccer game.",
+            "selectedWord" : "can",
+            "distractorWord1" : "fun",
+            "distractorWord2" : "aid" 
+        },
+	{ 
+            "body" : "The team went back on the field and played better than they ever did.",
+            "selectedWord" : "better",
+            "distractorWord1" : "damage",
+            "distractorWord2" : "eating"
+        },
+	{ 
+            "body" : "The team won the game and the coach told them he was proud of them all.",
+            "selectedWord" : "proud",
+            "distractorWord1" : "dream",
+            "distractorWord2" : "sorry" 
+        },
+	{ 
+            "body" : "The championship game is next week.",
+            "selectedWord" : "week",
+            "distractorWord1" : "meek",
+            "distractorWord2" : "lane" 
+        },
+	{ 
+            "body" : "The girls knew they had to practice harder for the game.",
+            "selectedWord" : "harder",
+            "distractorWord1" : "simple",
+            "distractorWord2" : "leave"
+        },
+	{ 
+            "body" : "Eric was going to be the new kid at school.",
+            "selectedWord" : "new",
+            "distractorWord1" : "sun",
+            "distractorWord2" : "why" 
+        },
+	{ 
+            "body" : "Tim left his old school because his dad got a new job in a new town.",
+            "selectedWord" : "job",
+            "distractorWord1" : "cod",
+            "distractorWord2" : "toy" 
+        },
+	{ 
+            "body" : "John was not sure if his new classmates would like him.",
+            "selectedWord" : "sure",
+            "distractorWord1" : "Jazz",
+            "distractorWord2" : "fate" 
+        },
+	{ 
+            "body" : "Billy worried a lot the night before his first day at the new school.",
+            "selectedWord" : "lot",
+            "distractorWord1" : "toe",
+            "distractorWord2" : "wit" 
+        },
+	{ 
+            "body" : "It was hard to go to sleep because Tim worried so much.",
+            "selectedWord" : "because",
+            "distractorWord1" : "instead",
+            "distractorWord2" : "beaches" 
+        },
+	{ 
+            "body" : "Eric would be the new kid in the third grade.",
+            "selectedWord" : "grade",
+            "distractorWord1" : "bleed",
+            "distractorWord2" : "flows" 
+        },
+	{ 
+            "body" : "What if nobody wanted to be Eric's friend?",
+            "selectedWord" : "if",
+            "distractorWord1" : "be",
+            "distractorWord2" : "an" 
+        },
+	{ 
+            "body" : "What if they all laughed at Sarah?",
+            "selectedWord" : "all",
+            "distractorWord1" : "oat",
+            "distractorWord2" : "ton" 
+        },
+	{ 
+            "body" : "The thought of being laughed at made John very sad.",
+            "selectedWord" : "laughed",
+            "distractorWord1" : "guessed",
+            "distractorWord2" : "quizzed" 
+        },
+	{ 
+            "body" : "Bob imagined himself alone to unwrap and eat his lunch sadly, in the corner of the school cafeteria.",
+            "selectedWord" : "imagined",
+            "distractorWord1" : "tractor",
+            "distractorWord2" : "wondered"
+        },
+	{ 
+            "body" : "Kip shook his head hard, as if to shake out a thought.",
+            "selectedWord" : "shook",
+            "distractorWord1" : "chomp",
+            "distractorWord2" : "zombie" 
+        },
+	{ 
+            "body" : "Kim couldn't help feeling anxious.",
+            "selectedWord" : "help",
+            "distractorWord1" : "held",
+            "distractorWord2" : "plop" 
+        },
+	{ 
+            "body" : "When Eric woke up, on the first morning that he was supposed to go to his new school, he did not feel happy.",
+            "selectedWord" : "supposed",
+            "distractorWord1" : "thought",
+            "distractorWord2" : "wrapped" 
+        },
+	{ 
+            "body" : "Sam wanted to say that he was feeling sick, so that he could stay home.",
+            "selectedWord" : "say",
+            "distractorWord1" : "bay",
+            "distractorWord2" : "tin" 
+        },
+	{ 
+            "body" : "Eric smelled something wonderful.",
+            "selectedWord" : "smelled",
+            "distractorWord1" : "streams",
+            "distractorWord2" : "madness" 
+        },
+	{ 
+            "body" : "John smelled freshly cooked pancakes.",
+            "selectedWord" : "cooked",
+            "distractorWord1" : "caught",
+            "distractorWord2" : "pimple" 
+        },
+	{ 
+            "body" : "Pancakes made Terry happy because they were his favorite breakfast food.",
+            "selectedWord" : "Pancakes",
+            "distractorWord1" : "Balloons",
+            "distractorWord2" : "Sparking" 
+        },
+	{ 
+            "body" : "John jumped out of bed and quickly got dressed for school.",
+            "selectedWord" : "of",
+            "distractorWord1" : "do",
+            "distractorWord2" : "he" 
+        },
+	{ 
+            "body" : "As Eric ate the steaming hot pancakes, his mother asked him if he was excited about starting at the new school.",
+            "selectedWord" : "Steaming",
+            "distractorWord1" : "feathers",
+            "distractorWord2" : "griddles" 
+        },
+	{ 
+            "body" : "Jim shrugged his shoulders.",
+            "selectedWord" : "shoulders",
+            "distractorWord1" : "flapjacks",
+            "distractorWord2" : "textbook" 
+        },
+	{ 
+            "body" : "Eric's mom ran her hand through his hair.",
+            "selectedWord" : "through",
+            "distractorWord1" : "acrobat",
+            "distractorWord2" : "puzzled" 
+        },
+	{ 
+            "body" : "Jane's mom said, \"Don't worry, you'll be the most popular kid in school. I just know it.\"",
+            "selectedWord" : "worry",
+            "distractorWord1" : "marry",
+            "distractorWord2" : "eight" 
+        },
+	{ 
+            "body" : "Jack shrugged his shoulders, making a sour face, but he also smiled.",
+            "selectedWord" : "his",
+            "distractorWord1" : "him",
+            "distractorWord2" : "mix" 
+        },
+	{ 
+            "body" : "Luke's mother was always so good at cheering him up.",
+            "selectedWord" : "good",
+            "distractorWord1" : "okay",
+            "distractorWord2" : "away" 
+        },
+	{ 
+            "body" : "Kim's dad drove her to school and parked at the curb.",
+            "selectedWord" : "drove",
+            "distractorWord1" : "bring",
+            "distractorWord2" : "snail" 
+        },
+	{ 
+            "body" : "Kate's dad said, \"Keep your chin up and have a great day at school\".",
+            "selectedWord" : "chin",
+            "distractorWord1" : "ship",
+            "distractorWord2" : "chop" 
+        },
+	{ 
+            "body" : "I know Todd will make lots of new friends at school.",
+            "selectedWord" : "make",
+            "distractorWord1" : "wade",
+            "distractorWord2" : "Jock" 
+        },
+	{ 
+            "body" : "Eric got out of the car and walked to where the kids were lining up.",
+            "selectedWord" : "car",
+            "distractorWord1" : "bar",
+            "distractorWord2" : "cop" 
+        },
+	{ 
+            "body" : "Kate saw her class and got in line.",
+            "selectedWord" : "class",
+            "distractorWord1" : "clean",
+            "distractorWord2" : "slate"
+        },
+	{ 
+            "body" : "The boy standing in front of Jack turned around, held out his hand to shake, and said, \"Hi, I'm Ted and I'm new here. What's your name?\"",
+            "selectedWord" : "standing",
+            "distractorWord1" : "planning",
+            "distractorWord2" : "shopping"
+        },
+	{ 
+            "body" : "Tim shook Ted's hand, smiling widely.",
+            "selectedWord" : "hand",
+            "distractorWord1" : "beak",
+            "distractorWord2" : "mend" 
+        },
+	{ 
+            "body" : "Jim said, \"Wow! I'm new here, too!\"",
+            "selectedWord" : "Wow",
+            "distractorWord1" : "due",
+            "distractorWord2" : "jam" 
+        },
+	{ 
+            "body" : "Sara said, \"Fantastic! Let's sit together at lunch.\"",
+            "selectedWord" : "lunch",
+            "distractorWord1" : "lemon",
+            "distractorWord2" : "later" 
+        },
+	{ 
+            "body" : "Jason likes to read books.",
+            "selectedWord" : "read",
+            "distractorWord1" : "toad",
+            "distractorWord2" : "beep" 
+        },
+	{ 
+            "body" : "Some days, Terry started reading a book in the morning and kept reading it all day long.",
+            "selectedWord" : "long",
+            "distractorWord1" : "tool",
+            "distractorWord2" : "dear" 
+        },
+	{ 
+            "body" : "John liked books that took place in strange places or ancient times.",
+            "selectedWord" : "ancient",
+            "distractorWord1" : "packets",
+            "distractorWord2" : "rabbits" 
+        },
+	{ 
+            "body" : "Bill liked to read about people going on heroic quests and wild adventures.",
+            "selectedWord" : "liked",
+            "distractorWord1" : "jumpy",
+            "distractorWord2" : "happy" 
+        },
+	{ 
+            "body" : "When Sally reads books, she sees all that happens in the story.",
+            "selectedWord" : "books",
+            "distractorWord1" : "beats",
+            "distractorWord2" : "coats" 
+        },
+	{ 
+            "body" : "Jack tasted what people in the book tasted.",
+            "selectedWord" : "book",
+            "distractorWord1" : "dune",
+            "distractorWord2" : "took" 
+        },
+	{ 
+            "body" : "Kip smelled what people in the book smelled.",
+            "selectedWord" : "people",
+            "distractorWord1" : "facial",
+            "distractorWord2" : "sailed" 
+        },
+	{ 
+            "body" : "Reading the book was like living a whole different life.",
+            "selectedWord" : "whole",
+            "distractorWord1" : "whale",
+            "distractorWord2" : "whizz" 
+        },
+	{ 
+            "body" : "One summer day, Sally started reading right after breakfast.",
+            "selectedWord" : "started",
+            "distractorWord1" : "snapped",
+            "distractorWord2" : "plopped" 
+        },
+	{ 
+            "body" : "At noon, Kate was reading.",
+            "selectedWord" : "noon",
+            "distractorWord1" : "soon",
+            "distractorWord2" : "clue" 
+        },
+	{ 
+            "body" : "The book is about people in ancient times.",
+            "selectedWord" : "about",
+            "distractorWord1" : "route",
+            "distractorWord2" : "field" 
+        },
+	{ 
+            "body" : "There were big battles in the book.",
+            "selectedWord" : "big",
+            "distractorWord1" : "dog",
+            "distractorWord2" : "win" 
+        },
+	{ 
+            "body" : "In the book, there was a boy, only a little older than Tim, who was going on strange adventures.",
+            "selectedWord" : "boy",
+            "distractorWord1" : "dot",
+            "distractorWord2" : "med" 
+        },
+	{ 
+            "body" : "As Jason read the book, he stayed still so that he could keep his mind on the story.",
+            "selectedWord" : "still",
+            "distractorWord1" : "steap",
+            "distractorWord2" : "plead" 
+        },
+	{ 
+            "body" : "Lola felt like she was in the middle of a big battle.",
+            "selectedWord" : "middle",
+            "distractorWord1" : "window",
+            "distractorWord2" : "flying" 
+        },
+	{ 
+            "body" : "Larry was riding a horse.",
+            "selectedWord" : "riding",
+            "distractorWord1" : "typing",
+            "distractorWord2" : "coming" 
+        },
+	{ 
+            "body" : "Terry was shooting arrows.",
+            "selectedWord" : "arrows",
+            "distractorWord1" : "battle",
+            "distractorWord2" : "closed" 
+        },
+	{ 
+            "body" : "After the battle was over, Kate rode her horse down to a river to drink water.",
+            "selectedWord" : "After",
+            "distractorWord1" : "Again",
+            "distractorWord2" : "Bloom" 
+        },
+	{ 
+            "body" : "The horse drank water.",
+            "selectedWord" : "drank",
+            "distractorWord1" : "brink",
+            "distractorWord2" : "silly" 
+        },
+	{ 
+            "body" : "Sally and the horse were both covered in dust, and they were both thirsty.",
+            "selectedWord" : "they",
+            "distractorWord1" : "them",
+            "distractorWord2" : "whey" 
+        },
+	{ 
+            "body" : "Gil's mother knocked on his door.",
+            "selectedWord" : "mother",
+            "distractorWord1" : "wealth",
+            "distractorWord2" : "should" 
+        },
+	{ 
+            "body" : "Tim sat up.",
+            "selectedWord" : "sat",
+            "distractorWord1" : "zap",
+            "distractorWord2" : "pin" 
+        },
+	{ 
+            "body" : "Sarah did not know where she was, or who she was.",
+            "selectedWord" : "not",
+            "distractorWord1" : "pop",
+            "distractorWord2" : "con" 
+        },
+	{ 
+            "body" : "Mom said, \"Kara, go outside please.\"",
+            "selectedWord" : "please",
+            "distractorWord1" : "queens",
+            "distractorWord2" : "clouds" 
+        },
+	{ 
+            "body" : "\"It's time for Sally to get some fresh air.\"",
+            "selectedWord" : "some",
+            "distractorWord1" : "zeal",
+            "distractorWord2" : "plow" 
+        },
+	{ 
+            "body" : "Pete got up from his bed.",
+            "selectedWord" : "bed",
+            "distractorWord1" : "wet",
+            "distractorWord2" : "ape" 
+        },
+	{ 
+            "body" : "Terry was carrying his book with his forefinger in it, to mark the page he had been reading.",
+            "selectedWord" : "reading",
+            "distractorWord1" : "staying",
+            "distractorWord2" : "keeping" 
+        },
+	{ 
+            "body" : "Kim walked down the stairs reading the book.",
+            "selectedWord" : "down",
+            "distractorWord1" : "town",
+            "distractorWord2" : "ploy" 
+        },
+	{ 
+            "body" : "Bob went out into the yard and sat underneath an oak tree.",
+            "selectedWord" : "yard",
+            "distractorWord1" : "tarp",
+            "distractorWord2" : "bush" 
+        },
+	{ 
+            "body" : "It was quiet and peaceful outside.",
+            "selectedWord" : "It",
+            "distractorWord1" : "Me",
+            "distractorWord2" : "By" 
+        },
+	{ 
+            "body" : "Jill kept reading while sitting outside.",
+            "selectedWord" : "kept",
+            "distractorWord1" : "wept",
+            "distractorWord2" : "wind" 
+        },
+	{ 
+            "body" : "John had many adventures that afternoon.",
+            "selectedWord" : "adventures",
+            "distractorWord1" : "backpacked",
+            "distractorWord2" : "strawberry" 
+        },
+	{ 
+            "body" : "At the end of Sarah's adventures, she was standing in a big church.",
+            "selectedWord" : "she",
+            "distractorWord1" : "shy",
+            "distractorWord2" : "pie" 
+        },
+	{ 
+            "body" : "Rick wore a shining suit and polished boots.",
+            "selectedWord" : "boots",
+            "distractorWord1" : "cards",
+            "distractorWord2" : "gloom" 
+        },
+	{ 
+            "body" : "Piano music boomed.",
+            "selectedWord" : "Piano",
+            "distractorWord1" : "Quack",
+            "distractorWord2" : "Blame" 
+        },
+	{ 
+            "body" : "A woman in a long white dress and lace veil came walking slowly up the aisle.",
+            "selectedWord" : "dress",
+            "distractorWord1" : "broth",
+            "distractorWord2" : "crape" 
+        },
+	{ 
+            "body" :"A woman stood facing Jim as the priest began to speak.", 
+            "selectedWord" : "began",
+            "distractorWord1" : "daddy",
+            "distractorWord2" : "quite" 
+        },
+	{ 
+            "body" : "Jason's mother shouted out, \"Jason! Time for dinner!\"",
+            "selectedWord" : "dinner",
+            "distractorWord1" : "binder",
+            "distractorWord2" : "sailor" 
+        },
+	{ 
+            "body" : "Kate sat up, startled, and looked around.",
+            "selectedWord" : "looked",
+            "distractorWord1" : "booked",
+            "distractorWord2" : "habits" 
+        },
+	{ 
+            "body" : "The air was blue.",
+            "selectedWord" : "blue",
+            "distractorWord1" : "drum",
+            "distractorWord2" : "horn" 
+        },
+	{ 
+            "body" : "Crickets were singing.",
+            "selectedWord" : "Crickets",
+            "distractorWord1" : "Brackets",
+            "distractorWord2" : "Elephant" 
+        },
+	{ 
+            "body" : "The whole day had gone by while Jim was reading his book.",
+            "selectedWord" : "day",
+            "distractorWord1" : "pot",
+            "distractorWord2" : "tip" 
+        }
     ]
 }

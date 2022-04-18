@@ -22,6 +22,7 @@ from .models import *
 from .helpers import *
 # Create your views here.
 
+MAX_MAZE_QUESTIONS = 25
 
 def index(request):
 
@@ -100,27 +101,32 @@ def home(request):
 def mazeAdmin(request):
 
     if request.method == "POST":
-        
-        #Add date and admin to db
-        newTest = mazeTest(
-            testAdmin=request.user.username,
-            #examinee=request.POST["testTaker"],
-            gradeLevel=request.POST["gradeLevel"]
-        )
-        newTest.save()
-
-        queuedMazeQuestionObject = queuedMazeQuestion(
-                testId = newTest,
-                queuedSentenceId = -1,
-                queuedWordSelection = "",
-                queuedGeneratedWord1 = "3",
-                queuedGeneratedWord2 = ""
+        previousTests = mazeTest.objects.filter(testAdmin=request.user.username)
+        if len(previousTests) == 4:
+            return render(request, "test/mazeAdmin.html", {"message" : "You can only take 4 maze tests. Thank you for participating!"})
+        else:
+            for test in previousTests:
+                if len(test.mazeQuestionAttempts.all()) != MAX_MAZE_QUESTIONS:
+                    return render(request, "test/mazeAdmin.html", {"message" : "You have not completed all of your maze tests. Please complete all of your tests before taking another."})
+            #Add date and admin to db
+            newTest = mazeTest(
+                testAdmin=request.user.username,
+                #examinee=request.POST["testTaker"],
+                gradeLevel=request.POST["gradeLevel"]
             )
-        queuedMazeQuestionObject.save()
+            newTest.save()
 
-        #return render(request, "test/test.html", {"id" : id})
-        return redirect('mazeGeneration', newTest.id)
+            queuedMazeQuestionObject = queuedMazeQuestion(
+                    testId = newTest,
+                    queuedSentenceId = -1,
+                    queuedWordSelection = "",
+                    queuedGeneratedWord1 = "3",
+                    queuedGeneratedWord2 = ""
+                )
+            queuedMazeQuestionObject.save()
 
+            #return render(request, "test/test.html", {"id" : id})
+            return redirect('mazeGeneration', newTest.id)
     else:
         return render(request, "test/mazeAdmin.html", {"username" : request.user.username})
 
@@ -195,6 +201,7 @@ def mazeSubmission(request):
 def mazeGeneration(request, metadata_id):
 
     if request.method == "GET":
+        print(mazeTest.objects.filter(testAdmin=request.user.username))
 
         # ----- Checking to see if the user is correct -----
         testObject = mazeTest.objects.get(id=metadata_id)
@@ -204,11 +211,12 @@ def mazeGeneration(request, metadata_id):
         # ----- Checking to see if the test is over -----
         gradeLevel = mazeTest.objects.get(id=metadata_id).gradeLevel
         allQuestions = Sentence.objects.filter(gradeLevel=gradeLevel)
+        thisTestPreviousQuestions = testObject.mazeQuestionAttempts.all()
 
-        if len(testObject.mazeQuestionAttempts.all()) == len(allQuestions):
+        if len(thisTestPreviousQuestions) == MAX_MAZE_QUESTIONS:
             queuedMazeQuestion.objects.get(testId=testObject.id).delete()
             return redirect("done")
-        for question in testObject.mazeQuestionAttempts.all():
+        for question in thisTestPreviousQuestions:
             print(question.question)
             
         # This is kinda cryptic... but a -1 queuedSentenceId represents a brand new test question
@@ -224,7 +232,17 @@ def mazeGeneration(request, metadata_id):
                 POSITIVE_FEEBACK = generationHelpers.positiveFeedbackWithRandomnessAfterCorrectAnswer(testObject.mazeQuestionAttempts.last().correct)
 
             # ---- selecting the question -----
-            selectedQuestion = allQuestions[len(testObject.mazeQuestionAttempts.all())]
+            #selectedQuestion = allQuestions[len(testObject.mazeQuestionAttempts.all())]
+            selectedQuestion = random.choice(allQuestions)
+
+            previousTests = mazeTest.objects.filter(testAdmin=request.user.username)
+            allTestsPreviousQuestions = []
+            for test in previousTests:
+                for question in test.mazeQuestionAttempts.all():
+                    allTestsPreviousQuestions.append(question.question)
+
+            while selectedQuestion in allTestsPreviousQuestions:
+                selectedQuestion = random.choice(allQuestions)
 
             # ----- Formatting the sentence -----*
             selectedQuestionId = selectedQuestion.id
@@ -291,7 +309,6 @@ def mazeGeneration(request, metadata_id):
         random.shuffle(shuffledAnswerList)
 
 
-
         return render(request, "test/mazeTest.html", {
         "username" : request.user.username,
         "sentenceId" : selectedQuestionId,
@@ -305,8 +322,8 @@ def mazeGeneration(request, metadata_id):
         "id" : metadata_id,
         "funkyChars" : ["\"", ",", "-"],
         "nofQuestions" : len(testObject.mazeQuestionAttempts.all())+1,
-        "MAX_QUESTIONS" : len(allQuestions),
-        "percentProgress" : int((len(testObject.mazeQuestionAttempts.all())) / len(allQuestions)  * 100),
+        "MAX_QUESTIONS" : MAX_MAZE_QUESTIONS,
+        "percentProgress" : int((len(testObject.mazeQuestionAttempts.all())) / MAX_MAZE_QUESTIONS  * 100),
         "style" : style,
         "link" : link,
         "fontId" : font.id,
@@ -482,11 +499,11 @@ def continueTesting(request):
         mazeTests = mazeTest.objects.filter(testAdmin=request.user.username)
         for test in mazeTests:
             singleTestMaze = []
-            if len(test.mazeQuestionAttempts.all()) < len(Sentence.objects.filter(gradeLevel=test.gradeLevel)):
+            if len(test.mazeQuestionAttempts.all()) < MAX_MAZE_QUESTIONS:
                 singleTestMaze.append(test.id)
                 singleTestMaze.append(test.gradeLevel)
                 singleTestMaze.append(len(test.mazeQuestionAttempts.all())+1)
-                singleTestMaze.append(len(Sentence.objects.filter(gradeLevel=test.gradeLevel)))
+                singleTestMaze.append(MAX_MAZE_QUESTIONS)
                 singleTestMaze.append(test.id)
                 singleTestMaze.append(test.timestamp)
 
@@ -543,6 +560,23 @@ def gallery(request):
 
 def addData(request):
     '''
+    with open("words/2nd grade.json", 'r') as f:
+        data = json.load(f)
+    f.close()
+    print("-------")
+    for sentence in data.values():
+        for i in sentence:
+            sentenceObject = Sentence (
+                body = i['body'],
+                gradeLevel = "2nd grade",
+                selectedWord = i['selectedWord'],
+                distractorWord1 = i['distractorWord1'],
+                distractorWord2 = i['distractorWord2']
+            )
+            sentenceObject.save()
+
+    ------
+    
     with open(f'words/1st grade.txt','r') as file:
         for line in file:
             imageObject = Image(
