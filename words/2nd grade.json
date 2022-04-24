@@ -99,8 +99,8 @@
 	{ 
             "body" : "The big game was coming on Sunday, and the team wanted to make sure they were ready.",
             "selectedWord" : "Sunday",
-            "distractorWord1" : "Zipper",
-            "distractorWord2" : "Prizes"
+            "distractorWord1" : "zipper",
+            "distractorWord2" : "prizes"
         },
 	{ 
             "body" : "The team will win the big game if they score a lot of points.",
@@ -356,7 +356,7 @@
         },
 	{ 
             "body" : "As Eric ate the steaming hot pancakes, his mother asked him if he was excited about starting at the new school.",
-            "selectedWord" : "Steaming",
+            "selectedWord" : "steaming",
             "distractorWord1" : "feathers",
             "distractorWord2" : "griddles" 
         },

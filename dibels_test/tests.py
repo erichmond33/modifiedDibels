@@ -29,6 +29,12 @@ class mazeGeneration(TestCase, mazeGenerationHelpers):
         output = mazeGenerationHelpers.getWordIndex(self, sentenceString, selectedWord)
         self.assertEqual(output, 3)
 
+    def test_getWordIndexWithCapitalSelection(self):
+        sentenceString = ['As','Eric','ate','the','steaming','hot','pancakes,','his','mother','asked','him','if','he','was','excited','about','starting','at','the','new','school.']
+        selectedWord = "Steaming"
+        output = mazeGenerationHelpers.getWordIndex(self, sentenceString, selectedWord)
+        self.assertEqual(output, 4)
+
     def test_formatWordForHtml_exhaustive(self):
         selectedMessyWord = "\"'apple\"$"
         selectedWord = "apple"
@@ -36,15 +42,6 @@ class mazeGeneration(TestCase, mazeGenerationHelpers):
         sentenceSplitBySpaces = ["I", "ate", "an", "for", "breakfast"]
         output = mazeGenerationHelpers.formatWordForHtml(self, sentenceSplitBySpaces, selectedMessyWord ,selectedWord, index)
         self.assertEqual(output, ["I", "ate", "an", "\"", "'", "apple", "\"", "$", "for", "breakfast"])
-
-    def test_formatWordForHtml_exhaustive(self):
-        selectedMessyWord = "\"'apple's"
-        selectedWord = "apple"
-        index = 3
-        sentenceSplitBySpaces = ["I", "ate", "an", "for", "breakfast"]
-        output = mazeGenerationHelpers.formatWordForHtml(self, sentenceSplitBySpaces, selectedMessyWord ,selectedWord, index)
-        self.assertEqual(output, ["I", "ate", "an", "\"", "'", "apple", "\"", "$", "for", "breakfast"])
-
 
     def test_formatSentenceForHtml(self):
         sentence = "I ate an \"apple\" for breakfast"

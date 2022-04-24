@@ -25,7 +25,7 @@ class mazeGenerationHelpers():
         
     def getWordIndex(self, sentenceSplitBySpaces, selectedWord):
         for word in sentenceSplitBySpaces:
-            if word == selectedWord:
+            if word.lower() == selectedWord.lower():
                 index = sentenceSplitBySpaces.index(word)
         return index
 
