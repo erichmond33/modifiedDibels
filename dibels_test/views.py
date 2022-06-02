@@ -562,7 +562,7 @@ def gallery(request):
         "imagePathsAndNames" : imagePathsAndNames})
 
 def addData(request):
-
+    '''
     with open("words/6th grade.json", 'r') as f:
         data = json.load(f)
     f.close()
@@ -637,7 +637,7 @@ def addData(request):
                 distractorWord2 = i['distractorWord2']
             )
             sentenceObject.save()
-    '''
+    
     ------
     
     with open(f'words/1st grade.txt','r') as file:
