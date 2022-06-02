@@ -1,10 +1,538 @@
 {
     "sentences" : [
-        { <-- copy from here
-            "body" : "",
-            "selectedWord" : "",
-            "distractorWord1" : "",
-            "distractorWord2" : ""
-        }, <-- to here
+        {
+            "body" : "My name is Sara, and I live on Riggerts Farm Road in Stovepipe, Vermont.",
+            "selectedWord" : "My",
+            "distractorWord1" : "He",
+            "distractorWord2" : "Me"
+        }, 
+	{
+            "body" : "Sally’s favorite after-school activity is taking care of her chicken; Molly, Dolly, and Wally.",
+            "selectedWord" : "care",
+            "distractorWord1" : "core",
+            "distractorWord2" : "bone"
+        }, 
+	{
+            "body" : "Sally’s second favorite activity is bush hogging the field.",
+            "selectedWord" : "bush",
+            "distractorWord1" : "dump",
+            "distractorWord2" : "maps"
+        }, 
+	{
+            "body" : "A bush hog is like a tractor crossed with a lawn mower.",
+            "selectedWord" : "lawn",
+            "distractorWord1" : "pond",
+            "distractorWord2" : "play"
+        }, 
+	{
+            "body" : "Some tractors have windows and a seat.",
+            "selectedWord" : "seat",
+            "distractorWord1" : "zeal",
+            "distractorWord2" : "boss"
+        }, 
+	{
+            "body" : "You have to climb up to sit on a tractor.",
+            "selectedWord" : "climb",
+            "distractorWord1" : "plump",
+            "distractorWord2" : "sound"
+        }, 
+	{
+            "body" : "A tractor makes a lot of noise as it shakes, rattles, and belches smoke.",
+            "selectedWord" : "belches",
+            "distractorWord1" : "welders",
+            "distractorWord2" : "dashing"
+        }, 
+	{
+            "body" : "A tractor is fun to ride in, and even more fun to drive.",
+            "selectedWord" : "even",
+            "distractorWord1" : "beam",
+            "distractorWord2" : "user"
+        }, 
+	{
+            "body" : "People with land use a bush hog to clear the vegetation from their fields.",
+            "selectedWord" : "land",
+            "distractorWord1" : "lamb",
+            "distractorWord2" : "pork"
+        }, 
+	{
+            "body" : "If you don’t bush hog every week, the weeds and saplings will grow fast and tall.",
+            "selectedWord" : "fast",
+            "distractorWord1" : "dash",
+            "distractorWord2" : "post"
+        }, 
+	{
+            "body" : "Before you know it, you’ll have an entire forest growing in your back yard.",
+            "selectedWord" : "forest",
+            "distractorWord1" : "handle",
+            "distractorWord2" : "zipper"
+        }, 
+	{
+            "body" : "After you finish bush hogging, the field will look clean.",
+            "selectedWord" : "field",
+            "distractorWord1" : "blurb",
+            "distractorWord2" : "finch"
+        }, 
+	{
+            "body" : "You can now plow the field and plant good things to grow and eat.",
+            "selectedWord" : "plow",
+            "distractorWord1" : "quit",
+            "distractorWord2" : "soup"
+        }, 
+	{
+            "body" : "You have the tingling, satisfied feeling of a job well done.",
+            "selectedWord" : "job",
+            "distractorWord1" : "cod",
+            "distractorWord2" : "yes"
+        }, 
+	{
+            "body" : "Sometimes bush hogging makes you very hungry.",
+            "selectedWord" : "you",
+            "distractorWord1" : "bin",
+            "distractorWord2" : "run"
+        }, 
+	{
+            "body" : "Jill wants to go inside and make herself a sandwich and drink some cold water.",
+            "selectedWord" : "drink",
+            "distractorWord1" : "bring",
+            "distractorWord2" : "crown"
+        }, 
+	{
+            "body" : "The rules of Jane’s house are that when you turn ten, you can start bush hogging with Mom or Dad.",
+            "selectedWord" : "Dad",
+            "distractorWord1" : "Bop",
+            "distractorWord2" : "Red"
+        }, 
+	{
+            "body" : "You have to sit on Mom or Dad’s lap, and you have to buckle in with a harness.",
+            "selectedWord" : "sit",
+            "distractorWord1" : "zip",
+            "distractorWord2" : "get"
+        }, 
+	{
+            "body" : "You can put your hands on the steering wheel, but you can’t touch anything else.",
+            "selectedWord" : "put",
+            "distractorWord1" : "pod",
+            "distractorWord2" : "van"
+        }, 
+	{
+            "body" : "The key to the bush hog is hidden in a secret place in the house.",
+            "selectedWord" : "hidden",
+            "distractorWord1" : "boring",
+            "distractorWord2" : "wooden"
+        }, 
+	{
+            "body" : "You can see some interesting parts of nature while you are bush hogging.",
+            "selectedWord" : "of",
+            "distractorWord1" : "be",
+            "distractorWord2" : "we"
+        }, 
+	{
+            "body" : "One day last week, Mack and I were bush hogging with Dad when a fast, brown animal ran in front of us, across our field and into the woods.",
+            "selectedWord" : "day",
+            "distractorWord1" : "boy",
+            "distractorWord2" : "sat"
+        }, 
+	{
+            "body" : "The animal was so quick, Mary barely had time to see it.",
+            "selectedWord" : "quick",
+            "distractorWord1" : "price",
+            "distractorWord2" : "vroom"
+        }, 
+	{
+            "body" : "Sara and Tom decided to stop and get out of the bush hog to follow the animal.",
+            "selectedWord" : "stop",
+            "distractorWord1" : "zone",
+            "distractorWord2" : "prop"
+        }, 
+	{
+            "body" : "Dad showed Tim how to track an animals’ prints.",
+            "selectedWord" : "how",
+            "distractorWord1" : "may",
+            "distractorWord2" : "see"
+        }, 
+	{
+            "body" : "The animal ran down the muddy hiking trail all the way to the dock by the lake.",
+            "selectedWord" : "down",
+            "distractorWord1" : "book",
+            "distractorWord2" : "tray"
+        }, 
+	{
+            "body" : "The animals’ tracks went to the edge and disappeared.",
+            "selectedWord" : "disappeared",
+            "distractorWord1" : "battlefield",
+            "distractorWord2" : "fabrication"
+        }, 
+	{
+            "body" : "A ripple on the water showed where the animal had made a splash.",
+            "selectedWord" : "had",
+            "distractorWord1" : "sob",
+            "distractorWord2" : "can"
+        }, 
+	{
+            "body" : "“Congratulations,” said Dad, pointing to something swimming in the distance.",
+            "selectedWord" : "said",
+            "distractorWord1" : "rode",
+            "distractorWord2" : "took"
+        }, 
+	{
+            "body" : "“You just tracked your first baby moose!”",
+            "selectedWord" : "baby",
+            "distractorWord1" : "door",
+            "distractorWord2" : "crop"
+        }, 
+	{
+            "body" : "The last time I visited my cousins out West, we went on a trail ride.",
+            "selectedWord" : "last",
+            "distractorWord1" : "cash",
+            "distractorWord2" : "same"
+        },
+	{
+            "body" : "I’ve been on pony rides before, so I wasn’t worried about riding a horse.",
+            "selectedWord" : "pony",
+            "distractorWord1" : "bean",
+            "distractorWord2" : "crab"
+        }, 
+	{
+            "body" : "Bob and Jim got up at dawn and had a big breakfast before going out to ride.",
+            "selectedWord" : "breakfast",
+            "distractorWord1" : "daylights",
+            "distractorWord2" : "campsites"
+        }, 
+	{
+            "body" : "When Sara and Jane got to the barn, the horses were already saddled and waiting.",
+            "selectedWord" : "were",
+            "distractorWord1" : "more",
+            "distractorWord2" : "rush"
+        },
+	{
+            "body" : "I could feel my heart beating.",
+            "selectedWord" : "feel",
+            "distractorWord1" : "pear",
+            "distractorWord2" : "reel"
+        }, 
+	{
+            "body" : "It was exciting to be setting out on such a big adventure.",
+            "selectedWord" : "such",
+            "distractorWord1" : "push",
+            "distractorWord2" : "zags"
+        }, 
+	{
+            "body" : "I didn’t feel afraid, but my mouth got a little dry from the excitement.",
+            "selectedWord" : "dry",
+            "distractorWord1" : "bye",
+            "distractorWord2" : "ace"
+        }, 
+	{
+            "body" : "The horses John and Jack were going to ride had been chosen for them.",
+            "selectedWord" : "going",
+            "distractorWord1" :"rowing",
+            "distractorWord2" : "ushers"
+        },
+	{
+            "body" : "Kate’s horse was called Freckles because she had rusty brown spots all over her white coat.",
+            "selectedWord" : "brown",
+            "distractorWord1" : "drive",
+            "distractorWord2" : "nosey"
+        }, 
+	{
+            "body" : "The trail guide called Freckles a veteran, which I figured meant she was old.",
+            "selectedWord" : "old",
+            "distractorWord1" : "rod",
+            "distractorWord2" : "tip"
+        }, 
+	{
+            "body" : "I didn’t know why they’d chosen this horse for me to ride, but I didn’t mind.",
+            "selectedWord" : "for",
+            "distractorWord1" : "not",
+            "distractorWord2" : "row"
+        }, 
+	{
+            "body" : "Sara and her friends were all in a good mood starting out on the trail.",
+            "selectedWord" : "starting",
+            "distractorWord1" : "praising",
+            "distractorWord2" : "jumbling "
+        }, 
+	{
+            "body" : "Riding Freckles felt like being a boat and a slow-motion movie at the same time.",
+            "selectedWord" : "boat",
+            "distractorWord1" : "toad",
+            "distractorWord2" : "ramp"
+        }, 
+	{
+            "body" : "All the horses walked in a line along the trail.",
+            "selectedWord" : "All",
+            "distractorWord1" : "Dot",
+            "distractorWord2" : "Bar"
+        }, 
+	{
+            "body" : "Freckles and I were at the end of the line.",
+            "selectedWord" : "end",
+            "distractorWord1" : "ten",
+            "distractorWord2" : "war"
+        }, 
+	{
+            "body" : "Slowly, Fred and I got further and further behind the others.",
+            "selectedWord" : "behind",
+            "distractorWord1" : "rewind",
+            "distractorWord2" : "window"
+        }, 
+	{
+            "body" : "The guide turned around and called to Fred.",
+            "selectedWord" : "guide",
+            "distractorWord1" : "shrub",
+            "distractorWord2" : "brine"
+        }, 
+	{
+            "body" : "I tried to encourage Fran by flapping my legs against her sides, but she would not be rushed.",
+            "selectedWord" : "flapping",
+            "distractorWord1" : "quizzing",
+            "distractorWord2" : "accident"
+        }, 
+	{
+            "body" : "Fran took her time putting one hoof in front of the other until we reached a turn in the trail.",
+            "selectedWord" : "putting",
+            "distractorWord1" : "request",
+            "distractorWord2" : "fizzing"
+        }, 
+	{
+            "body" : "Fran suddenly lifted her head and started to trot.",
+            "selectedWord" : "head",
+            "distractorWord1" : "meat",
+            "distractorWord2" : "blob"
+        }, 
+	{
+            "body" : "The guide shouted at Fran, but Fran didn’t stop.",
+            "selectedWord" : "shouted",
+            "distractorWord1" : "chipped",
+            "distractorWord2" : "smacked"
+        }, 
+	{
+            "body" : "Freckles ran past all the other horses.",
+            "selectedWord" : "ran",
+            "distractorWord1" : "map",
+            "distractorWord2" : "cub"
+        }, 
+	{
+            "body" : "I was bouncing up and down in the saddle.",
+            "selectedWord" : "bouncing",
+            "distractorWord1" : "dreaming",
+            "distractorWord2" : "wrapping"
+        }, 
+	{
+            "body" : "I was afraid I would fall off!",
+            "selectedWord" : "would",
+            "distractorWord1" : "broom",
+            "distractorWord2" : "mound"
+        }, 
+	{
+            "body" : "All Kim could think of to do was to let go of the reins and hold tightly onto the saddle with both hands!",
+            "selectedWord" : "reins",
+            "distractorWord1" : "icing",
+            "distractorWord2" : "graze"
+        }, 
+	{
+            "body" : "My cousins couldn’t help laughing at how funny I looked.",
+            "selectedWord" : "at",
+            "distractorWord1" : "it",
+            "distractorWord2" : "up"
+        }, 
+	{
+            "body" : "Fred ran all the way back to the barn and stopped next to her stall.",
+            "selectedWord" : "back",
+            "distractorWord1" : "damp",
+            "distractorWord2" : "tarp"
+        }, 
+	{
+            "body" : "I guess Fran wasn’t so worn-out after all!",
+            "selectedWord" : "so",
+            "distractorWord1" : "to",
+            "distractorWord2" : "is"
+        }, 
+	{
+            "body" : "Jack’s family lives in a two-story house on a dead-end on the edge of a little forest.",
+            "selectedWord" : "family",
+            "distractorWord1" : "wobbly",
+            "distractorWord2" : "repeat"
+        }, 
+	{
+            "body" : "The trees are all evergreen trees.",
+            "selectedWord" : "are",
+            "distractorWord1" : "top",
+            "distractorWord2" : "car"
+        }, 
+	{
+            "body" : "The trees grow so close together that you’ve got to turn sideways to get through.",
+            "selectedWord" : "turn",
+            "distractorWord1" : "burp",
+            "distractorWord2" : "mall"
+        }, 
+	{
+            "body" : "It is always cool and dark in the forest.",
+            "selectedWord" : "dark",
+            "distractorWord1" : "bump",
+            "distractorWord2" : "cart"
+        }, 
+	{
+            "body" : "One day, I left my bike lying on its side and walked into the evergreens.",
+            "selectedWord" : "bike",
+            "distractorWord1" : "lamp",
+            "distractorWord2" : "dart"
+        }, 
+	{
+            "body" : "John’s feet made no sound on the thick carpet of brown pine needles.",
+            "selectedWord" : "pine",
+            "distractorWord1" : "ward",
+            "distractorWord2" : "tend"
+        }, 
+	{
+            "body" : "The forest was so still, I could hear my own breath and even my heart beating.",
+            "selectedWord" : "breath",
+            "distractorWord1" : "dreamy",
+            "distractorWord2" : "trendy"
+        }, 
+	{
+            "body" : "Finally, Kate came out of the cool and dark forest into the hot sun.",
+            "selectedWord" : "sun",
+            "distractorWord1" : "zap",
+            "distractorWord2" : "rot"
+        }, 
+	{
+            "body" : "I saw that I was standing on the edge of a big hollow.",
+            "selectedWord" : "big",
+            "distractorWord1" : "rug",
+            "distractorWord2" : "dip"
+        }, 
+	{
+            "body" : "As far as Jim could see, there was nothing but sand in the desert.",
+            "selectedWord" : "sand",
+            "distractorWord1" : "bulb",
+            "distractorWord2" : "vest"
+        }, 
+	{
+            "body" : "Jane took off her sweatshirt and tied it around her head, like a turban, to keep off the blazing sun.",
+            "selectedWord" : "blazing",
+            "distractorWord1" : "draping",
+            "distractorWord2" : "habitat"
+        }, 
+	{
+            "body" : "Sally walked out into the sand.",
+            "selectedWord" : "into",
+            "distractorWord1" : "yarn",
+            "distractorWord2" : "undo"
+        }, 
+	{
+            "body" : "As Sara walked, she looked around for camels and palm trees, but she only saw tire tracks.",
+            "selectedWord" : "palm",
+            "distractorWord1" : "camp",
+            "distractorWord2" : "quad"
+        }, 
+	{
+            "body" : "The tire tracks were big.",
+            "selectedWord" : "tracks",
+            "distractorWord1" : "grapes",
+            "distractorWord2" : "drones"
+        }, 
+	{
+            "body" : "The tracks looked like they’d been made by trucks.",
+            "selectedWord" : "by",
+            "distractorWord1" : "oh",
+            "distractorWord2" : "us"
+        }, 
+	{
+            "body" : "There were some tracks that were so deep they looked like they’d been made by a bulldozer.",
+            "selectedWord" : "deep",
+            "distractorWord1" : "wind",
+            "distractorWord2" :"beak"
+        }, 
+	{
+            "body" : "What were trucks and a bulldozer doing in a desert?",
+            "selectedWord" : "doing",
+            "distractorWord1" : "bagel",
+            "distractorWord2" : "jiggy"
+        }, 
+	{
+            "body" : "Ted walked for what seemed like a long time, but there seemed to be no end to the desert.",
+            "selectedWord" : "desert",
+            "distractorWord1" : "beyond",
+            "distractorWord2" : "camper"
+        }, 
+	{
+            "body" : "Tim was very hot and thirsty.",
+            "selectedWord" : "hot",
+            "distractorWord1" : "bug",
+            "distractorWord2" : "ear"
+        }, 
+	{
+            "body" : "Terry decided to turn around and go back to the cool evergreen forest.",
+            "selectedWord" : "decided",
+            "distractorWord1" : "balance",
+            "distractorWord2" : "picture"
+        }, 
+	{
+            "body" : "When John reached the shade of the pine trees, he was a little dizzy.",
+            "selectedWord" : "shade",
+            "distractorWord1" : "stand",
+            "distractorWord2" : "child"
+        },
+	{
+            "body" : "John sat down for a few minutes in the coolness of the shade.",
+            "selectedWord" : "few",
+            "distractorWord1" : "mop",
+            "distractorWord2" : "fit"
+        }, 
+	{
+            "body" : "Jack walked all the way through the forest, got on his bike, and rode slowly home.",
+            "selectedWord" : "home",
+            "distractorWord1" : "tomb",
+            "distractorWord2" : "gone"
+        }, 
+	{
+            "body" : "That night at supper, Kate asked her dad about the desert.",
+            "selectedWord" : "supper",
+            "distractorWord1" : "liquid",
+            "distractorWord2" : "actual"
+        }, 
+	{
+            "body" : "Jim told Jack about the tire and bulldozer tracks he’d seen out in the middle of the trail.",
+            "selectedWord" : "about",
+            "distractorWord1" : "docks",
+            "distractorWord2" : "windy"
+        }, 
+	{
+            "body" : "John said that the place was called a “Sand-Pit.”",
+            "selectedWord" : "place",
+            "distractorWord1" : "quote",
+            "distractorWord2" : "frown"
+        }, 
+	{
+            "body" : "Trucks used to go to the Sand-Pit to dig out and haul away tons of sand.",
+            "selectedWord" : "used",
+            "distractorWord1" : "nose",
+            "distractorWord2" : "tire"
+        }, 
+	{
+            "body" : "Builders used the sand to make cement to build houses on.",
+            "selectedWord" : "make",
+            "distractorWord1" : "wand",
+            "distractorWord2" : "yoke"
+        }, 
+	{
+            "body" : "Jack also said that his house foundation had probably used cement made with sand from the Sand-Pit.",
+            "selectedWord" : "probably",
+            "distractorWord1" : "quacking",
+            "distractorWord2" : "restrain"
+        }, 
+	{
+            "body" : "Kelly’s dad always had interesting things to say about just about everything.",
+            "selectedWord" : "interesting",
+            "distractorWord1" : "sacramental",
+            "distractorWord2" : "wakefulness"
+        }, 
+	{
+            "body" : "Sara simply felt disappointed that not only wash her secret desert not a secret, but it also wasn’t a real desert.",
+            "selectedWord" : "wash",
+            "distractorWord1" : "mach",
+            "distractorWord2" : "duck"
+        }
     ]
 }

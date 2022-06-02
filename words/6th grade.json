@@ -1,10 +1,551 @@
 {
     "sentences" : [
-        { <-- copy from here
-            "body" : "",
-            "selectedWord" : "",
-            "distractorWord1" : "",
-            "distractorWord2" : ""
-        }, <-- to here
+        {
+            "body" : "The oldest known method for making multiple copies of the same image is by a printmaking technique known as the woodcut.",
+            "selectedWord" : "method",
+            "distractorWord1" : "wanted",
+            "distractorWord2" : "defend"
+        }, 
+	{
+            "body" : "The images produced by the woodcut technique are usually black and white, but it is possible to make colored woodcuts by simply using more blocks, each one inked in a different color.",
+            "selectedWord" : "technique",
+            "distractorWord1" : "classroom",
+            "distractorWord2" : "promotion"
+        }, 
+	{
+            "body" : "The woodcut technique was invented in ancient China.",
+            "selectedWord" : "The",
+            "distractorWord1" : "She",
+            "distractorWord2" : "Mad"
+        }, 
+	{
+            "body" : "At first, the woodcut technique was used to print images on fabrics such as silk.",
+            "selectedWord" : "At",
+            "distractorWord1" : "To",
+            "distractorWord2" : "Me"
+        }, 
+	{
+            "body" : "Later, the woodcut technique was used to print images on sheets of paper.",
+            "selectedWord" : "sheets",
+            "distractorWord1" : "chance",
+            "distractorWord2" : "enough"
+        }, 
+	{
+            "body" : "It was not until the late Middle Ages that the Chinese woodcut technique was transferred to Europe.",
+            "selectedWord" : "until",
+            "distractorWord1" : "quill",
+            "distractorWord2" : "later"
+        }, 
+	{
+            "body" : "Paper making came to Europe from China at about the same time.",
+            "selectedWord" : "came",
+            "distractorWord1" : "pawn",
+            "distractorWord2" : "sand"
+        }, 
+	{
+            "body" : "As soon as books started getting printed and distributed all over Europe, the woodcut technique was used to create full page illustrations.",
+            "selectedWord" : "illustrations",
+            "distractorWord1" : "acknowledging",
+            "distractorWord2" : "hypothesizing"
+        }, 
+	{
+            "body" : "Woodcut illustrations helped to sell books to the public.",
+            "selectedWord" : "sell",
+            "distractorWord1" : "zest",
+            "distractorWord2" : "tail"
+        }, 
+	{
+            "body" : "There were many woodcut prints sold in single large sheets.",
+            "selectedWord" : "large",
+            "distractorWord1" : "bacon",
+            "distractorWord2" : "hotel"
+        }, 
+	{
+            "body" : "Woodcut prints sold in single large sheets, were called “single-leaf” prints.",
+            "selectedWord" : "sold",
+            "distractorWord1" : "boil",
+            "distractorWord2" : "cozy"
+        }, 
+	{
+            "body" : "Artists became famous for their “single-leaf” prints.",
+            "selectedWord" : "famous",
+            "distractorWord1" : "anyway",
+            "distractorWord2" : "travel"
+        }, 
+	{
+            "body" : "The woodcut is a time-consuming printing process, but it does not require many special tools, very expensive materials, or advanced technical know-how.",
+            "selectedWord" : "process",
+            "distractorWord1" : "quilted",
+            "distractorWord2" : "labeled"
+        }, 
+	{
+            "body" : "You need patience, some basic materials that you can buy in any art supply or hardware store, and a little skill to make woodcuts.",
+            "selectedWord" : "basic",
+            "distractorWord1" : "dairy",
+            "distractorWord2" : "hedge"
+        }, 
+	{
+            "body" : "To make a woodcut, you can either draw an image directly onto a block of wood, or draw on a piece of paper which you then glue to the block.",
+            "selectedWord" : "onto",
+            "distractorWord1" : "undo",
+            "distractorWord2" : "exit"
+        }, 
+	{
+            "body" : "You use a knife or other sharp tool to remove all the areas of image that are going to be white in the final print.",
+            "selectedWord" : "use",
+            "distractorWord1" : "map",
+            "distractorWord2" : "her"
+        }, 
+	{
+            "body" : "The areas that are going to be black stand out in sharp relief.",
+            "selectedWord" : "areas",
+            "distractorWord1" : "dread",
+            "distractorWord2" : "camps"
+        }, 
+	{
+            "body" : "Once the cutting is done, you apply the ink.",
+            "selectedWord" : "ink",
+            "distractorWord1" : "cow",
+            "distractorWord2" : "hug"
+        }, 
+	{
+            "body" : "Printmaking ink is thick and sticky, like cold honey.",
+            "selectedWord" : "like",
+            "distractorWord1" : "duck",
+            "distractorWord2" : "pear"
+        }, 
+	{
+            "body" : "You take printmaking ink out of the can with a wide, flat knife.",
+            "selectedWord" : "take",
+            "distractorWord1" : "pink",
+            "distractorWord2" : "loaf"
+        }, 
+	{
+            "body" : "You spread printmaking ink on a piece of glass or marble and roll it out in a thin, even layer with a hard rubber roller.",
+            "selectedWord" : "piece",
+            "distractorWord1" : "barge",
+            "distractorWord2" : "ditch"
+        }, 
+	{
+            "body" : "You roll printmaking ink over the carved surface of the wood block.",
+            "selectedWord" : "roll",
+            "distractorWord1" : "bowl",
+            "distractorWord2" : "glow"
+        }, 
+	{
+            "body" : "Printmaking ink will cover the uncarved portions of a woodblock, but it will not touch the parts that have been cut out.",
+            "selectedWord" : "it",
+            "distractorWord1" : "by",
+            "distractorWord2" : "my"
+        }, 
+	{
+            "body" : "To print a woodblock by hand, you place a sheet of paper over the inky block and rub the back of the paper with a spoon or similar tool.",
+            "selectedWord" : "rub",
+            "distractorWord1" : "aid",
+            "distractorWord2" : "van"
+        }, 
+	{
+            "body" : "Once the image has been printed on the woodblock, you lift the paper away from the block and put it in a rack to dry.",
+            "selectedWord" : "paper",
+            "distractorWord1" : "quite",
+            "distractorWord2" : "being"
+        }, 
+	{
+            "body" : "A woodblock may be inked again in order to make another print.",
+            "selectedWord" : "order",
+            "distractorWord1" : "embed",
+            "distractorWord2" : "pared"
+        }, 
+	{
+            "body" : "Blizzard is a term used to describe a kind of massive storm that covers everything with snow.",
+            "selectedWord" : "snow",
+            "distractorWord1" : "maze",
+            "distractorWord2" : "nose"
+        }, 
+	{
+            "body" : "Blizzards have strong winds and extreme cold.",
+            "selectedWord" : "have",
+            "distractorWord1" : "view",
+            "distractorWord2" : "wind"
+        }, 
+	{
+            "body" : "Blizzards in the United States are caused by cold, dry air moving down from the north and colliding with warm, humid air rising up from the south.",
+            "selectedWord" : "down",
+            "distractorWord1" : "bond",
+            "distractorWord2" : "mold"
+        }, 
+	{
+            "body" : "Blizzards are most common in the Great Plains, the Great Lakes, and the Northeast.",
+            "selectedWord" : "in",
+            "distractorWord1" : "us",
+            "distractorWord2" : "so"
+        }, 
+	{
+            "body" : "Cold air from the Pacific Ocean colliding with warm air from the Gulf of Mexico can cause blizzards in the Midwest.",
+            "selectedWord" : "colliding",
+            "distractorWord1" : "caribbean",
+            "distractorWord2" : "dandelion"
+        }, 
+	{
+            "body" : "Winds can become strong in prairie areas that are flat and free of trees.",
+            "selectedWord" : "trees",
+            "distractorWord1" : "brine",
+            "distractorWord2" : "spite"
+        }, 
+	{
+            "body" : "When a blizzard hits, it may dump as much as twenty-five feet of snow.",
+            "selectedWord" : "dump",
+            "distractorWord1" : "puch",
+            "distractorWord2" : "quit"
+        }, 
+	{
+            "body" : "Often, when a blizzard hits, many public services get shut down.",
+            "selectedWord" : "shut",
+            "distractorWord1" : "loan",
+            "distractorWord2" : "most"
+        }, 
+	{
+            "body" : "During a blizzard, buses and trains stop running, and schools are closed.",
+            "selectedWord" : "stop",
+            "distractorWord1" : "blot",
+            "distractorWord2" : "fund"
+        }, 
+	{
+            "body" : "Snowdrifts often cover roads and train tracks and may reach up as high as telephone lines and the upper stories of building.",
+            "selectedWord" : "may",
+            "distractorWord1" : "war",
+            "distractorWord2" : "nod"
+        }, 
+	{
+            "body" : "Snow can cover barns and other places where food is grown and stored.",
+            "selectedWord" :"food",
+            "distractorWord1" : "rope",
+            "distractorWord2" : "quiz"
+        }, 
+	{
+            "body" : "During a blizzard, children are often made to stay indoors, even if they want to go out to play in the snow, because of the risk of frostbite from severe cold and blasting winds.",
+            "selectedWord" : "risk",
+            "distractorWord1" : "pink",
+            "distractorWord2" : "lend"
+        }, 
+	{
+            "body" : "When people know a blizzard is on its way, they often stock up on food in case the storm lasts for longer than a day or so and buy extra flashlight batteries and candles just in case the power goes out.",
+            "selectedWord" : "day",
+            "distractorWord1" : "ban",
+            "distractorWord2" : "pat"
+        }, 
+	{
+            "body" : "During a blizzard, storm warnings on TV and radio stations tell people that they should stay at home while the blizzard rages, and not to go out driving in their cars unless it is necessary.",
+            "selectedWord" : "should",
+            "distractorWord1" : "change",
+            "distractorWord2" : "branch"
+        }, 
+	{
+            "body" : "The sheer amount of windblown snow from a blizzard can make it hard to see where you are going.",
+            "selectedWord" : "windblown",
+            "distractorWord1" : "technique",
+            "distractorWord2" : "abrasions"
+        }, 
+	{
+            "body" : "During a blizzard, drivers try to stay off the road, and airplanes are often grounded until the storm lifts.",
+            "selectedWord" : "airplanes",
+            "distractorWord1" : "breathing",
+            "distractorWord2" : "countdown"
+        }, 
+	{
+            "body" : "Very large blizzards may become historic events.",
+            "selectedWord" : "blizzards",
+            "distractorWord1" : "sunscreen",
+            "distractorWord2" : "stainless"
+        }, 
+	{
+            "body" : "In the United States, there are storms that are still remembered for their sudden severity and the problems they caused.",
+            "selectedWord" : "sudden",
+            "distractorWord1" : "bubble",
+            "distractorWord2" : "pepper"
+        }, 
+	{
+            "body" : "During the fall of 1880, a blizzard struck the Midwest in October, covering crops that had not yet been harvested.",
+            "selectedWord" : "struck",
+            "distractorWord1" : "bright",
+            "distractorWord2" : "driver"
+        }, 
+	{
+            "body" : "Snow covered buildings and stopped train service.",
+            "selectedWord" : "covered",
+            "distractorWord1" : "pumpkin",
+            "distractorWord2" : "welcome"
+        }, 
+	{
+            "body" : "Storm after storm hit until March.",
+            "selectedWord" : "hit",
+            "distractorWord1" : "nip",
+            "distractorWord2" : "web"
+        }, 
+	{
+            "body" : "One of the longest blizzards lasted for nine days.",
+            "selectedWord" : "lasted",
+            "distractorWord1" : "beauty",
+            "distractorWord2" : "blazed"
+        }, 
+	{
+            "body" : "During a long-lasting blizzard, many people can not leave their homes for months at a time, and those who do, often have to dig tunnels from their front doors.",
+            "selectedWord" : "time",
+            "distractorWord1" : "limb",
+            "distractorWord2" : "welp"
+        }, 
+	{
+            "body" : "If large amounts of snow melt in the spring, there can be enormous floods that cover the plains and wash whole towns away.",
+            "selectedWord" : "floods",
+            "distractorWord1" : "blocks",
+            "distractorWord2" : "clamps"
+        }, 
+	{
+            "body" : "In March of 1993, a blizzard called the storm of the century struck the east coast of the United States.",
+            "selectedWord" : "coast",
+            "distractorWord1" : "bloat",
+            "distractorWord2" : "cloak"
+        }, 
+	{
+            "body" : "The extent of the storm system was massive.",
+            "selectedWord" : "massive",
+            "distractorWord1" : "buzzers",
+            "distractorWord2" : "cashews"
+        }, 
+	{
+            "body" : "The blizzard stretched from Canada into Central America.",
+            "selectedWord" : "into",
+            "distractorWord1" : "aqua",
+            "distractorWord2" : "evil"
+        }, 
+	{
+            "body" : "Snow fell in areas where snow is extremely rare, such as Florida and Alabama.",
+            "selectedWord" : "rare",
+            "distractorWord1" : "bear",
+            "distractorWord2" : "deer"
+        }, 
+	{
+            "body" : "Ten million people on the east coast lost electric power.",
+            "selectedWord" : "lost",
+            "distractorWord1" : "cope",
+            "distractorWord2" : "faze"
+        }, 
+	{
+            "body" : "Blizzards are nothing to take lightly.",
+            "selectedWord" : "lightly",
+            "distractorWord1" : "quivers",
+            "distractorWord2" : "tadpole"
+        }, 
+	{
+            "body" : "Whenever there is a blizzard warning, it is best to be prepared for the worst.",
+            "selectedWord" : "worst",
+            "distractorWord1" : "muted",
+            "distractorWord2" : "ozark"
+        }, 
+	{
+            "body" : "Do you buy a big box of popcorn when you go to a movie?",
+            "selectedWord" : "movie",
+            "distractorWord1" : "wiper",
+            "distractorWord2" : "yucky"
+        }, 
+	{
+            "body" : "If you buy a big box of popcorn at the movies, you are engaging in a tradition that goes back thousands of years.",
+            "selectedWord" : "box",
+            "distractorWord1" : "dew",
+            "distractorWord2" : "pry"
+        }, 
+	{
+            "body" : "Archaeological evidence of popcorn has been found in Mexico going back five thousand years.",
+            "selectedWord" : "been",
+            "distractorWord1" : "deck",
+            "distractorWord2" : "film"
+        }, 
+	{
+            "body" : "Popcorn has long been eaten as a popular snack in the United States because it is inexpensive and tasty.",
+            "selectedWord" : "snack",
+            "distractorWord1" : "blank",
+            "distractorWord2" : "panda"
+        }, 
+	{
+            "body" : "In the United States, popcorn is traditionally eaten with salt and butter.",
+            "selectedWord" : "salt",
+            "distractorWord1" : "zone",
+            "distractorWord2" : "note"
+        }, 
+	{
+            "body" : "In other countries, popcorn may be covered with sugar, caramel, sweetened condensed milk, cheese, jalapeno juice, or even bacon.",
+            "selectedWord" : "caramel",
+            "distractorWord1" : "rampage",
+            "distractorWord2" : "walking"
+        }, 
+	{
+            "body" : "Only some strains of corn can be used as popcorn.",
+            "selectedWord" : "Only",
+            "distractorWord1" : "Diet",
+            "distractorWord2" : "Echo"
+        }, 
+	{
+            "body" : "Popcorn kernels have tough outer hulls and starchy interiors.",
+            "selectedWord" : "kernels",
+            "distractorWord1" : "weaving",
+            "distractorWord2" : "vehicle"
+        }, 
+	{
+            "body" : "Popcorn is not ready to be popped unless first harvested because it is too moist.",
+            "selectedWord" : "popped",
+            "distractorWord1" : "wobbly",
+            "distractorWord2" : "cuddle"
+        }, 
+	{
+            "body" : "Growers dry the kernels until they reach about fifteen percent moisture.",
+            "selectedWord" : "dry",
+            "distractorWord1" : "bow",
+            "distractorWord2" : "paw"
+        }, 
+	{
+            "body" : "When a heat source is applied to popcorn, the moisture turns to steam and builds up pressure.",
+            "selectedWord" : "heat",
+            "distractorWord1" : "beef",
+            "distractorWord2" : "park"
+        }, 
+	{
+            "body" : "When popcorn kernels are heated, the hard interior becomes softer.",
+            "selectedWord" : "hard",
+            "distractorWord1" : "bark",
+            "distractorWord2" : "tarp"
+        }, 
+	{
+            "body" : "When popcorn kernels are heated, eventually, the pressure in the kernel will become so great that the outer hull ruptures and the inside puffs up to twenty to fifty times the size of the original kernel.",
+            "selectedWord" : "puffs",
+            "distractorWord1" : "basin",
+            "distractorWord2" : "quest"
+        }, 
+	{
+            "body" : "Popcorn is easy to make.",
+            "selectedWord" : "is",
+            "distractorWord1" : "up",
+            "distractorWord2" : "he"
+        }, 
+	{
+            "body" : "All you need to make popcorn is a pot and a heat source.",
+            "selectedWord" : "pot",
+            "distractorWord1" : "doe",
+            "distractorWord2" : "bus"
+        }, 
+	{
+            "body" : "People once popped popcorn over campfires or stovetops.",
+            "selectedWord" : "once",
+            "distractorWord1" : "exam",
+            "distractorWord2" : "gush"
+        }, 
+	{
+            "body" : "Although relatively easy to cook, heating popcorn kernels too fast or too slow can result in partially popped, burned, or unexploded kernels.",
+            "selectedWord" : "partially",
+            "distractorWord1" : "boulevard",
+            "distractorWord2" : "qualified"
+        }, 
+	{
+            "body" : "To avoid mis-popped popcorn, people all over the world have designed machines that can heat the kernels at the right speed and intensity.",
+            "selectedWord" : "right",
+            "distractorWord1" : "beast",
+            "distractorWord2" : "pecan"
+        }, 
+	{
+            "body" : "Using oil or butter, when cooking popcorn, can help to distribute heat evenly.",
+            "selectedWord" : "oil",
+            "distractorWord1" : "ivy",
+            "distractorWord2" : "pig"
+        }, 
+	{
+            "body" : "In China and Korea, popcorn is heated in a sealed canister.",
+            "selectedWord" : "sealed",
+            "distractorWord1" : "vision",
+            "distractorWord2" : "lizard"
+        }, 
+	{
+            "body" : "When the pressure inside a sealed canister reaches a certain level, the canister is loaded into a bag and the seal released.",
+            "selectedWord" : "bag",
+            "distractorWord1" : "dog",
+            "distractorWord2" : "pen"
+        }, 
+	{
+            "body" : "All the popcorn explodes at once.",
+            "selectedWord" : "popcorn",
+            "distractorWord1" : "damaged",
+            "distractorWord2" : "quarter"
+        }, 
+	{
+            "body" : "The steam powered popcorn maker was invented in Chicago in the last century.",
+            "selectedWord" : "steam",
+            "distractorWord1" : "bleak",
+            "distractorWord2" : "dream"
+        }, 
+	{
+            "body" : "The steam powered popcorn maker was loaded onto dollies, so that the snack could be sold throughout the city of Chicago.",
+            "selectedWord" : "dollies",
+            "distractorWord1" : "quitter",
+            "distractorWord2" : "pumpkin"
+        }, 
+	{
+            "body" : "Popcorn was usually sold in small paper bags.",
+            "selectedWord" : "paper",
+            "distractorWord1" : "bumps",
+            "distractorWord2" : "dusty"
+        },
+	{
+            "body" : "People bought bags of popcorn at carnivals and fairs all over the country.",
+            "selectedWord" : "bags",
+            "distractorWord1" : "prop",
+            "distractorWord2" : "drip"
+        }, 
+	{
+            "body" : "Popcorn caught on because it is a cheap and healthy snack.",
+            "selectedWord" : "cheap",
+            "distractorWord1" : "shrub",
+            "distractorWord2" : "there"
+        }, 
+	{
+            "body" : "When movie theaters started opening all over the United States, popcorn vendors began parking their carts in front of the theaters.",
+            "selectedWord" : "carts",
+            "distractorWord1" : "braid",
+            "distractorWord2" : "drift"
+        }, 
+	{
+            "body" : "Popcorn vendors would sell bags of popcorn to people walking by on the street, as well as to people going inside to see the movies.",
+            "selectedWord" : "see",
+            "distractorWord1" : "zoo",
+            "distractorWord2" : "bow"
+        }, 
+	{
+            "body" : "After some time had passed, movie theater managers saw that they could make an added profit by making and selling popcorn in the theater lobbies.",
+            "selectedWord" : "added",
+            "distractorWord1" : "brand",
+            "distractorWord2" : "prune"
+        }, 
+	{
+            "body" : "Theater managers did not like to sell popcorn, because if the movie was bad, people in the audience would throw popcorn at the screen.",
+            "selectedWord" : "bad",
+            "distractorWord1" : "top",
+            "distractorWord2" : "dot"
+        }, 
+	{
+            "body" : "In the end, almost all movie theaters sold popcorn.",
+            "selectedWord" : "end",
+            "distractorWord1" : "bar",
+            "distractorWord2" : "met"
+        }, 
+	{
+            "body" : "Popcorn has historically been very stable business since it is inexpensive to grow and make.",
+            "selectedWord" : "stable",
+            "distractorWord1" : "export",
+            "distractorWord2" : "middle"
+        }, 
+	{
+            "body" : "When other snack and candy businesses failed during the Great Depression or during World War 2, popcorn growers and popcorn machine makers both survived and prospered.",
+            "selectedWord" : "prospered",
+            "distractorWord1" : "daughters",
+            "distractorWord2" : "blistered"
+      
+        }
     ]
 }

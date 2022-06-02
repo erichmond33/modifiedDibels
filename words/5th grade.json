@@ -1,10 +1,610 @@
 {
     "sentences" : [
-        { <-- copy from here
-            "body" : "",
-            "selectedWord" : "",
-            "distractorWord1" : "",
-            "distractorWord2" : ""
-        }, <-- to here
+        {
+            "body" : "Over ten years ago now, the Apple Corporation launched the iPhone.",
+            "selectedWord" : "Corporation",
+            "distractorWord1" : "Equivalent",
+            "distractorWord2" : "Dangerously"
+        },
+	{
+            "body" : "People lined up around the block at Apple stores all over the United States on the day the iPhone went on sale.",
+            "selectedWord" : "around",
+            "distractorWord1" : "carbon",
+            "distractorWord2" : "lonely"
+        },  
+	{
+            "body" : "Somewhere between one quarter and three quarters of a million iPhones were sold on the first weekend of iPhone sales.",
+            "selectedWord" : "Somewhere",
+            "distractorWord1" : "Nightmare",
+            "distractorWord2" : "Breakfast"
+        }, 
+	{
+            "body" : "The iPhone began to sell in Europe, and over the next seven years, it gradually became available in almost every country in the world.",
+            "selectedWord" : "gradually",
+            "distractorWord1" : "invisible",
+            "distractorWord2" : "renewable"
+        }, 
+	{
+            "body" : "About one billion iPhones have been sold.",
+            "selectedWord" : "have",
+            "distractorWord1" : "made",
+            "distractorWord2" : "hand"
+        }, 
+	{
+            "body" : "The iPhone was the first to combine a phone, a media player, and a computer for using the internet all in one.",
+            "selectedWord" : "media",
+            "distractorWord1" : "cobra",
+            "distractorWord2" : "diary"
+        }, 
+	{
+            "body" : "The iPhone is a touchscreen phone.",
+            "selectedWord" : "touchscreen",
+            "distractorWord1" : "icebreakers",
+            "distractorWord2" : "tablecloths"
+        }, 
+	{
+            "body" : "Previous smart phones had a hard keyboard.",
+            "selectedWord" : "had",
+            "distractorWord1" : "tub",
+            "distractorWord2" : "mud"
+        }, 
+	{
+            "body" : "People love the iPhone for the way it works and the way it looks.",
+            "selectedWord" : "and",
+            "distractorWord1" : "bus",
+            "distractorWord2" : "eye"
+        }, 
+	{
+            "body" : "With each new version of iPhone, Apple has improved its machine and it has changed the way we live.",
+            "selectedWord" : "each",
+            "distractorWord1" : "shut",
+            "distractorWord2" : "rest"
+        }, 
+	{
+            "body" : "The first iPhone had a camera, but it was primitive compared to what we are used to now.",
+            "selectedWord" : "camera",
+            "distractorWord1" : "kitten",
+            "distractorWord2" : "answer"
+        }, 
+	{
+            "body" : "There was no video, no GPS, and no voice command on the first iPhone.",
+            "selectedWord" : "voice",
+            "distractorWord1" : "yummy",
+            "distractorWord2" : "eight"
+        }, 
+	{
+            "body" : "The iPhone led to massive growth in the technology industry.",
+            "selectedWord" : "massive",
+            "distractorWord1" : "waffles",
+            "distractorWord2" : "blazing"
+        }, 
+	{
+            "body" : "YouTube, Facebook, and Google would not have the power they now have without the iPhone.",
+            "selectedWord" : "would",
+            "distractorWord1" : "never",
+            "distractorWord2" : "mound"
+        }, 
+	{
+            "body" : "The iPhone changed the way people in all fields work.",
+            "selectedWord" : "way",
+            "distractorWord1" : "men",
+            "distractorWord2" : "red"
+        }, 
+	{
+            "body" : "People bring work wherever they go because their work is on their phones.",
+            "selectedWord" : "phones",
+            "distractorWord1" : "quarts",
+            "distractorWord2" : "shiver"
+        }, 
+	{
+            "body" : "The ability to work from anywhere may enable creativity and flexibility, but it also means that many people never get any real free time.",
+            "selectedWord" : "may",
+            "distractorWord1" : "sat",
+            "distractorWord2" : "tan"
+        }, 
+	{
+            "body" : "How often have you been at the beach, or in a restaurant, or in a public park, and seen people using their smartphones rather than just swimming, enjoying their food, or gazing up at the sky?",
+            "selectedWord" : "than",
+            "distractorWord1" : "shop",
+            "distractorWord2" : "brim"
+        }, 
+	{
+            "body" : "Because of the iPhone, people can now document and share their own lives on a scale that has never been seen before.",
+            "selectedWord" : "share",
+            "distractorWord1" : "thick",
+            "distractorWord2" : "shell"
+        }, 
+	{
+            "body" : "People can post family pictures on Instagram, political opinions on Twitter, and life anecdotes on Facebook.",
+            "selectedWord" : "opinions",
+            "distractorWord1" : "quarters",
+            "distractorWord2" : "attitude"
+        }, 
+	{
+            "body" : "There is now so much information online, that it is hard to process mentally and emotionally.",
+            "selectedWord" : "online",
+            "distractorWord1" : "enable",
+            "distractorWord2" : "labour"
+        }, 
+	{
+            "body" : "Some people say that they now spend more time texting and zooming with their friends than they do meeting face to face.",
+            "selectedWord" : "texting",
+            "distractorWord1" : "greater",
+            "distractorWord2" : "advance"
+        }, 
+	{
+            "body" : "These days, the technology offered by the first iPhone is used in phones made by lots of other companies.",
+            "selectedWord" : "offered",
+            "distractorWord1" : "binding",
+            "distractorWord2" : "heading"
+        }, 
+	{
+            "body" : "Most people look to the iPhone for the most exciting new features.",
+            "selectedWord" : "look",
+            "distractorWord1" : "tool",
+            "distractorWord2" : "blue"
+        }, 
+	{
+            "body" : "One thing people might see someday soon is a screen that can bend.",
+            "selectedWord" : "see",
+            "distractorWord1" : "zen",
+            "distractorWord2" : "pop"
+        }, 
+	{
+            "body" : "People might see a battery that can be charged by the sun or by motion.",
+            "selectedWord" : "motion",
+            "distractorWord1" : "wonton",
+            "distractorWord2" : "acting"
+        }, 
+	{
+            "body" : "Some people predict phones that can project holograms.",
+            "selectedWord" : "project",
+            "distractorWord1" : "quacked",
+            "distractorWord2" : "beneath"
+        }, 
+	{
+            "body" : "It is hard to know what the future will bring.",
+            "selectedWord" : "future",
+            "distractorWord1" : "mutual",
+            "distractorWord2" : "waking"
+        }, 
+	{
+            "body" : "Slang is vocabulary that is very informal and often used by people who belong to a clique.",
+            "selectedWord" : "informal",
+            "distractorWord1" : "flawless",
+            "distractorWord2" : "princes"
+        }, 
+	{
+            "body" : "A clique is a small in-group of people, who share a special style or set of ideas and often use a specific vocabulary to talk to each other.",
+            "selectedWord" : "talk",
+            "distractorWord1" : "wall",
+            "distractorWord2" : "sail"
+        }, 
+	{
+            "body" : "Even if you do not belong to a clique, you probably already use slang in your vocabulary and don’t even know it.",
+            "selectedWord" : "vocabulary",
+            "distractorWord1" : "abominable",
+            "distractorWord2" : "evaporated"
+        }, 
+	{
+            "body" : "Words like “cool,” “sweet,” and “tight” can all mean “good.”",
+            "selectedWord" : "can",
+            "distractorWord1" : "use",
+            "distractorWord2" : "end"
+        }, 
+	{
+            "body" : "You have probably used slang words to describe something that you like or admire.",
+            "selectedWord" : "something",
+            "distractorWord1" : "lightning",
+            "distractorWord2" : "apologize"
+        }, 
+	{
+            "body" : "Beware, slang tends to evolve quickly.",
+            "selectedWord" : "Beware",
+            "distractorWord1" : "Dainty",
+            "distractorWord2" : "Airmen"
+        }, 
+	{
+            "body" : "What was cool to say yesterday may be not so cool today and might embarrass you tomorrow.",
+            "selectedWord" : "was",
+            "distractorWord1" : "fur",
+            "distractorWord2" : "lie"
+        }, 
+	{
+            "body" : "People used to say that something was “off the hook,” and before that they might have said it was “rad.”",
+            "selectedWord" : "might",
+            "distractorWord1" : "whale",
+            "distractorWord2" : "silly"
+        }, 
+	{
+            "body" : "If you use the expressions “off the hook,” or “rad”, today, your friends may wince and begin to avoid you.",
+            "selectedWord" : "expressions",
+            "distractorWord1" : "accessorize",
+            "distractorWord2" : "capitalized"
+        }, 
+	{
+            "body" : "Some slang expressions were once so common that people got tired of saying them.",
+            "selectedWord" : "tired",
+            "distractorWord1" : "basil",
+            "distractorWord2" : "ocean"
+        }, 
+	{
+            "body" : "Friends used to greet each other in a casual way by saying, “wassup?”",
+            "selectedWord" : "casual",
+            "distractorWord1" : "napkin",
+            "distractorWord2" : "anchor"
+        }, 
+	{
+            "body" : "Some actors in a famous commercial said “Wassup?”",
+            "selectedWord" : "actors",
+            "distractorWord1" : "banana",
+            "distractorWord2" : "boring"
+        }, 
+	{
+            "body" : "Everybody started repeating the phrase “Wassup,” until it was no longer fun or interesting to say.",
+            "selectedWord" : "Everybody",
+            "distractorWord1" : "Standards",
+            "distractorWord2" : "Crackling"
+        }, 
+	{
+            "body" : "If you greet a friend by saying “Wassup?” you will get a funny look in response.",
+            "selectedWord" : "funny",
+            "distractorWord1" : "bonus",
+            "distractorWord2" : "glume"
+        }, 
+	{
+            "body" : "There are different types and origins of slang.",
+            "selectedWord" : "slang",
+            "distractorWord1" : "fuzzy",
+            "distractorWord2" : "brick"
+        }, 
+	{
+            "body" : "Much slang comes from words and phrases that originally had similar meanings.",
+            "selectedWord" : "Much",
+            "distractorWord1" : "Wood",
+            "distractorWord2" : "Bull"
+        }, 
+	{
+            "body" : "Everyone likes to “pig out” every so often.",
+            "selectedWord" : "so",
+            "distractorWord1" : "be",
+            "distractorWord2" : "my"
+        }, 
+	{
+            "body" : "It is easy to see where phrases come from.",
+            "selectedWord" : "come",
+            "distractorWord1" : "gown",
+            "distractorWord2" : "mate"
+        }, 
+	{
+            "body" : "Why is something easy considered a “piece of cake”?",
+            "selectedWord" : "Why",
+            "distractorWord1" : "Mad",
+            "distractorWord2" : "Fly"
+        }, 
+	{
+            "body" : "The phrase, “A piece of cake,” is something associated with an old social game that has long since been forgotten, namely a “cake walk,” in which the winner literally won cake.",
+            "selectedWord" : "long",
+            "distractorWord1" : "numb",
+            "distractorWord2" : "wide"
+        }, 
+	{
+            "body" : "Some slang words are portmanteaus.",
+            "selectedWord" : "are",
+            "distractorWord1" : "him",
+            "distractorWord2" : "ink"
+        }, 
+	{
+            "body" : "A portmanteau is a word that combines two words together to form a new word.",
+            "selectedWord" : "two",
+            "distractorWord1" : "mow",
+            "distractorWord2" : "toe"
+        }, 
+	{
+            "body" : "“Brunch” is a great example of a portmanteau.",
+            "selectedWord" : "of",
+            "distractorWord1" : "be",
+            "distractorWord2" : "us"
+        }, 
+	{
+            "body" : "“Brunch” combines “breakfast” and “lunch” together to create a new word with a slightly new meaning.",
+            "selectedWord" : "breakfast",
+            "distractorWord1" : "dalmatian",
+            "distractorWord2" : "Thumbtack"
+        }, 
+	{
+            "body" : "Another example of a new slang word is a “spork”: a spoon and fork combination.",
+            "selectedWord" : "combination",
+            "distractorWord1" : "helicopter",
+            "distractorWord2" : "motivation"
+        }, 
+	{
+            "body" : "Not all portmanteaus are food related; there is also “infomercials,” which are combinations of information and commercials.",
+            "selectedWord" : "related",
+            "distractorWord1" : "ceiling",
+            "distractorWord2" : "factory"
+        }, 
+	{
+            "body" : "The military gave us a combo of dangerous and enormous: ginormous.",
+            "selectedWord" : "combo",
+            "distractorWord1" : "water",
+            "distractorWord2" : "angel"
+        }, 
+	{
+            "body" : "Some slang develops because of changes in technology.",
+            "selectedWord" : "because",
+            "distractorWord1" : "decibal",
+            "distractorWord2" : "formula"
+        }, 
+	{
+            "body" : "A hundred years ago, people did not give someone a ring to call them on the phone, because phones were not common.",
+            "selectedWord" : "someone",
+            "distractorWord1" : "network",
+            "distractorWord2" : "imagine"
+        }, 
+	{
+            "body" : "Until about ten years ago, people would have thought hot spots were temperature based, not about Wi-Fi.",
+            "selectedWord" : "thought",
+            "distractorWord1" : "culture",
+            "distractorWord2" : "shuttle"
+        }, 
+	{
+            "body" : "Spam was only a meat that came in a can, not unwanted email.",
+            "selectedWord" : "meat",
+            "distractorWord1" : "wish",
+            "distractorWord2" : "real"
+        }, 
+	{
+            "body" : "Some slang has evolved from texting language such as “LOL”, “brb”, and “smh.”",
+            "selectedWord" : "evolved",
+            "distractorWord1" : "supreme",
+            "distractorWord2" : "utility"
+        }, 
+	{
+            "body" : "Some slang just happens, and that is sick.",
+            "selectedWord" : "just",
+            "distractorWord1" : "grill",
+            "distractorWord2" : "buzz"
+        }, 
+	{
+            "body" : "There are over six thousand languages in the world.",
+            "selectedWord" : "six",
+            "distractorWord1" : "bar",
+            "distractorWord2" : "zap"
+        }, 
+	{
+            "body" : "Mandarin Chinese is the most commonly spoken language.",
+            "selectedWord" : "spoken",
+            "distractorWord1" : "square",
+            "distractorWord2" : "market"
+        }, 
+	{
+            "body" : "Mandarin Chinese has over one billion speakers.",
+            "selectedWord" : "speakers",
+            "distractorWord1" : "conquest",
+            "distractorWord2" : "occasion"
+        }, 
+	{
+            "body" : "Spanish and English are the next most common languages.",
+            "selectedWord" : "common",
+            "distractorWord1" : "rowing",
+            "distractorWord2" : "chosen"
+        }, 
+	{
+            "body" : "Spanish and English each have around three hundred million speakers.",
+            "selectedWord" : "three",
+            "distractorWord1" : "fairy",
+            "distractorWord2" : "chirp"
+        }, 
+	{
+            "body" : "People express important ideas with language.",
+            "selectedWord" : "express",
+            "distractorWord1" : "squeaky",
+            "distractorWord2" : "faculty"
+        }, 
+	{
+            "body" : "Language helps people connect with other people.",
+            "selectedWord" : "other",
+            "distractorWord1" : "gamer",
+            "distractorWord2" : "tacky"
+        }, 
+	{
+            "body" : "When you speak a language, you are part of a large group that expresses ideas in the same way.",
+            "selectedWord" : "large",
+            "distractorWord1" : "heart",
+            "distractorWord2" : "cough"
+        }, 
+	{
+            "body" : " When you are around people who speak a different language, you may feel like an outsider.",
+            "selectedWord" : "an",
+            "distractorWord1" : "if",
+            "distractorWord2" : "hi"
+        }, 
+	{
+            "body" : "Learning a language is important for brain development.",
+            "selectedWord" : "important",
+            "distractorWord1" : "painfully",
+            "distractorWord2" : "wallpaper"
+        }, 
+	{
+            "body" : "If children do not learn a language, their brains will not develop in a normal way.",
+            "selectedWord" : "learn",
+            "distractorWord1" : "drain",
+            "distractorWord2" : "frame"
+        }, 
+	{
+            "body" : "Children who are not taught any language cannot understand basic concepts.",
+            "selectedWord" : "basic",
+            "distractorWord1" : "decoy",
+            "distractorWord2" : "earth"
+        }, 
+	{
+            "body" : "All children normally learn at least one language fluently by around the age of seven.",
+            "selectedWord" : "least",
+            "distractorWord1" : "beach",
+            "distractorWord2" : "teeth"
+        }, 
+	{
+            "body" : "After the age of seven, it becomes difficult for older children to learn their first language.",
+            "selectedWord" : "older",
+            "distractorWord1" : "globe",
+            "distractorWord2" : "blink"
+        }, 
+	{
+            "body" : "Many people in the world only speak a single language.",
+            "selectedWord" : "world",
+            "distractorWord1" : "curve",
+            "distractorWord2" : "smirk"
+        }, 
+	{
+            "body" : "There are large areas of the world where people speak only one main language.",
+            "selectedWord" : "main",
+            "distractorWord1" : "tame",
+            "distractorWord2" : "sane"
+        }, 
+	{
+            "body" : "Many Americans speak only English.",
+            "selectedWord" : "Americans",
+            "distractorWord1" : "Chocolate",
+            "distractorWord2" : "Agreement"
+        }, 
+	{
+            "body" : "In order to graduate from college, you must usually take two years of classes in a foreign language.",
+            "selectedWord" : "graduate",
+            "distractorWord1" : "criminal",
+            "distractorWord2" : "fraction"
+        }, 
+	{
+            "body" : "Some older people who come to the United States from other countries speak only the language of where they are from.",
+            "selectedWord" : "countries",
+            "distractorWord1" : "bleachers",
+            "distractorWord2" : "guardians"
+        },
+	{
+            "body" : "Young people who come to the United States from other countries almost always learn English, even though they may go on speaking their native language at home or with their friends.",
+            "selectedWord" : "native",
+            "distractorWord1" : "anemia",
+            "distractorWord2" : "fabric"
+        }, 
+	{
+            "body" : "Many people speak far more than one or two languages.",
+            "selectedWord" : "far",
+            "distractorWord1" : "tar",
+            "distractorWord2" : "pie"
+        }, 
+	{
+            "body" : "There are small areas of the world where people speak hundreds of different languages.",
+            "selectedWord" : "where",
+            "distractorWord1" : "champ",
+            "distractorWord2" : "shear"
+        }, 
+	{
+            "body" : "Areas where people speak hundreds of different languages, are called language hot spots.",
+            "selectedWord" : "hot",
+            "distractorWord1" : "guy",
+            "distractorWord2" : "nor"
+        }, 
+	{
+            "body" : "One well-known language hot spot is Papua New Guinea, which has more than eight hundred languages.",
+            "selectedWord" : "spot",
+            "distractorWord1" : "rear",
+            "distractorWord2" : "back"
+        }, 
+	{
+            "body" : "Saudi Arabia has nine languages.",
+            "selectedWord" : "nine",
+            "distractorWord1" : "port",
+            "distractorWord2" : "lung"
+        }, 
+	{
+            "body" : "Many scientists and teachers say that it is very beneficial to speak two or more languages.",
+            "selectedWord" : "beneficial",
+            "distractorWord1" : "disposable",
+            "distractorWord2" : "historical"
+        }, 
+	{
+            "body" : "People who can speak two or more languages are called “bilingual.”",
+            "selectedWord" : "bilingual",
+            "distractorWord1" : "drizzling",
+            "distractorWord2" : "expertise"
+        }, 
+	{
+            "body" : "If you speak more than one language you can find more friends, and you will probably have a wider choice of jobs to do when you are older.",
+            "selectedWord" : "wider",
+            "distractorWord1" : "masks",
+            "distractorWord2" : "entry"
+        }, 
+	{
+            "body" : "Being bilingual or “multilingual” is good for being able to travel other places.",
+            "selectedWord" : "travel",
+            "distractorWord1" : "galaxy",
+            "distractorWord2" : "luxury"
+        }, 
+	{
+            "body" : "Some languages are disappearing.",
+            "selectedWord" : "disappearing",
+            "distractorWord1" : "backtracking",
+            "distractorWord2" : "abbreviating"
+        }, 
+	{
+            "body" : "As Chinese, Spanish, and English spread around the world, smaller languages die out.",
+            "selectedWord" : "smaller",
+            "distractorWord1" : "swallow",
+            "distractorWord2" : "chicken"
+        }, 
+	{
+            "body" : "Speakers of smaller languages may decide to be a part of bigger language communities, like Spanish or English.",
+            "selectedWord" : "bigger",
+            "distractorWord1" : "bicker",
+            "distractorWord2" : "dimple"
+        }, 
+	{
+            "body" : " Speakers of smaller languages may not pass on their native language to the young.",
+            "selectedWord" : "young",
+            "distractorWord1" : "calve",
+            "distractorWord2" : "faith"
+        }, 
+	{
+            "body" : "Scientists worry about language death.",
+            "selectedWord" : "worry",
+            "distractorWord1" : "hurry",
+            "distractorWord2" : "mercy"
+        }, 
+	{
+            "body" : "Scientists worry about language death because languages may contain special information.",
+            "selectedWord" : "contain",
+            "distractorWord1" : "crucial",
+            "distractorWord2" : "density"
+        }, 
+	{
+            "body" : "Languages can be compared to libraries.",
+            "selectedWord" : "libraries",
+            "distractorWord1" : "conductor",
+            "distractorWord2" : "flowering"
+        }, 
+	{
+            "body" : "Languages contain lots of information about the world.",
+            "selectedWord" : "lots",
+            "distractorWord1" : "lace",
+            "distractorWord2" : "tide"
+        }, 
+	{
+            "body" : "When languages disappear, information is lost.",
+            "selectedWord" : "When",
+            "distractorWord1" : "Them",
+            "distractorWord2" : "Mark"
+        }, 
+	{
+            "body" : "Languages in the rainforest have information about the plants and animals there.",
+            "selectedWord" : "plants",
+            "distractorWord1" : "quarts",
+            "distractorWord2" : "proper"
+        }, 
+	{
+            "body" : "When languages die, the world loses that information.",
+            "selectedWord" : "loses",
+            "distractorWord1" : "maybe",
+            "distractorWord2" : "lunch"
+        }
     ]
 }

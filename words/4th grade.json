@@ -1,10 +1,502 @@
 {
     "sentences" : [
-        { <-- copy from here
-            "body" : "",
-            "selectedWord" : "",
-            "distractorWord1" : "",
-            "distractorWord2" : ""
-        }, <-- to here
+        { 
+            "body" : "Annabelle liked to work on cars with her dad.",
+            "selectedWord" : "liked",
+            "distractorWord1" : "climb",
+            "distractorWord2" : "child"
+        }, 
+	{
+            "body" : "Kat’s dad owned a classic 1965 Mustang that he was busily restoring, and she enjoyed helping him with the work.",
+            "selectedWord" : "busily",
+            "distractorWord1" : "danger",
+            "distractorWord2" : "costly"
+        }, 
+	{
+            "body" : "Kate and her dad worked together in the garage with the fans blowing and the door wide open to let in some air.",
+            "selectedWord" : "worked",
+            "distractorWord1" : "minute",
+            "distractorWord2" : "flight"
+        }, 
+	{
+            "body" : "On days that Kate and her dad worked in the shop, Kate wore an old, torn pair of blue jeans and a faded shirt.",
+            "selectedWord" : "pair",
+            "distractorWord1" : "quit",
+            "distractorWord2" : "rose"
+        }, 
+	{
+            "body" : "Annabelle tied her hair up in a bun to keep it out of her eyes.",
+            "selectedWord" : "it",
+            "distractorWord1" : "to",
+            "distractorWord2" : "be"
+        }, 
+	{
+            "body" : "Sara’s dad wore sweatpants, a frayed flannel shirt that was missing two buttons, and a pair of old carpet slippers that he didn’t mind ruining.",
+            "selectedWord" : "he",
+            "distractorWord1" : "so",
+            "distractorWord2" : "by"
+        }, 
+	{
+            "body" : "By the end of a day of work, Sara, and her dad both looked as if they had been crawling around in puddles of oil and grease for hours at a time, which of course they had.",
+            "selectedWord" : "been",
+            "distractorWord1" : "dune",
+            "distractorWord2" : "nope"
+        }, 
+	{
+            "body" : "Whenever John’s dad asked for a part or took, he would rummage in the toolbox to find it and then hand it over to him as quickly as possible.",
+            "selectedWord" : "dad",
+            "distractorWord1" : "bot",
+            "distractorWord2" : "pod"
+        }, 
+	{
+            "body" : "Penny knows how to handle all items in the shop safely.",
+            "selectedWord" : "handle",
+            "distractorWord1" : "bumble",
+            "distractorWord2" : "across"
+        }, 
+	{
+            "body" : "Arial is proud of all the skills she has learned in such a short time in under a month.",
+            "selectedWord" : "of",
+            "distractorWord1" : "my",
+            "distractorWord2" : "me"
+        }, 
+	{
+            "body" : "Kip’s father was proud of him.",
+            "selectedWord" : "him",
+            "distractorWord1" : "wag",
+            "distractorWord2" : "ear"
+        }, 
+	{
+            "body" : "Sally’s father often said things to her like, “Good work,” or “You’re learning this fast,” or “Way to go girl.”",
+            "selectedWord" : "like",
+            "distractorWord1" : "into",
+            "distractorWord2" : "over"
+        }, 
+	{
+            "body" : "Working on cars with her dad lifted Kelly’s spirits.",
+            "selectedWord" : "with",
+            "distractorWord1" : "myth",
+            "distractorWord2" : "seen"
+        }, 
+	{
+            "body" : "It was hard not to feel good when Annabelle and her dad were together, on a summer day, with the smell of grease and the clatter of tools, and the radio playing loudly.",
+            "selectedWord" : "summer",
+            "distractorWord1" : "zipper",
+            "distractorWord2" : "dinner"
+        }, 
+	{
+            "body" : "One day, Jim and his dad were working together, when a boy from the neighborhood walked by.",
+            "selectedWord" : "working",
+            "distractorWord1" : "madness",
+            "distractorWord2" : "rabbits"
+        }, 
+	{
+            "body" : "The boy stopped in front of the garage door and stared at Penny.",
+            "selectedWord" : "stared",
+            "distractorWord1" : "zagged",
+            "distractorWord2" : "bought"
+        }, 
+	{
+            "body" : "“Hey!” the boy said. “Girls don’t work on cars.”",
+            "selectedWord" : "boy",
+            "distractorWord1" : "pod",
+            "distractorWord2" : "eye"
+        },
+	{
+            "body" : "Pete had grease on his shirt, and he was handing a ball peen hammer to his father. ",
+            "selectedWord" : "hammer",
+            "distractorWord1" : "wacked",
+            "distractorWord2" : "pamper"
+        },  
+	{
+            "body" : "Tina shook her head.",
+            "selectedWord" : "her",
+            "distractorWord1" : "net",
+            "distractorWord2" : "tie"
+        }, 
+	{
+            "body" : "Tina said, “Whatever gave you that strange idea?”",
+            "selectedWord" : "idea",
+            "distractorWord1" : "with",
+            "distractorWord2" : "soft"
+        }, 
+	{
+            "body" : "Tina said, “I’m a girl, and this is a car I’m working on. So, I guess I do work on cars.”",
+            "selectedWord" : "this",
+            "distractorWord1" : "chin",
+            "distractorWord2" : "mist"
+        }, 
+	{
+            "body" : "Jim thought about what Sara had said.",
+            "selectedWord" : "thought",
+            "distractorWord1" : "chapped",
+            "distractorWord2" : "scratch"
+        }, 
+	{
+            "body" : "Bill laughed and asked, “Can you teach me how to fix cars sometime?”",
+            "selectedWord" : "teach",
+            "distractorWord1" : "slush",
+            "distractorWord2" : "great"
+        }, 
+	{
+            "body" : "Lucie lives in a place where it never snows.",
+            "selectedWord" : "place",
+            "distractorWord1" : "quirk",
+            "distractorWord2" : "break"
+        }, 
+	{
+            "body" : "Kim has never built a snowman or made a snow angel.",
+            "selectedWord" : "angel",
+            "distractorWord1" : "quill",
+            "distractorWord2" : "maybe"
+        }, 
+	{
+            "body" : "Penny has never thrown a snowball, and she has never built a snow fort or an igloo.",
+            "selectedWord" : "thrown",
+            "distractorWord1" : "shrine",
+            "distractorWord2" : "madame"
+        }, 
+	{
+            "body" : "Riley liked the idea of snow.",
+            "selectedWord" : "the",
+            "distractorWord1" : "she",
+            "distractorWord2" : "tow"
+        }, 
+	{
+            "body" : "Sara liked to ask people, who had seen snow, all about what snow felt like and what you could do with it.",
+            "selectedWord" : "ask",
+            "distractorWord1" : "vet",
+            "distractorWord2" : "zoo"
+        }, 
+	{
+            "body" : "One morning after Lucie had asked her dad many questions about snow,  he said, “Okay sweetheart, enough about snow. It’s time to get ready for school.”",
+            "selectedWord" : "morning",
+            "distractorWord1" : "brownie",
+            "distractorWord2" : "chowder"
+        }, 
+	{
+            "body" : "Riley hopped up from the breakfast table and got her backpack.",
+            "selectedWord" : "the",
+            "distractorWord1" : "ant",
+            "distractorWord2" : "bin"
+        }, 
+	{
+            "body" : "At the station, Gene and her dad stood on the platform in the sweltering heat, watching sun glaring off the approaching train, fanning themselves with a notebook, while quietly dreaming of sledding and snowball fights.",
+            "selectedWord" : "stood",
+            "distractorWord1" : "craze",
+            "distractorWord2" : "broke"
+        }, 
+	{
+            "body" : "The train pulled into the station, blasting Kate and her dad with hot air.",
+            "selectedWord" : "blasting",
+            "distractorWord1" : "drenched",
+            "distractorWord2" : "mountain"
+        }, 
+	{
+            "body" : "Sara and Pete got inside the train and found two seats in the back.",
+            "selectedWord" : "inside",
+            "distractorWord1" : "ablaze",
+            "distractorWord2" : "Monday"
+        }, 
+	{
+            "body" : "The train was almost full.",
+            "selectedWord" : "full",
+            "distractorWord1" : "bunt",
+            "distractorWord2" : "tell"
+        }, 
+	{
+            "body" : "As air rumbled toward downtown, Lucie gazed out the window, replacing the palm trees with pines and the brown hills with snowy peaks in her imagination.",
+            "selectedWord" : "air",
+            "distractorWord1" : "fur",
+            "distractorWord2" : "yes"
+        }, 
+	{
+            "body" : "Jack pretended to himself that he was on a train going through the Swiss Alps, and that the people were skiing alongside the train tracks.",
+            "selectedWord" : "himself",
+            "distractorWord1" : "calzone",
+            "distractorWord2" : "iceberg"
+        }, 
+	{
+            "body" : "Jane imagined that little boys were hurling snowballs at the train windows as it passed.",
+            "selectedWord" : "imagined",
+            "distractorWord1" : "tomorrow",
+            "distractorWord2" : "medicine"
+        }, 
+	{
+            "body" : "Something strange happened.",
+            "selectedWord" : "strange",
+            "distractorWord1" : "squeeze",
+            "distractorWord2" : "brother"
+        }, 
+	{
+            "body" : "The light inside the train car dimmed enough that Penny’s dad looked up from his book and peered out the window.",
+            "selectedWord" : "dimmed",
+            "distractorWord1" : "beamed",
+            "distractorWord2" : "choose"
+        }, 
+	{
+            "body" : "Mike felt his back pressed against the seat.",
+            "selectedWord" : "his",
+            "distractorWord1" : "nor",
+            "distractorWord2" : "moo"
+        }, 
+	{
+            "body" : "Mason could see that people were climbing and a thick mist had gathered.",
+            "selectedWord" : "could",
+            "distractorWord1" : "maize",
+            "distractorWord2" : "paced"
+        }, 
+	{
+            "body" : "The train had red velvet seats, dark wooden doors, and a lady, who was passing out knit hats and mittens.",
+            "selectedWord" : "velvet",
+            "distractorWord1" : "decade",
+            "distractorWord2" : "female"
+        }, 
+	{
+            "body" : "“Would you like a pair of mittens?” Said the lady.",
+            "selectedWord" : "pair",
+            "distractorWord1" : "fray",
+            "distractorWord2" : "quay"
+        }, 
+	{
+            "body" : "“Yes please, I would like to have the mittens” Lucie said, looking at her dad who just shrugged.",
+            "selectedWord" : "looking",
+            "distractorWord1" : "caboose",
+            "distractorWord2" : "starlet"
+        }, 
+	{
+            "body" : "Debby put the mittens on and out of the corner of her eye saw something shimmering.",
+            "selectedWord" : "shimmering",
+            "distractorWord1" : "strawberry",
+            "distractorWord2" : "lamplights"
+        }, 
+	{
+            "body" : "Ezra turned to see snow falling outside the train window and icy ponds where figures skated, so his dad pulled the rattling window down and urged her to feel the snow.",
+            "selectedWord" : "outside",
+            "distractorWord1" : "fizzing",
+            "distractorWord2" : "oatmeal"
+        }, 
+	{
+            "body" : "Emma took off a mitten, stuffed it in her pocket, and stuck her hand out of the window, feeling the soft cool pricks of snow, and smiling.",
+            "selectedWord" : "mitten",
+            "distractorWord1" : "wimper",
+            "distractorWord2" : "biting"
+        }, 
+	{
+            "body" : "Heath’s dad looked at him with a funny expression.",
+            "selectedWord" : "funny",
+            "distractorWord1" : "naval",
+            "distractorWord2" : "uncle"
+        }, 
+	{
+            "body" : "“Wake up,” Sara’s dad said. “We’re here.”",
+            "selectedWord" : "Wake",
+            "distractorWord1" : "Tent",
+            "distractorWord2" : "Mend"
+        }, 
+	{
+            "body" : "Luke followed his mother through the train, onto the downtown platform, where it was sunny as ever, and he tugged her though the crowd.",
+            "selectedWord" : "through",
+            "distractorWord1" : "flounce",
+            "distractorWord2" : "scrunch"
+        }, 
+	{
+            "body" : "As Jack and Jill approached the turnstile, Jill reached into her pocket to get her ticket but pulled out a yellow mitten instead.",
+            "selectedWord" : "yellow",
+            "distractorWord1" : "turtle",
+            "distractorWord2" : "ginger"
+        }, 
+	{
+            "body" : "It was late afternoon after the big snowstorm.",
+            "selectedWord" : "late",
+            "distractorWord1" : "peer",
+            "distractorWord2" : "bake"
+        }, 
+	{
+            "body" : "Samantha was covered in snow and sitting at the bottom of Miller’s Hill, watching her mother walk toward her.",
+            "selectedWord" : "sitting",
+            "distractorWord1" : "zipping",
+            "distractorWord2" : "whittle"
+        }, 
+	{
+            "body" : "Miller’s Hill is the longest, steepest hill in town, and it is slick with ice.",
+            "selectedWord" : "slick",
+            "distractorWord1" : "prize",
+            "distractorWord2" : "bleak"
+        }, 
+	{
+            "body" : "Gene is bruised, wet, cold, very happy, and in a great deal of trouble.",
+            "selectedWord" : "wet",
+            "distractorWord1" : "was",
+            "distractorWord2" : "mop"
+        }, 
+	{
+            "body" : "Earlier this afternoon, Kim made a fateful decision.",
+            "selectedWord" : "this",
+            "distractorWord1" : "them",
+            "distractorWord2" : "gaze"
+        }, 
+	{
+            "body" : "Walking home and coming just over the rise of the terrifying hill, Lucy watched Max and Evelyn throw down their backpacks and call, “Come on, Lucy! Your mom won’t know! She’s like two blocks away!”",
+            "selectedWord" : "Walking",
+            "distractorWord1" : "Mailbox",
+            "distractorWord2" : "Vaccine"
+        }, 
+	{
+            "body" : "Larry’s mom was a cautious woman.",
+            "selectedWord" : "mom",
+            "distractorWord1" : "war",
+            "distractorWord2" : "bun"
+        }, 
+	{
+            "body" : "Elizabeth always had to wear sunblock, even when she was inside all day.",
+            "selectedWord" : "had",
+            "distractorWord1" : "cub",
+            "distractorWord2" : "ape"
+        }, 
+	{
+            "body" : "Elizabeth always has to call the instant she goes anywhere, even if it is just to Max’s house next door.",
+            "selectedWord" : "even",
+            "distractorWord1" : "nice",
+            "distractorWord2" : "your"
+        }, 
+	{
+            "body" : "Kate has to wear not only a helmet but also kneepads and elbow guards when she bikes.",
+            "selectedWord" : "wear",
+            "distractorWord1" : "more",
+            "distractorWord2" : "peer"
+        }, 
+	{
+            "body" : "Samantha’s mom has expressly forbidden Samantha from ever going down Miller’s Hill in any way at all.",
+            "selectedWord" : "going",
+            "distractorWord1" : "river",
+            "distractorWord2" : "forty"
+        }, 
+	{
+            "body" : "Sid is not allowed to bike, skate, or sled down Miller’s Hill.",
+            "selectedWord" : "bike",
+            "distractorWord1" : "sing",
+            "distractorWord2" : "dunk"
+        }, 
+	{
+            "body" : "Miller’s Hill is just too dangerous.",
+            "selectedWord" : "just",
+            "distractorWord1" : "town",
+            "distractorWord2" : "game"
+        }, 
+	{
+            "body" : "Sally sometimes wonders why her mom is so worried and so cautious.",
+            "selectedWord" : "wonders",
+            "distractorWord1" : "machine",
+            "distractorWord2" : "quaking"
+        }, 
+	{
+            "body" : "Sally felt that something bad must have happened to her mom when she was a little girl.",
+            "selectedWord" : "bad",
+            "distractorWord1" : "dot",
+            "distractorWord2" : "met"
+        }, 
+	{
+            "body" : "Maybe David’s mom had crashed her bicycle.",
+            "selectedWord" : "bicycle",
+            "distractorWord1" : "thunder",
+            "distractorWord2" : "dolphin"
+        }, 
+	{
+            "body" : "Maybe Kate’s dad had gone sledding one day and crashed into a fence or a tree.",
+            "selectedWord" : "day",
+            "distractorWord1" : "bop",
+            "distractorWord2" : "rip"
+        }, 
+	{
+            "body" : "Maybe Sue’s mom had gone skating and fallen through the ice of a frozen lake.",
+            "selectedWord" : "the",
+            "distractorWord1" : "bee",
+            "distractorWord2" : "sea"
+        }, 
+	{
+            "body" : "One day, Sue asked her grandmother if she knew anything about her mother getting into an accident as a little girl.",
+            "selectedWord" : "knew",
+            "distractorWord1" : "tune",
+            "distractorWord2" : "moon"
+        }, 
+	{
+            "body" : "Tim’s grandmother tilted her head back to think.",
+            "selectedWord" : "grandmother",
+            "distractorWord1" : "backpacking",
+            "distractorWord2" : "earthquakes"
+        }, 
+	{
+            "body" : "Finally, Tim’s grandmother smiled and said, “Yes. There was one time when your mother went riding on a trail in the country with some other girls.”",
+            "selectedWord" : "riding",
+            "distractorWord1" : "flying",
+            "distractorWord2" : "handle"
+        }, 
+	{
+            "body" : "The horse was skittish and took off across the field galloping.",
+            "selectedWord" : "skittish",
+            "distractorWord1" : "progress",
+            "distractorWord2" : "doubtful"
+        }, 
+	{
+            "body" : "The story wasn’t nearly dramatic enough to have made his mother such a worrier.",
+            "selectedWord" : "nearly",
+            "distractorWord1" : "unreal",
+            "distractorWord2" : "falter"
+        },
+	{
+            "body" : "Your mother hung onto the horse with both hands for dear life ",
+            "selectedWord" : "hung",
+            "distractorWord1" : "tune",
+            "distractorWord2" : "lamp"
+        },  
+	{
+            "body" : "Jim thought that could not be it.",
+            "selectedWord" : "not",
+            "distractorWord1" : "rap",
+            "distractorWord2" : "pan"
+        }, 
+	{
+            "body" : "On the afternoon of the big snowstorm, as Kate’s friends begged her to go down the hill, Kate made a split-second decision and threw herself down on the hard-packed ice and snow.",
+            "selectedWord" : "begged",
+            "distractorWord1" : "dumped",
+            "distractorWord2" : "heaped"
+        }, 
+	{
+            "body" : "Katy went hurtling down the hill after Max and Evelyn.",
+            "selectedWord" : "after",
+            "distractorWord1" : "cable",
+            "distractorWord2" : "empty"
+        }, 
+	{
+            "body" : "Scott and his friends were all cheering and laughing.",
+            "selectedWord" : "cheering",
+            "distractorWord1" : "clothing",
+            "distractorWord2" : "portrait"
+        }, 
+	{
+            "body" : "As Scott made it about a third of the way from the bottom of the hill, he looked over to see a shocking sight through the front window of Mrs. Forsyth’s house.",
+            "selectedWord" : "house",
+            "distractorWord1" : "knock",
+            "distractorWord2" : "moose"
+        }, 
+	{
+            "body" : "There stood John’s mother, standing at the window, sipping from a cup of coffee, and looking straight out the window at John.",
+            "selectedWord" : "sipping",
+            "distractorWord1" : "amazing",
+            "distractorWord2" : "jumping"
+        }, 
+	{
+            "body" : "Now, as her mother approached, Samantha lost her smile, but inside her head the phrase “It was totally worth it” kept ringing.",
+            "selectedWord" : "phrase",
+            "distractorWord1" : "queazy",
+            "distractorWord2" : "center"
+        }, 
+	{
+            "body" : "Penny was having a hard time not giggling when her mom stopped in front of her, held out a black plastic bag, and said, “Use this. You’ll go even faster.”",
+            "selectedWord" : "front",
+            "distractorWord1" : "frown",
+            "distractorWord2" : "brick"
+        }
     ]
 }

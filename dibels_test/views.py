@@ -266,6 +266,7 @@ def mazeGeneration(request, metadata_id):
                 font = random.choice(Font.objects.all())
             style = font.style
             link = font.link
+            size = font.size
 
             # ----- Saving the queued question -----
             queuedMazeQuestionObject = queuedMazeQuestion.objects.get(testId=testObject.id)
@@ -288,6 +289,7 @@ def mazeGeneration(request, metadata_id):
             font = queuedMazeQuestionObject.font
             link = queuedMazeQuestionObject.font.link
             style = queuedMazeQuestionObject.font.style
+            size = queuedMazeQuestionObject.font.size
 
             # ----- Formatting -----
             selectedQuestion = Sentence.objects.get(id=selectedQuestionId)
@@ -326,6 +328,7 @@ def mazeGeneration(request, metadata_id):
         "percentProgress" : int((len(testObject.mazeQuestionAttempts.all())) / MAX_MAZE_QUESTIONS  * 100),
         "style" : style,
         "link" : link,
+        "size" : size,
         "fontId" : font.id,
         "POSITIVE_FEEBACK_PROBABILITY_1_OVER_3" : POSITIVE_FEEBACK[0],
         "POSITIVE_FEEBACK_PROBABILITY_1_OVER_9" : POSITIVE_FEEBACK[1],
@@ -559,7 +562,67 @@ def gallery(request):
         "imagePathsAndNames" : imagePathsAndNames})
 
 def addData(request):
-    '''
+
+    with open("words/6th grade.json", 'r') as f:
+        data = json.load(f)
+    f.close()
+    print("-------")
+    for sentence in data.values():
+        for i in sentence:
+            sentenceObject = Sentence (
+                body = i['body'],
+                gradeLevel = "6th grade",
+                selectedWord = i['selectedWord'],
+                distractorWord1 = i['distractorWord1'],
+                distractorWord2 = i['distractorWord2']
+            )
+            sentenceObject.save()
+
+    with open("words/5th grade.json", 'r') as f:
+        data = json.load(f)
+    f.close()
+    print("-------")
+    for sentence in data.values():
+        for i in sentence:
+            sentenceObject = Sentence (
+                body = i['body'],
+                gradeLevel = "5th grade",
+                selectedWord = i['selectedWord'],
+                distractorWord1 = i['distractorWord1'],
+                distractorWord2 = i['distractorWord2']
+            )
+            sentenceObject.save()
+
+    with open("words/4th grade.json", 'r') as f:
+        data = json.load(f)
+    f.close()
+    print("-------")
+    for sentence in data.values():
+        for i in sentence:
+            sentenceObject = Sentence (
+                body = i['body'],
+                gradeLevel = "4th grade",
+                selectedWord = i['selectedWord'],
+                distractorWord1 = i['distractorWord1'],
+                distractorWord2 = i['distractorWord2']
+            )
+            sentenceObject.save()
+
+    with open("words/3rd grade.json", 'r') as f:
+        data = json.load(f)
+    f.close()
+    print("-------")
+    for sentence in data.values():
+        for i in sentence:
+            sentenceObject = Sentence (
+                body = i['body'],
+                gradeLevel = "3rd grade",
+                selectedWord = i['selectedWord'],
+                distractorWord1 = i['distractorWord1'],
+                distractorWord2 = i['distractorWord2']
+            )
+            sentenceObject.save()
+    
     with open("words/2nd grade.json", 'r') as f:
         data = json.load(f)
     f.close()
@@ -574,7 +637,7 @@ def addData(request):
                 distractorWord2 = i['distractorWord2']
             )
             sentenceObject.save()
-
+    '''
     ------
     
     with open(f'words/1st grade.txt','r') as file:
@@ -643,6 +706,7 @@ def addData(request):
             name = font['name'],
             link = font['link'],
             style = font['style'],
+            size = font['size'],
             angular = font['attributes']['angular'],
             artistic = font['attributes']['artistic'],
             attention_grabbing = font['attributes']['attention-grabbing'],

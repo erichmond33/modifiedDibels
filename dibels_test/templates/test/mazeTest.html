@@ -20,7 +20,7 @@
 <div class="row m-auto mb-5 mx-4">
   <div class="col">
     <!--<div class="flex-fill justify-content-center align-text-center">-->
-    <div class="d-flex flex-wrap justify-content-left" style="{{ style }}">
+    <div class="d-flex flex-wrap justify-content-left" style="{{ style }}{{ size }}">
 
       {% for word in splitSentence %}
       {% if word == selection %}
@@ -30,17 +30,17 @@
             <div class="text-sƒtart">
               <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
                 value="{{ randWord1 }}">
-              <label id="custom-btn" class="btn shadow-none" for="option1">{{ randWord1 }}</label>
+              <label id="custom-btn" class="btn shadow-none" for="option1" style="{{ size }}">{{ randWord1 }}</label>
             </div>
             <div class="text-start">
               <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off"
                 value="{{ randWord2 }}">
-              <label id="custom-btn" class="btn shadow-none" for="option2">{{ randWord2 }}</label>
+              <label id="custom-btn" class="btn shadow-none" for="option2" style="{{ size }}">{{ randWord2 }}</label>
             </div>
             <div class="text-start">
               <input type="radio" class="btn-check" name="options" id="option3" autocomplete="on"
                 value="{{ randWord3 }}" required>
-              <label id="custom-btn" class="btn shadow-none" for="option3">{{ randWord3 }}</label>
+              <label id="custom-btn" class="btn shadow-none" for="option3" style="{{ size }}">{{ randWord3 }}</label>
             </div>
           </div>
         </div>

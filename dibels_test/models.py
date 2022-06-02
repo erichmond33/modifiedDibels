@@ -16,6 +16,7 @@ class Font(models.Model):
     name = models.CharField(max_length=50)
     link = models.CharField(max_length=50)
     style = models.CharField(max_length=75)
+    size = models.CharField(max_length=20)
     angular = models.FloatField(blank=True)
     artistic = models.FloatField(blank=True)
     attention_grabbing = models.FloatField(blank=True)
@@ -95,7 +96,7 @@ class queuedMazeQuestion(models.Model):
     queuedWordSelection = models.CharField(max_length=50, blank=True)
     queuedGeneratedWord1 = models.CharField(max_length=50, blank=True)
     queuedGeneratedWord2 = models.CharField(max_length=50, blank=True)
-    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=160)
+    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=300)
 
 
 class Image(models.Model):
