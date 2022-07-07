@@ -176,10 +176,12 @@ input[type=radio]:checked+label {
 #customSubmit {
   background-color: lightgray;
   border: 2px dotted black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #customSubmit:hover {
   background-color: rgba(255,255,255, .6);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px, inset -5px 4px 2.5px rgba(0, 0, 0, 0.4) ;
 }
 
 #questionSubmit {
