@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'modified_dibels.urls'
+ROOT_URLCONF = 'mdibels.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'modified_dibels.wsgi.application'
+WSGI_APPLICATION = 'mdibels.wsgi.application'
 
 
 # Database
