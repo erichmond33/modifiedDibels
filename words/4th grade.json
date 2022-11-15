@@ -283,7 +283,7 @@
             "distractorWord2" : "biting"
         }, 
 	{
-            "body" : "Heath’s dad looked at him with a funny expression.",
+            "body" : "Heath’s dad looked at him with a/an funny expression.",
             "selectedWord" : "funny",
             "distractorWord1" : "naval",
             "distractorWord2" : "uncle"

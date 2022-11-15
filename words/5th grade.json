@@ -37,7 +37,7 @@
             "distractorWord2" : "diary"
         }, 
 	{
-            "body" : "The iPhone is a touchscreen phone.",
+            "body" : "The iPhone is a/an touchscreen phone.",
             "selectedWord" : "touchscreen",
             "distractorWord1" : "icebreakers",
             "distractorWord2" : "tablecloths"
@@ -61,7 +61,7 @@
             "distractorWord2" : "rest"
         }, 
 	{
-            "body" : "The first iPhone had a camera, but it was primitive compared to what we are used to now.",
+            "body" : "The first iPhone had a/an camera, but it was primitive compared to what we are used to now.",
             "selectedWord" : "camera",
             "distractorWord1" : "kitten",
             "distractorWord2" : "answer"
@@ -229,7 +229,7 @@
             "distractorWord2" : "ocean"
         }, 
 	{
-            "body" : "Friends used to greet each other in a casual way by saying, “wassup?”",
+            "body" : "Friends used to greet each other in a/an casual way by saying, “wassup?”",
             "selectedWord" : "casual",
             "distractorWord1" : "napkin",
             "distractorWord2" : "anchor"
@@ -325,7 +325,7 @@
             "distractorWord2" : "factory"
         }, 
 	{
-            "body" : "The military gave us a combo of dangerous and enormous: ginormous.",
+            "body" : "The military gave us a/an combo of dangerous and enormous: ginormous.",
             "selectedWord" : "combo",
             "distractorWord1" : "water",
             "distractorWord2" : "angel"
@@ -529,7 +529,7 @@
             "distractorWord2" : "expertise"
         }, 
 	{
-            "body" : "If you speak more than one language you can find more friends, and you will probably have a wider choice of jobs to do when you are older.",
+            "body" : "If you speak more than one language you can find more friends, and you will probably have a/an wider choice of jobs to do when you are older.",
             "selectedWord" : "wider",
             "distractorWord1" : "masks",
             "distractorWord2" : "entry"

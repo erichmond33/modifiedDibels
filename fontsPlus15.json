@@ -41,7 +41,8 @@
             "thin": 34.05,
             "warm": 76.23,
             "wide": 45.18
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "AdventPro-SemiBold": {
         "name": "AdventPro-SemiBold",
@@ -85,7 +86,8 @@
             "thin": 51.55,
             "warm": 55.61,
             "wide": 40.3
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Alegreya-BoldItalic": {
         "name": "Alegreya-BoldItalic",
@@ -129,7 +131,8 @@
             "thin": 35.48,
             "warm": 87.06,
             "wide": 41.08
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "AllertaStencil-Regular": {
         "name": "AllertaStencil-Regular",
@@ -173,7 +176,8 @@
             "thin": 40.47,
             "warm": 69.36,
             "wide": 63.16
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Amethysta-Regular": {
         "name": "Amethysta-Regular",
@@ -217,7 +221,8 @@
             "thin": 51.35,
             "warm": 49.21,
             "wide": 52.91
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "ArchivoNarrow-Regular": {
         "name": "ArchivoNarrow-Regular",
@@ -261,7 +266,8 @@
             "thin": 58.14,
             "warm": 61.15,
             "wide": 37.13
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Arimo-Bold": {
         "name": "Arimo-Bold",
@@ -305,7 +311,8 @@
             "thin": 27.24,
             "warm": 72.27,
             "wide": 58.04
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Arimo-BoldItalic": {
         "name": "Arimo-BoldItalic",
@@ -349,7 +356,8 @@
             "thin": 30.09,
             "warm": 81.97,
             "wide": 58.75
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Arizonia-Regular": {
         "name": "Arizonia-Regular",
@@ -393,7 +401,8 @@
             "thin": 76.43,
             "warm": 55.71,
             "wide": 22.2
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "Arvo-Bold": {
         "name": "Arvo-Bold",
@@ -437,7 +446,8 @@
             "thin": 20.99,
             "warm": 82.7,
             "wide": 61.1
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Arvo-BoldItalic": {
         "name": "Arvo-BoldItalic",
@@ -481,7 +491,8 @@
             "thin": 17.86,
             "warm": 73.18,
             "wide": 62.0
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Arvo-Italic": {
         "name": "Arvo-Italic",
@@ -525,7 +536,8 @@
             "thin": 41.58,
             "warm": 73.65,
             "wide": 59.73
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Asap-Regular": {
         "name": "Asap-Regular",
@@ -569,7 +581,8 @@
             "thin": 54.03,
             "warm": 64.8,
             "wide": 48.08
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Asset": {
         "name": "Asset",
@@ -613,7 +626,8 @@
             "thin": 1.08,
             "warm": 71.87,
             "wide": 77.89
-        }
+        },
+        "size": "font-size: 1rem;"
     },
     "Astloch-Bold": {
         "name": "Astloch-Bold",
@@ -657,7 +671,8 @@
             "thin": 49.43,
             "warm": 53.53,
             "wide": 37.33
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "AveriaLibre-LightItalic": {
         "name": "AveriaLibre-LightItalic",
@@ -701,7 +716,8 @@
             "thin": 65.99,
             "warm": 51.75,
             "wide": 41.47
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "AveriaSansLibre-Italic": {
         "name": "AveriaSansLibre-Italic",
@@ -745,7 +761,8 @@
             "thin": 61.28,
             "warm": 67.11,
             "wide": 43.96
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "AveriaSerifLibre-Italic": {
         "name": "AveriaSerifLibre-Italic",
@@ -789,7 +806,8 @@
             "thin": 55.27,
             "warm": 78.5,
             "wide": 44.61
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "BadScript-Regular": {
         "name": "BadScript-Regular",
@@ -833,7 +851,8 @@
             "thin": 80.49,
             "warm": 57.72,
             "wide": 37.83
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "BenchNine-Regular": {
         "name": "BenchNine-Regular",
@@ -877,7 +896,8 @@
             "thin": 64.13,
             "warm": 35.43,
             "wide": 22.12
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "Bentham-Regular": {
         "name": "Bentham-Regular",
@@ -921,7 +941,8 @@
             "thin": 65.91,
             "warm": 55.17,
             "wide": 44.27
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "BilboSwashCaps-Regular": {
         "name": "BilboSwashCaps-Regular",
@@ -965,7 +986,8 @@
             "thin": 78.91,
             "warm": 43.08,
             "wide": 21.22
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "BlackOpsOne-Regular": {
         "name": "BlackOpsOne-Regular",
@@ -1009,7 +1031,8 @@
             "thin": 5.02,
             "warm": 79.38,
             "wide": 66.76
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "BowlbyOneSC-Regular": {
         "name": "BowlbyOneSC-Regular",
@@ -1053,7 +1076,8 @@
             "thin": 7.79,
             "warm": 72.17,
             "wide": 78.1
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Buenard-Bold": {
         "name": "Buenard-Bold",
@@ -1097,7 +1121,8 @@
             "thin": 36.12,
             "warm": 78.64,
             "wide": 49.12
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Cabin-SemiBoldItalic": {
         "name": "Cabin-SemiBoldItalic",
@@ -1141,7 +1166,8 @@
             "thin": 38.7,
             "warm": 70.89,
             "wide": 47.1
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "CabinCondensed-Medium": {
         "name": "CabinCondensed-Medium",
@@ -1185,7 +1211,8 @@
             "thin": 47.11,
             "warm": 61.57,
             "wide": 42.27
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "CantoraOne-Regular": {
         "name": "CantoraOne-Regular",
@@ -1229,7 +1256,8 @@
             "thin": 32.5,
             "warm": 78.68,
             "wide": 46.12
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Cardo-Italic": {
         "name": "Cardo-Italic",
@@ -1273,7 +1301,8 @@
             "thin": 78.09,
             "warm": 64.49,
             "wide": 39.36
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Chivo-Italic": {
         "name": "Chivo-Italic",
@@ -1317,7 +1346,8 @@
             "thin": 51.99,
             "warm": 71.5,
             "wide": 53.01
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "ClickerScript-Regular": {
         "name": "ClickerScript-Regular",
@@ -1361,7 +1391,8 @@
             "thin": 87.1,
             "warm": 46.63,
             "wide": 21.88
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "Dosis-Light": {
         "name": "Dosis-Light",
@@ -1405,7 +1436,8 @@
             "thin": 91.74,
             "warm": 31.96,
             "wide": 35.54
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "EagleLake-Regular": {
         "name": "EagleLake-Regular",
@@ -1449,7 +1481,8 @@
             "thin": 40.97,
             "warm": 84.91,
             "wide": 70.73
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Economica-Italic": {
         "name": "Economica-Italic",
@@ -1493,7 +1526,8 @@
             "thin": 74.29,
             "warm": 17.98,
             "wide": 23.23
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "EmblemaOne-Regular": {
         "name": "EmblemaOne-Regular",
@@ -1537,7 +1571,8 @@
             "thin": 14.53,
             "warm": 89.08,
             "wide": 64.95
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Enriqueta-Regular": {
         "name": "Enriqueta-Regular",
@@ -1581,7 +1616,8 @@
             "thin": 55.33,
             "warm": 62.13,
             "wide": 52.28
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "FanwoodText-Italic": {
         "name": "FanwoodText-Italic",
@@ -1625,7 +1661,8 @@
             "thin": 71.52,
             "warm": 61.14,
             "wide": 33.08
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "FredokaOne-Regular": {
         "name": "FredokaOne-Regular",
@@ -1669,7 +1706,8 @@
             "thin": 6.11,
             "warm": 75.58,
             "wide": 63.16
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "GoudyBookletter1911": {
         "name": "GoudyBookletter1911",
@@ -1713,7 +1751,8 @@
             "thin": 60.97,
             "warm": 59.5,
             "wide": 43.03
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "GreatVibes-Regular": {
         "name": "GreatVibes-Regular",
@@ -1757,7 +1796,8 @@
             "thin": 81.37,
             "warm": 62.56,
             "wide": 22.96
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "HeadlandOne-Regular": {
         "name": "HeadlandOne-Regular",
@@ -1801,7 +1841,8 @@
             "thin": 45.32,
             "warm": 77.31,
             "wide": 62.04
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Iceland-Regular": {
         "name": "Iceland-Regular",
@@ -1845,7 +1886,8 @@
             "thin": 71.7,
             "warm": 37.18,
             "wide": 40.62
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "Inconsolata-Regular": {
         "name": "Inconsolata-Regular",
@@ -1889,7 +1931,8 @@
             "thin": 74.03,
             "warm": 13.69,
             "wide": 46.89
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "IstokWeb-Bold": {
         "name": "IstokWeb-Bold",
@@ -1933,7 +1976,8 @@
             "thin": 27.31,
             "warm": 79.54,
             "wide": 53.57
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "JosefinSans-SemiBoldItalic": {
         "name": "JosefinSans-SemiBoldItalic",
@@ -1977,7 +2021,8 @@
             "thin": 76.2,
             "warm": 52.31,
             "wide": 38.28
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Julee-Regular": {
         "name": "Julee-Regular",
@@ -2021,7 +2066,8 @@
             "thin": 63.03,
             "warm": 47.43,
             "wide": 35.7
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Jura-Light": {
         "name": "Jura-Light",
@@ -2065,7 +2111,8 @@
             "thin": 88.81,
             "warm": 36.68,
             "wide": 43.58
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "KellySlab-Regular": {
         "name": "KellySlab-Regular",
@@ -2109,7 +2156,8 @@
             "thin": 53.43,
             "warm": 54.81,
             "wide": 46.63
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Kenia-Regular": {
         "name": "Kenia-Regular",
@@ -2153,7 +2201,8 @@
             "thin": 27.87,
             "warm": 67.26,
             "wide": 40.86
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "Lato-BlackItalic": {
         "name": "Lato-BlackItalic",
@@ -2197,7 +2246,8 @@
             "thin": 23.27,
             "warm": 90.68,
             "wide": 55.13
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Lato-BoldItalic": {
         "name": "Lato-BoldItalic",
@@ -2241,7 +2291,8 @@
             "thin": 34.76,
             "warm": 91.84,
             "wide": 47.25
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Lato-Italic": {
         "name": "Lato-Italic",
@@ -2285,7 +2336,8 @@
             "thin": 55.1,
             "warm": 74.53,
             "wide": 41.7
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "Lekton-Italic": {
         "name": "Lekton-Italic",
@@ -2329,7 +2381,8 @@
             "thin": 95.69,
             "warm": 34.55,
             "wide": 42.38
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "LifeSavers-Bold": {
         "name": "LifeSavers-Bold",
@@ -2373,7 +2426,8 @@
             "thin": 64.82,
             "warm": 64.04,
             "wide": 51.72
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Lobster": {
         "name": "Lobster",
@@ -2417,7 +2471,8 @@
             "thin": 18.88,
             "warm": 84.77,
             "wide": 42.55
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "LobsterTwo-Italic": {
         "name": "LobsterTwo-Italic",
@@ -2461,7 +2516,8 @@
             "thin": 45.33,
             "warm": 74.75,
             "wide": 42.26
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "Lora-BoldItalic": {
         "name": "Lora-BoldItalic",
@@ -2505,7 +2561,8 @@
             "thin": 33.07,
             "warm": 89.38,
             "wide": 51.77
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Magra-Bold": {
         "name": "Magra-Bold",
@@ -2549,7 +2606,8 @@
             "thin": 19.34,
             "warm": 80.41,
             "wide": 48.43
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "MarckScript-Regular": {
         "name": "MarckScript-Regular",
@@ -2593,7 +2651,8 @@
             "thin": 75.84,
             "warm": 72.32,
             "wide": 34.41
-        }
+        },
+        "size": "font-size: 1.35rem;"
     },
     "Marvel-Bold": {
         "name": "Marvel-Bold",
@@ -2637,7 +2696,8 @@
             "thin": 77.12,
             "warm": 38.0,
             "wide": 0.0
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Marvel-BoldItalic": {
         "name": "Marvel-BoldItalic",
@@ -2681,7 +2741,8 @@
             "thin": 69.57,
             "warm": 41.04,
             "wide": 31.98
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Megrim": {
         "name": "Megrim",
@@ -2725,7 +2786,8 @@
             "thin": 99.69,
             "warm": 34.5,
             "wide": 50.67
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "Merriweather-Bold": {
         "name": "Merriweather-Bold",
@@ -2769,7 +2831,8 @@
             "thin": 32.12,
             "warm": 81.57,
             "wide": 62.96
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Milonga-Regular": {
         "name": "Milonga-Regular",
@@ -2813,7 +2876,8 @@
             "thin": 55.96,
             "warm": 70.3,
             "wide": 53.13
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "ModernAntiqua-Regular": {
         "name": "ModernAntiqua-Regular",
@@ -2857,7 +2921,8 @@
             "thin": 52.29,
             "warm": 71.61,
             "wide": 54.09
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Montez-Regular": {
         "name": "Montez-Regular",
@@ -2901,7 +2966,8 @@
             "thin": 79.23,
             "warm": 39.6,
             "wide": 28.62
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "NanumGothicCoding-Bold": {
         "name": "NanumGothicCoding-Bold",
@@ -2945,7 +3011,8 @@
             "thin": 30.72,
             "warm": 70.56,
             "wide": 47.06
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Neuton-Light": {
         "name": "Neuton-Light",
@@ -2989,7 +3056,8 @@
             "thin": 72.78,
             "warm": 43.61,
             "wide": 42.72
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Niconne-Regular": {
         "name": "Niconne-Regular",
@@ -3033,7 +3101,8 @@
             "thin": 72.83,
             "warm": 68.91,
             "wide": 27.91
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "Nobile-Medium": {
         "name": "Nobile-Medium",
@@ -3077,7 +3146,8 @@
             "thin": 29.79,
             "warm": 80.6,
             "wide": 57.09
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Nobile-MediumItalic": {
         "name": "Nobile-MediumItalic",
@@ -3121,7 +3191,8 @@
             "thin": 47.86,
             "warm": 71.15,
             "wide": 49.65
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "NovaRound": {
         "name": "NovaRound",
@@ -3165,7 +3236,8 @@
             "thin": 52.62,
             "warm": 63.82,
             "wide": 49.12
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Oldenburg-Regular": {
         "name": "Oldenburg-Regular",
@@ -3209,7 +3281,8 @@
             "thin": 51.71,
             "warm": 67.86,
             "wide": 56.74
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Oranienbaum-Regular": {
         "name": "Oranienbaum-Regular",
@@ -3253,7 +3326,8 @@
             "thin": 72.15,
             "warm": 60.08,
             "wide": 39.26
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Orbitron-Black": {
         "name": "Orbitron-Black",
@@ -3297,7 +3371,8 @@
             "thin": 15.32,
             "warm": 63.18,
             "wide": 66.24
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Orbitron-Medium": {
         "name": "Orbitron-Medium",
@@ -3341,7 +3416,8 @@
             "thin": 34.08,
             "warm": 59.28,
             "wide": 65.49
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "OriginalSurfer-Regular": {
         "name": "OriginalSurfer-Regular",
@@ -3385,7 +3461,8 @@
             "thin": 42.53,
             "warm": 81.31,
             "wide": 49.99
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Oswald-Bold": {
         "name": "Oswald-Bold",
@@ -3429,7 +3506,8 @@
             "thin": 19.94,
             "warm": 66.41,
             "wide": 49.51
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Oswald-Regular": {
         "name": "Oswald-Regular",
@@ -3473,7 +3551,8 @@
             "thin": 33.24,
             "warm": 68.61,
             "wide": 40.26
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Overlock-Italic": {
         "name": "Overlock-Italic",
@@ -3517,7 +3596,8 @@
             "thin": 68.64,
             "warm": 57.01,
             "wide": 39.59
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Paprika-Regular": {
         "name": "Paprika-Regular",
@@ -3561,7 +3641,8 @@
             "thin": 44.72,
             "warm": 83.98,
             "wide": 55.89
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Parisienne-Regular": {
         "name": "Parisienne-Regular",
@@ -3605,7 +3686,8 @@
             "thin": 80.31,
             "warm": 51.21,
             "wide": 26.35
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "PasseroOne-Regular": {
         "name": "PasseroOne-Regular",
@@ -3649,7 +3731,8 @@
             "thin": 33.13,
             "warm": 62.6,
             "wide": 41.75
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "PlayfairDisplay-Black": {
         "name": "PlayfairDisplay-Black",
@@ -3693,7 +3776,8 @@
             "thin": 18.26,
             "warm": 78.04,
             "wide": 65.6
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "PlayfairDisplay-Italic": {
         "name": "PlayfairDisplay-Italic",
@@ -3737,7 +3821,8 @@
             "thin": 66.67,
             "warm": 65.88,
             "wide": 45.85
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "PlayfairDisplaySC-BoldItalic": {
         "name": "PlayfairDisplaySC-BoldItalic",
@@ -3781,7 +3866,8 @@
             "thin": 24.86,
             "warm": 77.03,
             "wide": 73.52
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "PressStart2P-Regular": {
         "name": "PressStart2P-Regular",
@@ -3825,7 +3911,8 @@
             "thin": 19.6,
             "warm": 68.83,
             "wide": 97.66
-        }
+        },
+        "size": "font-size: 1rem;"
     },
     "Puritan-Bold": {
         "name": "Puritan-Bold",
@@ -3869,7 +3956,8 @@
             "thin": 42.86,
             "warm": 65.58,
             "wide": 43.77
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "QuattrocentoSans-Italic": {
         "name": "QuattrocentoSans-Italic",
@@ -3913,7 +4001,8 @@
             "thin": 73.88,
             "warm": 50.72,
             "wide": 47.36
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "RacingSansOne-Regular": {
         "name": "RacingSansOne-Regular",
@@ -3957,7 +4046,8 @@
             "thin": 9.88,
             "warm": 89.4,
             "wide": 56.38
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Raleway-Bold": {
         "name": "Raleway-Bold",
@@ -4001,7 +4091,8 @@
             "thin": 26.81,
             "warm": 74.81,
             "wide": 57.64
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Raleway-SemiBold": {
         "name": "Raleway-SemiBold",
@@ -4045,7 +4136,8 @@
             "thin": 40.67,
             "warm": 85.5,
             "wide": 53.45
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Rambla-Regular": {
         "name": "Rambla-Regular",
@@ -4089,7 +4181,8 @@
             "thin": 51.77,
             "warm": 53.82,
             "wide": 43.61
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Ranchers-Regular": {
         "name": "Ranchers-Regular",
@@ -4133,7 +4226,8 @@
             "thin": 12.86,
             "warm": 74.63,
             "wide": 49.41
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Rationale-Regular": {
         "name": "Rationale-Regular",
@@ -4177,7 +4271,8 @@
             "thin": 61.38,
             "warm": 51.7,
             "wide": 37.23
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Redressed": {
         "name": "Redressed",
@@ -4221,7 +4316,8 @@
             "thin": 63.75,
             "warm": 71.84,
             "wide": 32.92
-        }
+        },
+        "size": "font-size: 1.35rem;"
     },
     "Roboto-Black": {
         "name": "Roboto-Black",
@@ -4265,7 +4361,8 @@
             "thin": 17.44,
             "warm": 81.95,
             "wide": 55.52
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Roboto-Light": {
         "name": "Roboto-Light",
@@ -4309,7 +4406,8 @@
             "thin": 77.65,
             "warm": 50.37,
             "wide": 48.24
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Roboto-MediumItalic": {
         "name": "Roboto-MediumItalic",
@@ -4353,7 +4451,8 @@
             "thin": 40.71,
             "warm": 77.91,
             "wide": 53.51
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Roboto-Regular": {
         "name": "Roboto-Regular",
@@ -4397,7 +4496,8 @@
             "thin": 47.99,
             "warm": 58.73,
             "wide": 53.45
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "RobotoCondensed-Light": {
         "name": "RobotoCondensed-Light",
@@ -4441,7 +4541,8 @@
             "thin": 76.14,
             "warm": 38.04,
             "wide": 32.29
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "RobotoCondensed-Regular": {
         "name": "RobotoCondensed-Regular",
@@ -4485,7 +4586,8 @@
             "thin": 46.88,
             "warm": 60.72,
             "wide": 42.77
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Rokkitt-Light": {
         "name": "Rokkitt-Light",
@@ -4529,7 +4631,8 @@
             "thin": 88.22,
             "warm": 15.84,
             "wide": 45.27
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "RopaSans-Regular": {
         "name": "RopaSans-Regular",
@@ -4573,7 +4676,8 @@
             "thin": 58.17,
             "warm": 53.14,
             "wide": 40.9
-        }
+        },
+        "size": "font-size: 1.25rem;"
     },
     "Rosario-Bold": {
         "name": "Rosario-Bold",
@@ -4617,7 +4721,8 @@
             "thin": 35.91,
             "warm": 75.56,
             "wide": 46.83
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Rosarivo-Italic": {
         "name": "Rosarivo-Italic",
@@ -4661,7 +4766,8 @@
             "thin": 65.99,
             "warm": 67.05,
             "wide": 45.24
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Sacramento-Regular": {
         "name": "Sacramento-Regular",
@@ -4705,7 +4811,8 @@
             "thin": 92.66,
             "warm": 59.47,
             "wide": 23.09
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "Sevillana-Regular": {
         "name": "Sevillana-Regular",
@@ -4749,7 +4856,8 @@
             "thin": 83.22,
             "warm": 62.14,
             "wide": 21.98
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Share-BoldItalicOSF": {
         "name": "Share-BoldItalicOSF",
@@ -4793,7 +4901,8 @@
             "thin": 27.45,
             "warm": 81.06,
             "wide": 45.93
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Share-BoldOSF": {
         "name": "Share-BoldOSF",
@@ -4837,7 +4946,8 @@
             "thin": 30.36,
             "warm": 73.39,
             "wide": 45.7
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "ShareTech-Regular": {
         "name": "ShareTech-Regular",
@@ -4881,7 +4991,8 @@
             "thin": 58.71,
             "warm": 51.97,
             "wide": 37.95
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "SigmarOne": {
         "name": "SigmarOne",
@@ -4925,7 +5036,8 @@
             "thin": 9.36,
             "warm": 72.57,
             "wide": 73.43
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Signika-Light": {
         "name": "Signika-Light",
@@ -4969,7 +5081,8 @@
             "thin": 61.05,
             "warm": 51.55,
             "wide": 41.57
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Signika-Semibold": {
         "name": "Signika-Semibold",
@@ -5013,7 +5126,8 @@
             "thin": 31.2,
             "warm": 78.97,
             "wide": 47.41
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Simonetta-Black": {
         "name": "Simonetta-Black",
@@ -5057,7 +5171,8 @@
             "thin": 20.83,
             "warm": 91.94,
             "wide": 49.04
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Slackey": {
         "name": "Slackey",
@@ -5101,7 +5216,8 @@
             "thin": 15.74,
             "warm": 71.93,
             "wide": 68.8
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Smokum-Regular": {
         "name": "Smokum-Regular",
@@ -5145,7 +5261,8 @@
             "thin": 48.4,
             "warm": 54.36,
             "wide": 31.2
-        }
+        },
+        "size": "font-size: 1.5rem;"
     },
     "SonsieOne-Regular": {
         "name": "SonsieOne-Regular",
@@ -5189,7 +5306,8 @@
             "thin": 5.03,
             "warm": 84.61,
             "wide": 75.91
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "SourceCodePro-Black": {
         "name": "SourceCodePro-Black",
@@ -5233,7 +5351,8 @@
             "thin": 22.73,
             "warm": 81.94,
             "wide": 64.03
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "SourceCodePro-ExtraLight": {
         "name": "SourceCodePro-ExtraLight",
@@ -5277,7 +5396,8 @@
             "thin": 94.47,
             "warm": 27.76,
             "wide": 56.95
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "SourceCodePro-Light": {
         "name": "SourceCodePro-Light",
@@ -5321,7 +5441,8 @@
             "thin": 95.29,
             "warm": 24.98,
             "wide": 55.97
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "SourceSansPro-Semibold": {
         "name": "SourceSansPro-Semibold",
@@ -5365,7 +5486,8 @@
             "thin": 40.61,
             "warm": 71.26,
             "wide": 49.37
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "StardosStencil-Bold": {
         "name": "StardosStencil-Bold",
@@ -5409,7 +5531,8 @@
             "thin": 31.44,
             "warm": 75.97,
             "wide": 56.59
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Strait-Regular": {
         "name": "Strait-Regular",
@@ -5453,7 +5576,8 @@
             "thin": 60.14,
             "warm": 43.02,
             "wide": 38.26
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Syncopate-Bold": {
         "name": "Syncopate-Bold",
@@ -5497,7 +5621,8 @@
             "thin": 9.09,
             "warm": 62.75,
             "wide": 88.46
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Telex-Regular": {
         "name": "Telex-Regular",
@@ -5541,7 +5666,8 @@
             "thin": 50.55,
             "warm": 55.5,
             "wide": 51.16
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Tinos-Bold": {
         "name": "Tinos-Bold",
@@ -5585,7 +5711,8 @@
             "thin": 31.59,
             "warm": 80.86,
             "wide": 47.8
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "TitilliumWeb-Black": {
         "name": "TitilliumWeb-Black",
@@ -5629,7 +5756,8 @@
             "thin": 10.49,
             "warm": 60.22,
             "wide": 57.45
-        }
+        },
+        "size": "font-size: 1.4rem;"
     },
     "Trochut-Italic": {
         "name": "Trochut-Italic",
@@ -5673,7 +5801,8 @@
             "thin": 61.19,
             "warm": 63.75,
             "wide": 36.88
-        }
+        },
+        "size": "font-size: 1.35rem;"
     },
     "Ubuntu-Italic": {
         "name": "Ubuntu-Italic",
@@ -5717,7 +5846,8 @@
             "thin": 50.72,
             "warm": 58.39,
             "wide": 53.14
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "UbuntuCondensed-Regular": {
         "name": "UbuntuCondensed-Regular",
@@ -5761,7 +5891,8 @@
             "thin": 55.66,
             "warm": 50.67,
             "wide": 39.52
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "UbuntuMono-Bold": {
         "name": "UbuntuMono-Bold",
@@ -5805,7 +5936,8 @@
             "thin": 21.34,
             "warm": 55.58,
             "wide": 49.36
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "UbuntuMono-Italic": {
         "name": "UbuntuMono-Italic",
@@ -5849,7 +5981,8 @@
             "thin": 61.99,
             "warm": 64.69,
             "wide": 46.81
-        }
+        },
+        "size": "font-size: 1.15rem;"
     },
     "Wellfleet-Regular": {
         "name": "Wellfleet-Regular",
@@ -5893,6 +6026,7 @@
             "thin": 36.64,
             "warm": 67.82,
             "wide": 61.13
-        }
+        },
+        "size": "font-size: 1.15rem;"
     }
 }

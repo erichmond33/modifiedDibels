@@ -517,7 +517,7 @@
             "distractorWord2" : "bow"
         }, 
 	{
-            "body" : "After some time had passed, movie theater managers saw that they could make an added profit by making and selling popcorn in the theater lobbies.",
+            "body" : "After some time had passed, movie theater managers saw that they could make a/an added profit by making and selling popcorn in the theater lobbies.",
             "selectedWord" : "added",
             "distractorWord1" : "brand",
             "distractorWord2" : "prune"
