@@ -1,0 +1,315 @@
+/* ----- Layout -----background: linear-gradient(180deg, #7bd4bc 0%,#e4f6f1 160%);
+} */
+
+#main-container {
+  background: linear-gradient(180deg, #6ea7f0 30%,#81ef7d 70%);
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#main-container-layer1 {
+  position:absolute;
+  right: -20vmax;
+  top: -35vmax;
+  border-radius: 50%;
+  height: 50vmax;
+  width: 50vmax;
+  background: linear-gradient(225deg,yellow 1%, red 100%);
+  display: none;
+}
+
+#main-container-layer3 {
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 1000% 0 0;
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(180deg,#81ef7d 1%,#40ba0b 250%);
+
+}
+
+#main-container-layer2 {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 100% 00% 0 0;
+  height: 30%;
+  width: 20%;
+  background: linear-gradient(180deg,#81ef7d 1%,#40ba0b 180%);
+}
+
+#logo-div {
+  border-radius: 50%;
+  background: linear-gradient(180deg, #6ea7f0 20%,#81ef7d 80%);
+  padding:0;
+  margin-right:16px;
+  margin-left:16px;
+  box-shadow: -10px 7px 5px rgba(0, 0, 0, 0.3);
+}
+
+#logo-img {
+  z-index: 1;
+  border-radius: 50%;
+  position: relative;
+  top:5px;
+}
+
+#customButton2 {
+  color:black;
+  background-color: rgba(255,255,255, .6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border:none;
+}
+
+#customButton2:hover {
+  background-color: rgba(0,0,0, .4);
+  color: white;
+}
+
+#navButton {
+  color:black;
+  background-color: rgba(255,255,255, .6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border:none;
+}
+
+#navbButton:hover {
+  background-color: rgba(0,0,0, .4);
+  color: white;
+}
+
+#offcanvasExample {
+  width: 280px;
+  background-color: rgba(255,255,255, .6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.offcanvas {
+  background-color: yellow;
+} 
+
+.offcanvas div.offcanvas-body div.navHeaderLeft {
+  border-bottom: 2px dotted black;
+  text-align: right;
+  width: 140px;
+}
+
+.offcanvas div.offcanvas-body div.navHeaderRight {
+  border-bottom: 2px dotted black;
+}
+
+.offcanvas div.offcanvas-body button {
+  width: 110.844px;
+}
+.offcanvas div.offcanvas-header#footer button {
+  width: 110.844px;
+}
+
+#footer {
+  border-top: 2px dotted black;
+  width: 100%;
+}
+
+.offcanvas-header #footerBtn:hover {
+  background:linear-gradient(180deg, #6ea7f0 30%,#81ef7d 70%);
+}
+
+#testArea {
+  overflow-y: scroll;
+  padding:0%;
+  margin:0%;
+  position: relative;
+}
+#testContent {
+  border: 1px transparent solid;
+  border-radius: 15px;
+  background-color: rgba(255,255,255, .6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* --- The Maze Test --- */
+
+#options {
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-left: 5px;
+  border: 2px dotted black;
+}
+
+#custom-btn {
+  color:black;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 3px 6px 3px 6px;
+}
+
+#custom-btn:hover {
+  background-color: rgba(255,255,255, .6);
+}
+
+input[type=radio]:checked+label {
+  /* Or `#a1:checked+label` if you only want it for that input */
+  background-color: rgba(255,255,255, .6);
+  }
+
+.words {
+  margin-left: 5px;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.spaceBeginning {
+  margin-left: 5px;
+}
+
+.spaceEnd {
+  margin-right: 5px;
+}
+
+#customSubmit {
+  background-color: lightgray;
+  border: 2px dotted black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#customSubmit:hover {
+  background-color: rgba(255,255,255, .6);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px, inset -5px 4px 2.5px rgba(0, 0, 0, 0.4) ;
+}
+
+#questionSubmit {
+  background-color: lightgray;
+  border: 2px dotted black;
+  box-shadow: -10px 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+#questionSubmit:hover {
+  background-color: rgba(255,255,255, .6);
+  box-shadow: -5px 4px 2.5px rgba(0, 0, 0, 0.4), inset -5px 4px 2.5px rgba(0, 0, 0, 0.4) ;
+}
+
+.col .progress {
+  background-color: white;
+}
+
+.progress .progress-bar {
+  background-color: #6ea7f0;
+}
+
+
+/* ----- Image Test ----- */
+
+#image-radio-btn {
+  color:black;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3px 6px 3px 6px;
+}
+
+#image-radio-btn:hover {
+  border: 1px solid black;
+}
+
+/* ----- continueTesting.html ----- */
+
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-bottom: 2px dotted black;
+  border-radius: 10px 10px 0 0;
+}
+
+.styled-table div.thead div.active-row {
+  background-color: lightgray;
+  color: black;
+  text-align: left;
+  border-radius: 10px 10px 0px 0;
+  border: 2px dotted black;
+}
+
+.styled-table div.th,
+.styled-table div.td {
+    padding: 12px 15px;
+}
+
+.styled-table div.tbody div.tr1 {
+  background-color: rgba(255,255,255, .6);
+}
+
+.styled-table div.tbody div.tr1:hover {
+  text-decoration:underline;
+}
+
+.styled-table div.tbody div.tr2:hover {
+  text-decoration:underline;
+}
+
+.styled-table div.tbody div.tr{
+  font-weight: bold;
+  color: black;
+}
+
+.styled-table a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----- congrats ------ */
+
+@keyframes fade-out {
+  0% {
+      opacity: 100;
+  }
+  75% {
+    opacity: 100;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+.congrats-background  {
+  background-color: transparent;
+  position: fixed;
+  top:0;
+  left: 0;
+  text-align: center;
+  animation: fade-out 2s;
+  animation-fill-mode: both;
+  width:50%
+
+}
+
+@keyframes fade-in-left {
+  0% {
+      left:-500px;
+  }
+  100% {
+      left:0;
+  }
+}
+
+.congrats-background .congrats-img {
+  background-color: transparent;
+  position: relative;
+  animation: fade-in-left 1s;
+}
+
+.toast {
+  show:True;
+}
+
+

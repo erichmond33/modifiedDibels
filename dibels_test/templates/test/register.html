@@ -13,8 +13,8 @@
             <form action="{% url 'register' %}" method="post">
                 {% csrf_token %}
                 <div class="col-md-5 col-10 mb-3 mx-auto">
-                    <label for="testAdmin" class="form-label">Test Administrator</label>
-                    <input autofocus class="form-control" type="text" name="username" placeholder="ie John Smith" required>
+                    <label for="testAdmin" class="form-label">Username</label>
+                    <input autofocus class="form-control" type="text" name="username" placeholder="ex John Smith" required>
                 </div>
                 <div class="col-md-5 col-10 mb-3 mx-auto">
                   <label for="testTaker" class="form-label">Password</label>

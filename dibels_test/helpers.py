@@ -50,10 +50,6 @@ class mazeGenerationHelpers():
         wordIndex = self.getWordIndex(
             splitBySpacesNoPunctuation,
             selectedWord)
-        
-        splitBySpaces = self.replaceAWithAOrAn(
-            splitBySpaces,
-            wordIndex)
 
         selectedWordWithMessyChars = splitBySpaces[wordIndex]
         del splitBySpaces[wordIndex]
@@ -73,36 +69,18 @@ class generationHelpers():
 
     def positiveFeedbackWithRandomnessAfterCorrectAnswer (previousQuestionCorrectness):
 
-        POSITIVE_FEEBACK_TEXTS = [
-            "You are doing a fantastic job",
-            "This is a really great effort",
-            "Keep it up!",
-            "First class work!",
-            "Your determination is very impressive",
-            "I knew you could do it :)",
-            "Sensational!",
-            "Your effort does not go unnocticed",
-            "Keep going! :)))",
-            "Truly great job"
-        ]
-
-        POSITIVE_FEEDBACK_EMOJIS= [
-            "😆😆😆😆😆",
-            "💪🏻💪🏻💪🏻💯💯💯💯",
-            "🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩🤩",
-            "You are on fire 🔥🔥🔥",
-            "🤟🤟🤟🤟",
-            "5️⭐️⭐️⭐️⭐️⭐️",
-            "Too 🥶"
-        ]
-
         POSITIVE_FEEBACK_GIFS = [
             "/static/test/positive_feedback/nachoLibre.gif",
             "/static/test/positive_feedback/theOffice.gif",
             "/static/test/positive_feedback/rickyBobby.gif",
             "/static/test/positive_feedback/mccracken.gif",
             "/static/test/positive_feedback/anchorman.gif",
-
+            "/static/test/positive_feedback/dumbAnd.gif",
+            "/static/test/positive_feedback/dumbAnd2.gif",
+            "/static/test/positive_feedback/hangover.gif",
+            "/static/test/positive_feedback/majorPayne.gif",
+            "/static/test/positive_feedback/rickAstley.gif",
+            "/static/test/positive_feedback/stepBrothers.gif",
         ]
             
         POSITIVE_FEEBACK_PROBABILITY_1_OVER_3 = False
@@ -111,19 +89,13 @@ class generationHelpers():
 
         if previousQuestionCorrectness:
             # 1/3
-            if random.randrange(0,100) <= 33:
-                POSITIVE_FEEBACK_PROBABILITY_1_OVER_3 = random.choice(POSITIVE_FEEBACK_TEXTS)
-                POSITIVE_FEEBACK_TEXTS.remove(POSITIVE_FEEBACK_PROBABILITY_1_OVER_3)
+            if random.randrange(0,100) <= 20:
+                POSITIVE_FEEBACK_PROBABILITY_1_OVER_15 = random.choice(POSITIVE_FEEBACK_GIFS)
 
                 # 1/2
-                if random.randrange(0,2) == 1:
+                #if random.randrange(0,2) == 1:
                     # 1/9
-                    if random.randrange(0,100) <= 66:
-                        POSITIVE_FEEBACK_PROBABILITY_1_OVER_9 = random.choice(POSITIVE_FEEDBACK_EMOJIS)
-
-                else:
-                    # 1/15
-                    if random.randrange(0,100) <= 40:
-                        POSITIVE_FEEBACK_PROBABILITY_1_OVER_15 = random.choice(POSITIVE_FEEBACK_GIFS)
+                    #if random.randrange(0,100) <= 66:
+                        #POSITIVE_FEEBACK_PROBABILITY_1_OVER_9 = random.choice(POSITIVE_FEEBACK_GIFS)
                     
         return [POSITIVE_FEEBACK_PROBABILITY_1_OVER_3, POSITIVE_FEEBACK_PROBABILITY_1_OVER_9, POSITIVE_FEEBACK_PROBABILITY_1_OVER_15]

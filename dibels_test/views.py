@@ -1,3 +1,4 @@
+
 from operator import ge
 #from tkinter.tix import MAX
 from django.shortcuts import redirect, render
@@ -23,6 +24,8 @@ from .helpers import *
 # Create your views here.
 
 MAX_MAZE_QUESTIONS = 25
+MAX_IMAGE_QUESTIONS = 25
+MAX_IMAGE_QUESTIONS_KINDERGARTEN_TEST2 = 10
 
 def index(request):
 
@@ -134,26 +137,31 @@ def mazeAdmin(request):
 def imageAdmin(request):
 
     if request.method == "POST":
-        
-        #Add date and admin to db
-        newTest = imageTest(
-            #testAdmin=request.POST["testAdmin"],
-            testAdmin=request.user.username,
-            #examinee=request.POST["testTaker"],
-            gradeLevel=request.POST["gradeLevel"]
-        )
-        newTest.save()
-
-        queuedImageQuestionObject = queuedImageQuestion(
-                testId = newTest,
-                queuedImageSelection = "null",
-                queuedGeneratedWord1 = "",
-                queuedGeneratedWord2 = ""
+        previousTests = imageTest.objects.filter(testAdmin=request.user.username)
+        if len(previousTests) == 2:
+            return render(request, "test/imageAdmin.html", {"message" : "You can only take 2 image tests. Thank you for participating!"})
+        else:
+            for test in previousTests:
+                if len(test.imageQuestionAttempts.all()) != MAX_IMAGE_QUESTIONS:
+                    return render(request, "test/imageAdmin.html", {"message" : "You have not completed your image test. Please complete your test before taking another."})
+            #Add date and admin to db
+            newTest = imageTest(
+                #testAdmin=request.POST["testAdmin"],
+                testAdmin=request.user.username,
+                #examinee=request.POST["testTaker"],
+                gradeLevel=request.POST["gradeLevel"]
             )
-        queuedImageQuestionObject.save()
+            newTest.save()
 
-        return redirect('imageGeneration', newTest.id)
+            queuedImageQuestionObject = queuedImageQuestion(
+                    testId = newTest,
+                    queuedImageSelection = "null",
+                    queuedGeneratedWord1 = "",
+                    queuedGeneratedWord2 = ""
+                )
+            queuedImageQuestionObject.save()
 
+            return redirect('imageGeneration', newTest.id)
     else:
         return render(request, "test/imageAdmin.html", {"username" : request.user.username})
 
@@ -180,6 +188,7 @@ def mazeSubmission(request):
             wordAttempt=studentAnswer,
             correct=correct,
             font = fontObject)
+
         #Making sure a sentence is only submitted once
         for attempt in testObject.mazeQuestionAttempts.all():
             if senteceObject == attempt.question:
@@ -229,10 +238,9 @@ def mazeGeneration(request, metadata_id):
                 POSITIVE_FEEBACK = generationHelpers.positiveFeedbackWithRandomnessAfterCorrectAnswer(False)
                 print("ERROR mazeGeneration: testObject.mazeQuestionAttempts.last().correct returned NULL")
             else:
-                POSITIVE_FEEBACK = generationHelpers.positiveFeedbackWithRandomnessAfterCorrectAnswer(testObject.mazeQuestionAttempts.last().correct)
+                POSITIVE_FEEBACK = generationHelpers.positiveFeedbackWithRandomnessAfterCorrectAnswer(True)
 
             # ---- selecting the question -----
-            #selectedQuestion = allQuestions[len(testObject.mazeQuestionAttempts.all())]
             selectedQuestion = random.choice(allQuestions)
 
             previousTests = mazeTest.objects.filter(testAdmin=request.user.username)
@@ -342,8 +350,8 @@ def imageSubmission(request):
 
         #Getting the data from post
         id = request.POST["id"]
-        correctAnswer = request.POST["selection"]
-        studentAnswer = request.POST["options"]
+        correctAnswer = request.POST["selection"].strip()
+        studentAnswer = request.POST["options"].strip()
         fontId = request.POST["fontId"]
         correct = True if correctAnswer == studentAnswer else False
 
@@ -355,6 +363,7 @@ def imageSubmission(request):
             wordAttempt=studentAnswer,
             correct=correct,
             font = fontObject)
+
         #Making sure a sentence is only submitted once
         for attempt in testObject.imageQuestionAttempts.all():
             if correctAnswer == attempt.wordSelection:
@@ -380,20 +389,29 @@ def imageGeneration(request, metadata_id):
         testObject = imageTest.objects.get(id=metadata_id)
         if (str(request.user) != (str(testObject.testAdmin))):
             return redirect("home")
-        '''
-        previousTestQuestionsObjects = testObject.imageQuestionAttempts.all()
-        previousTestQuestions = []
-        for questionObject in previousTestQuestionsObjects:
-            previousTestQuestions.append(questionObject.wordSelection)
-        '''
+
         # ----- Checking to see if the test is over -----
         gradeLevel = imageTest.objects.get(id=metadata_id).gradeLevel
         allQuestions = Image.objects.filter(gradeLevel=gradeLevel)
+        previousTests = imageTest.objects.filter(testAdmin=request.user.username)
+        thisTestPreviousQuestions = testObject.imageQuestionAttempts.all()
 
-        if len(testObject.imageQuestionAttempts.all()) == len(allQuestions):
-            queuedImageQuestion.objects.get(testId=testObject.id).delete()
-            return redirect("done")
-
+        if gradeLevel == "1st grade":
+            maxQuestions = MAX_IMAGE_QUESTIONS
+            if len(thisTestPreviousQuestions) == MAX_IMAGE_QUESTIONS:
+                queuedImageQuestion.objects.get(testId=testObject.id).delete()
+                return redirect("done")
+        if gradeLevel == "Kindergarten":
+            if len(previousTests) == 1:
+                maxQuestions = MAX_IMAGE_QUESTIONS
+                if len(thisTestPreviousQuestions) == MAX_IMAGE_QUESTIONS:
+                    queuedImageQuestion.objects.get(testId=testObject.id).delete()
+                    return redirect("done")
+            elif len(previousTests) == 2:
+                maxQuestions = MAX_IMAGE_QUESTIONS_KINDERGARTEN_TEST2
+                if len(thisTestPreviousQuestions) == MAX_IMAGE_QUESTIONS_KINDERGARTEN_TEST2:
+                    queuedImageQuestion.objects.get(testId=testObject.id).delete()
+                    return redirect("done")
 
         if queuedImageQuestion.objects.get(testId=testObject.id).queuedImageSelection == "null":
 
@@ -407,22 +425,25 @@ def imageGeneration(request, metadata_id):
                 POSITIVE_FEEBACK = generationHelpers.positiveFeedbackWithRandomnessAfterCorrectAnswer(testObject.imageQuestionAttempts.last().correct)
 
             # ---- Randomly selecting the question/correct answer -----
-            questionSelectedWord = allQuestions[len(testObject.imageQuestionAttempts.all())].body
-            '''
-            questionSelectedWord = random.choice(possibleTestQuestions)
+            questionSelectedWord = random.choice(allQuestions).body.strip()
+            print(f"questionSelectedWord: \'{questionSelectedWord}\'")
+            allTestsPreviousQuestions = []
+            for test in previousTests:
+                for question in test.imageQuestionAttempts.all():
+                    allTestsPreviousQuestions.append(question.wordSelection.strip())
+            print(f"allTestsPreviousQuestions: {allTestsPreviousQuestions}")
+            while questionSelectedWord in allTestsPreviousQuestions:
+                questionSelectedWord = random.choice(allQuestions).body.strip()
+            print(f"questionSelectedWord: {questionSelectedWord}")
 
-            while questionSelectedWord in previousTestQuestions:
-                questionSelectedWord = random.choice(possibleTestQuestions)
-            '''
-            
             # ----- Randomly selected the alternative answers -----
-            alternativeAnswer1 = random.choice(allQuestions).body
+            alternativeAnswer1 = random.choice(allQuestions).body.strip()
             while (alternativeAnswer1 == questionSelectedWord):
-                alternativeAnswer1 = random.choice(allQuestions).body
+                alternativeAnswer1 = random.choice(allQuestions).body.strip()
 
-            alternativeAnswer2 = random.choice(allQuestions).body
+            alternativeAnswer2 = random.choice(allQuestions).body.strip()
             while (alternativeAnswer2 == alternativeAnswer1) or (alternativeAnswer2 == questionSelectedWord):
-                alternativeAnswer2 = random.choice(allQuestions).body
+                alternativeAnswer2 = random.choice(allQuestions).body.strip()
 
             # ---- get a random font ----- 
             previousTestFonts = []
@@ -434,6 +455,7 @@ def imageGeneration(request, metadata_id):
                 font = random.choice(Font.objects.all())
             style = font.style
             link = font.link
+            size = font.size
 
             # ----- Saving the queued question -----
             queuedImageQuestionObject = queuedImageQuestion.objects.get(testId=testObject.id)
@@ -452,6 +474,7 @@ def imageGeneration(request, metadata_id):
             font = queuedImageQuestionObject.font
             link = queuedImageQuestionObject.font.link
             style = queuedImageQuestionObject.font.style
+            size = queuedImageQuestionObject.font.size
 
             # ----- Positive feedback -----
             POSITIVE_FEEBACK = [False,False,False]
@@ -478,10 +501,11 @@ def imageGeneration(request, metadata_id):
         "randWord3" : shuffledAnswerList[2],
         "id" : metadata_id,
         "nofQuestions" : len(testObject.imageQuestionAttempts.all())+1,
-        "MAX_QUESTIONS" : len(allQuestions),
-        "percentProgress" : int((len(testObject.imageQuestionAttempts.all())) / len(allQuestions)  * 100),
+        "MAX_QUESTIONS" : maxQuestions,
+        "percentProgress" : int((len(testObject.imageQuestionAttempts.all())) / maxQuestions  * 100),
         "style" : style,
         "link" : link,
+        "size" : size,
         "fontId" : font.id,
         "POSITIVE_FEEBACK_PROBABILITY_1_OVER_3" : POSITIVE_FEEBACK[0],
         "POSITIVE_FEEBACK_PROBABILITY_1_OVER_9" : POSITIVE_FEEBACK[1],
@@ -512,26 +536,32 @@ def continueTesting(request):
 
                 allTestsMaze.append(singleTestMaze)
 
-
         allTestsImage = []
         imageTests = imageTest.objects.filter(testAdmin=request.user.username)
+        numberOfImageTestsCounter = 0
         for test in imageTests:
+            numberOfImageTestsCounter += 1
             singleTestImage = []
-            allQuestions1stGrade = []
-            with open(f'words/1st grade.txt','r') as file:
-                    for line in file:
-                        for word in line.split():
-                            allQuestions1stGrade.append(word)
-            if (len(test.imageQuestionAttempts.all()) < len(Image.objects.filter(gradeLevel=test.gradeLevel))):
-                singleTestImage.append(test.id)
-                singleTestImage.append(test.gradeLevel)
-                singleTestImage.append(len(test.imageQuestionAttempts.all())+1)
-                singleTestImage.append(len(Image.objects.filter(gradeLevel=test.gradeLevel)))
-                singleTestImage.append(test.id)
-                singleTestImage.append(test.timestamp)
+            if numberOfImageTestsCounter == 2 and test.gradeLevel == "Kindergarten":
+                if (len(test.imageQuestionAttempts.all()) < MAX_IMAGE_QUESTIONS_KINDERGARTEN_TEST2):
+                    singleTestImage.append(test.id)
+                    singleTestImage.append(test.gradeLevel)
+                    singleTestImage.append(len(test.imageQuestionAttempts.all())+1)
+                    singleTestImage.append(MAX_IMAGE_QUESTIONS_KINDERGARTEN_TEST2)
+                    singleTestImage.append(test.id)
+                    singleTestImage.append(test.timestamp)
 
-                allTestsImage.append(singleTestImage)
+                    allTestsImage.append(singleTestImage)
+            else:
+                if (len(test.imageQuestionAttempts.all()) < MAX_IMAGE_QUESTIONS):
+                    singleTestImage.append(test.id)
+                    singleTestImage.append(test.gradeLevel)
+                    singleTestImage.append(len(test.imageQuestionAttempts.all())+1)
+                    singleTestImage.append(MAX_IMAGE_QUESTIONS)
+                    singleTestImage.append(test.id)
+                    singleTestImage.append(test.timestamp)
 
+                    allTestsImage.append(singleTestImage)
         return render(request, "test/continueTesting.html",
         {"username" : request.user.username,
         "allTestsMaze" : allTestsMaze,
@@ -562,7 +592,9 @@ def gallery(request):
         "imagePathsAndNames" : imagePathsAndNames})
 
 def addData(request):
-    '''
+    return HttpResponse("Data not downloaded")
+
+'''
     with open("words/6th grade.json", 'r') as f:
         data = json.load(f)
     f.close()
@@ -638,7 +670,6 @@ def addData(request):
             )
             sentenceObject.save()
     
-    ------
     
     with open(f'words/1st grade.txt','r') as file:
         for line in file:
@@ -655,49 +686,8 @@ def addData(request):
                 gradeLevel = "Kindergarten"
             )
             imageObject.save()
-    
-    ------------
-    with open(f'words/2nd grade.txt','r') as file:
-        for line in file:
-            sentenceObject = Sentence(
-                body = line,
-                gradeLevel = "2nd grade"
-            )
-            sentenceObject.save()
-
-    with open(f'words/3rd grade.txt','r') as file:
-        for line in file:
-            sentenceObject = Sentence(
-                body = line,
-                gradeLevel = "3rd grade"
-            )
-            sentenceObject.save()
-
-    with open(f'words/4th grade.txt','r') as file:
-        for line in file:
-            sentenceObject = Sentence(
-                body = line,
-                gradeLevel = "4th grade"
-            )
-            sentenceObject.save()
-
-    with open(f'words/5th grade.txt','r') as file:
-        for line in file:
-            sentenceObject = Sentence(
-                body = line,
-                gradeLevel = "5th grade"
-            )
-            sentenceObject.save()
-
-    with open(f'words/6th grade.txt','r') as file:
-        for line in file:
-            sentenceObject = Sentence(
-                body = line,
-                gradeLevel = "6th grade"
-            )
-            sentenceObject.save()
-    
-    with open("temp2 copy.json", 'r') as f:
+ 
+    with open("fontsPlus15.json", 'r') as f:
         data = json.load(f)
     f.close()
 
@@ -746,10 +736,6 @@ def addData(request):
             wide = font['attributes']['wide'],
         )
         fontObject.save()
-    '''
 
-
-
-
-
-    
+    return HttpResponse("Data  downloaded")
+'''

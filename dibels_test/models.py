@@ -80,7 +80,7 @@ class mazeQuestionAttempt(models.Model):
 
 class mazeTest(models.Model):
     #user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="userMaze", default="null")
-    testAdmin = models.CharField(max_length=50, default="null")
+    testAdmin = models.CharField(max_length=100, default="null")
     #examinee = models.CharField(max_length=50, default="null")
     gradeLevel = models.CharField(max_length=20, default="null")
     timestamp = models.DateTimeField(auto_now_add=True)
@@ -96,7 +96,7 @@ class queuedMazeQuestion(models.Model):
     queuedWordSelection = models.CharField(max_length=50, blank=True)
     queuedGeneratedWord1 = models.CharField(max_length=50, blank=True)
     queuedGeneratedWord2 = models.CharField(max_length=50, blank=True)
-    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=300)
+    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=268)
 
 
 class Image(models.Model):
@@ -117,7 +117,7 @@ class imageQuestionAttempt(models.Model):
 
 class imageTest(models.Model):
     #user = models.ForeignKey("User", on_delete=models.CASCADE, related_name="userImage", default="null")
-    testAdmin = models.CharField(max_length=50, default="null")
+    testAdmin = models.CharField(max_length=100, default="null")
     #examinee = models.CharField(max_length=50, default="null")
     gradeLevel = models.CharField(max_length=20, default="null")
     timestamp = models.DateTimeField(auto_now_add=True)
@@ -132,4 +132,4 @@ class queuedImageQuestion(models.Model):
     queuedImageSelection = models.CharField(max_length=50, default="null")
     queuedGeneratedWord1 = models.CharField(max_length=50, blank=True)
     queuedGeneratedWord2 = models.CharField(max_length=50, blank=True)
-    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=160)
+    font = models.ForeignKey(Font, on_delete=models.CASCADE, default=268)

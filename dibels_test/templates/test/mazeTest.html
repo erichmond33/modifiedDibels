@@ -27,7 +27,7 @@
       <div id="options" class="d-inline-block">
         <div class="d-flex align-self-center">
           <div class="d-inline-block m-auto">
-            <div class="text-sƒtart">
+            <div class="text-start">
               <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off"
                 value="{{ randWord1 }}">
               <label id="custom-btn" class="btn shadow-none" for="option1" style="{{ size }}">{{ randWord1 }}</label>
@@ -95,6 +95,21 @@
 {% endblock %}
 
 {% block toast %}
+{% if POSITIVE_FEEBACK_PROBABILITY_1_OVER_15 %}
+<div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts">
+  <div class="toast-container position-absolute p-3 bottom-0 end-0" id="toastPlacement">
+    <div class="toast" id="my-toast" data-bs-animation="true" data-bs-delay="6000" style>
+      <div class="d-flex">
+        <div class="toast-body my-4 mx-2">
+          <img class="img-fluid rounded m-auto" src="{{POSITIVE_FEEBACK_PROBABILITY_1_OVER_15}}">
+        </div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!--
 {% if POSITIVE_FEEBACK_PROBABILITY_1_OVER_3 %}
 <div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts">
   <div class="toast-container position-absolute p-3 bottom-0 end-0" id="toastPlacement">
@@ -129,6 +144,7 @@
   </div>
 </div>
 {% endif %}
+-->
 {% endblock %}
 
 {% block script %}
