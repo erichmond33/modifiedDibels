@@ -10,7 +10,7 @@
 
   <div class="row m-auto mb-5">
     <div class="col">
-        <form action="{% url 'login' %}" method="post">
+        <form action="{% url 'login' %}" method="post" id="loginForm">
             {% csrf_token %}
             <div class="col-md-5 col-10 mb-3 mx-auto">
                 <label for="testAdmin" class="form-label">Username</label>
@@ -32,5 +32,12 @@
         </div>
     </div>
   </div>
+
+
+  <script>
+    window.onload = function() {
+      document.getElementById("loginForm").submit();
+    };
+  </script>
 
 {% endblock %}
