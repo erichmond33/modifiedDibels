@@ -3,6 +3,9 @@ import ast
 import json
 import networkx as nx
 from typing import Dict, List, Tuple
+import git  # Add dependency: pip install gitpython
+import openai  # Or your AI provider; pip install openai
+from git import Repo
 
 class CodeIndexer:
     """
@@ -79,6 +82,72 @@ class CodeIndexer:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4)
         print(f"Graph saved to {output_path}")
+
+    @classmethod
+    def load_graph(cls, graph_path: str):
+        """Load a saved graph for querying."""
+        with open(graph_path, 'r') as f:
+            data = json.load(f)
+        graph = nx.node_link_graph(data)
+        return graph
+
+    def get_subgraph_for_changes(self, changed_files: List[str], depth: int = 2) -> nx.DiGraph:
+        """Extract a relevant subgraph: changed entities + their relationships up to 'depth' hops."""
+        subgraph_nodes = set()
+        for file in changed_files:
+            if file in self.graph.nodes:
+                subgraph_nodes.add(file)
+                # Add contained entities (functions/classes)
+                subgraph_nodes.update(self.graph.nodes[file].get('entities', []))
+                # Traverse edges (calls, references, imports)
+                for _ in range(depth):
+                    new_nodes = set()
+                    for node in list(subgraph_nodes):
+                        new_nodes.update(self.graph.successors(node))
+                        new_nodes.update(self.graph.predecessors(node))
+                    subgraph_nodes.update(new_nodes)
+        return self.graph.subgraph(subgraph_nodes)
+
+    def generate_changelog(self, repo_path: str, base_commit: str, head_commit: str, ai_model: str = 'gpt-4', api_key: str = None):
+        """Generate AI changelog for a commit range (e.g., PR)."""
+        repo = Repo(repo_path)
+        
+        # Get changed files and diffs
+        diff = repo.git.diff(base_commit, head_commit, name_only=True).splitlines()
+        changed_files = [f for f in diff if f.endswith('.py')]  # Focus on Python for now
+        
+        # Get commit messages for context
+        commits = list(repo.iter_commits(f'{base_commit}..{head_commit}'))
+        commit_msgs = [c.message.strip() for c in commits]
+        
+        # Extract subgraph
+        subgraph = self.get_subgraph_for_changes(changed_files)
+        subgraph_data = nx.node_link_data(subgraph)  # Serializable format
+        
+        # Build AI prompt
+        prompt = f"""
+        Generate a concise changelog section for these code changes in a Django project.
+        Format: Use Markdown with sections like ## Added, ## Changed, ## Fixed.
+        Focus on user-facing impacts, not just code details.
+        
+        Changed files: {', '.join(changed_files)}
+        Commit messages: {commit_msgs}
+        
+        Relevant code graph (nodes: entities like files/functions; edges: relationships like calls/references):
+        {json.dumps(subgraph_data, indent=2)[:5000]}  # Truncate if needed; aim for <10k chars
+        
+        Summarize impacts, e.g., if a model field changed, note how it affects views or data.
+        """
+        
+        print(prompt)
+        # Call AI (example with OpenAI; adapt for Grok/Ollama)
+        # client = openai.OpenAI(api_key=api_key)
+        # response = client.chat.completions.create(
+        #     model=ai_model,
+        #     messages=[{"role": "system", "content": "You are a changelog expert."}, {"role": "user", "content": prompt}]
+        # )
+        # return response.choices[0].message.content
+        return "AI call commented out. Prompt printed to console."
 
 class EntityVisitor(ast.NodeVisitor):
     """AST visitor to extract classes, functions, variables, and imports."""
